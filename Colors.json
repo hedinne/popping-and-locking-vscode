@@ -1,0 +1,24 @@
+{
+  "colors": [
+    {
+      "name": "background",
+      "color": "#21222d"
+    },
+    {
+      "name": "background+1",
+      "color": "#1C1D26"
+    },
+    {
+      "name": "background+2",
+      "color": "#181921"
+    },
+    {
+      "name": "background-1",
+      "color": "#272836"
+    },
+    {
+      "name": "background-2",
+      "color": "#313242"
+    }
+  ]
+}
