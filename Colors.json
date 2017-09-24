@@ -1,23 +1,23 @@
 {
   "colors": [
     {
-      "name": "background",
+      "name": "blueish",
       "color": "#21222d"
     },
     {
-      "name": "background+1",
+      "name": "blueish-dark",
       "color": "#1C1D26"
     },
     {
-      "name": "background+2",
+      "name": "blueish+darker",
       "color": "#181921"
     },
     {
-      "name": "background-1",
+      "name": "blueish-light",
       "color": "#272836"
     },
     {
-      "name": "background-2",
+      "name": "blueish-lighter",
       "color": "#313242"
     }
   ]
