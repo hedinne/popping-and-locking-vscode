@@ -4,3 +4,6 @@
 
 ## 1.0.0
  - added workbench & terminal colors ([@3ximus](https://github.com/3ximus))
+
+## 2.0.0
+ - chnaged to blue blue theme.
