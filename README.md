@@ -12,7 +12,7 @@ Other languages haven't been tested against, but PRs are welcomed.
  - In the `json` file, `scope` can be an `array` or a `string` of CSS classes
  - VSCode's dev tools (`Help > Toggle Developer Tools`) is very helpful to find
  out the scopes.
- -https://code.visualstudio.com/docs/getstarted/theme-color-reference
+ - https://code.visualstudio.com/docs/getstarted/theme-color-reference
 
 
 ## Screenshots
@@ -35,3 +35,6 @@ Other languages haven't been tested against, but PRs are welcomed.
 
 ![html](images/css.png)
 
+## Based on
+- https://github.com/morhetz/gruvbox
+- https://github.com/jdinhlife/vscode-theme-gruvbox
