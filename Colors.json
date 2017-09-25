@@ -19,6 +19,22 @@
     {
       "name": "blueish-lighter",
       "color": "#313242"
+    },
+    {
+      "name": "green-light-orginal",
+      "color": "#8ec07c"
+    },
+    {
+      "name": "green-light-new",
+      "color": "#7ec16e"
+    },
+    {
+      "name": "cyan-orginal",
+      "color": "#83a598"
+    },
+    {
+      "name": "cyan-new",
+      "color": "#99c6ca"
     }
   ]
 }

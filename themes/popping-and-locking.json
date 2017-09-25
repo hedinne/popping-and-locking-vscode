@@ -31,11 +31,16 @@
     "input.border": "#272836",
 
     "editor.background": "#21222d",
-    "editor.lineHighlightBackground": "#313242",
+    "editor.lineHighlightBackground": "#272836",
     "editorWidget.background": "#272836",
-    "editor.selectionHighlightBackground": "#181921",
-    "editor.selectionBackground": "#272836",
-    "editor.wordHighlightStrongBackground": "#928374",
+    "editor.selectionBackground": "#313242",
+    "editor.selectionHighlightBackground": "#313242",
+    "editor.inactiveSelectionBackground": "#282828",
+    "editor.wordHighlightStrongBackground": "#313242",
+
+    "editor.findMatchBackground": "#264375",
+    "editor.findMatchHighlightBackground": "#3e588c",
+    "editor.findRangeHighlightBackground": "#3e588c",
 
     "peekViewEditor.background": "#282828",
     "peekViewResult.background": "#282828",
@@ -45,17 +50,17 @@
     "terminal.ansiBlack": "#1d2021",
     "terminal.ansiBrightBlack": "#928374",
     "terminal.ansiRed": "#cc241d",
-    "terminal.ansiBrightRed": "#fb4934",
+    "terminal.ansiBrightRed": "#f42c3e",
     "terminal.ansiGreen": "#98971a",
     "terminal.ansiBrightGreen": "#b8bb26",
     "terminal.ansiYellow": "#d79921",
     "terminal.ansiBrightYellow": "#fabd2f",
     "terminal.ansiBlue": "#458588",
-    "terminal.ansiBrightBlue": "#83a598",
+    "terminal.ansiBrightBlue": "#99c6ca",
     "terminal.ansiMagenta": "#b16286",
     "terminal.ansiBrightMagenta": "#d3869b",
     "terminal.ansiCyan": "#689d6a",
-    "terminal.ansiBrightCyan": "#8ec07c",
+    "terminal.ansiBrightCyan": "#7ec16e",
     "terminal.ansiWhite": "#a89984",
     "terminal.ansiBrightWhite": "#ebdbb2",
     "terminal.foreground": "#ebdbb2",
@@ -102,7 +107,7 @@
     {
       "scope": "entity.name.selector",
       "settings": {
-        "foreground": "#8ec07c"
+        "foreground": "#7ec16e"
       }
     },
     {
@@ -176,7 +181,7 @@
     {
       "scope": "markup.punctuation.list.beginning",
       "settings": {
-        "foreground": "#83a598"
+        "foreground": "#99c6ca"
       }
     },
     {
@@ -188,7 +193,7 @@
     {
       "scope": "meta.selector",
       "settings": {
-        "foreground": "#8ec07c"
+        "foreground": "#7ec16e"
       }
     },
     {
@@ -232,7 +237,7 @@
     {
       "scope": "storage",
       "settings": {
-        "foreground": "#fb4934"
+        "foreground": "#f42c3e"
       }
     },
     {
@@ -269,13 +274,13 @@
     {
       "scope": "string.escape",
       "settings": {
-        "foreground": "#fb4934"
+        "foreground": "#f42c3e"
       }
     },
     {
       "scope": "string.quasi",
       "settings": {
-        "foreground": "#8ec07c"
+        "foreground": "#7ec16e"
       }
     },
     {
@@ -293,7 +298,7 @@
     {
       "scope": "module.node",
       "settings": {
-        "foreground": "#83a598"
+        "foreground": "#99c6ca"
       }
     },
     {
@@ -305,19 +310,19 @@
     {
       "scope": "keyword",
       "settings": {
-        "foreground": "#fb4934"
+        "foreground": "#f42c3e"
       }
     },
     {
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#fb4934"
+        "foreground": "#f42c3e"
       }
     },
     {
       "scope": "keyword.control.module",
       "settings": {
-        "foreground": "#8ec07c"
+        "foreground": "#7ec16e"
       }
     },
     {
@@ -329,7 +334,7 @@
     {
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#8ec07c"
+        "foreground": "#7ec16e"
       }
     },
     {
@@ -416,7 +421,7 @@
         "entity.name.function.static"
       ],
       "settings": {
-        "foreground": "#8ec07c"
+        "foreground": "#7ec16e"
       }
     },
     {
@@ -430,7 +435,7 @@
     {
       "scope": "entity.name.function.function-call",
       "settings": {
-        "foreground": "#8ec07c"
+        "foreground": "#7ec16e"
       }
     },
     {
@@ -459,7 +464,7 @@
         "variable.other"
       ],
       "settings": {
-        "foreground": "#83a598"
+        "foreground": "#99c6ca"
       }
     },
     {
@@ -483,7 +488,7 @@
     {
       "scope": "storage.type.class",
       "settings": {
-        "foreground": "#fb4934"
+        "foreground": "#f42c3e"
       }
     },
     {
@@ -507,7 +512,7 @@
     {
       "scope": "punctuation.quasi",
       "settings": {
-        "foreground": "#fb4934"
+        "foreground": "#f42c3e"
       }
     }
   ]
