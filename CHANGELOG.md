@@ -1,9 +1,8 @@
-## 0.0.6
- - added line highlight color (#32302f)
- - changed caret line color to #fbf1c7
-
 ## 1.0.0
- - added workbench & terminal colors ([@3ximus](https://github.com/3ximus))
+ - First publish.
 
-## 2.0.0
- - chnaged to blue blue theme.
+## 1.1.2
+ - Logo and minor fixes.
+ 
+## 1.1.3
+ - PeekView color change.

@@ -42,10 +42,10 @@
     "editor.findMatchHighlightBackground": "#3e588c",
     "editor.findRangeHighlightBackground": "#3e588c",
 
-    "peekViewEditor.background": "#282828",
-    "peekViewResult.background": "#282828",
-    "peekViewResult.selectionBackground": "#928374",
-    "peekView.border": "#928374",
+    "peekViewEditor.background": "#21222d",
+    "peekViewResult.background": "#21222d",
+    "peekViewResult.selectionBackground": "#3e588c",
+    "peekView.border": "#3e588c",
 
     "terminal.ansiBlack": "#1d2021",
     "terminal.ansiBrightBlack": "#928374",
