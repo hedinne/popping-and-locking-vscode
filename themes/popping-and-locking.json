@@ -2,40 +2,48 @@
   "name": "Popping and Locking",
   "type": "dark",
   "colors": {
+
     "activityBar.background": "#1C1D26",
-    "activityBar.foreground": "#ebdbb2",
-    "activityBarBadge.background": "#458588",
-    "activityBarBadge.foreground": "#ebdbb2",
+    "activityBar.foreground": "#f2e5bc",
+    "activityBarBadge.background": "#d79921",
+    "activityBarBadge.foreground": "#f9f5d7",
+
     "sideBar.background": "#1C1D26",
+    "sideBar.foreground": "#fbf1c7",
+    "sideBarSectionHeader.background": "#313242",
+    "list.activeSelectionBackground": "#1C1D26",
+    "list.inactiveSelectionBackground": "#21222d",
+    "list.hoverBackground": "#313242",
+    "list.focusBackground": "#313242",
 
     "titleBar.activeBackground": "#1C1D26",
-    "titleBar.activeForeground": "#ebdbb2",
+    "titleBar.activeForeground": "#f2e5bc",
 
     "tab.inactiveBackground": "#1C1D26",
     "tab.activeBackground": "#21222d",
     "editorGroupHeader.tabsBackground": "#1C1D26",
 
-    "focusBorder": "#bdae93",
-    "foreground": "#fbf1c7",
-    "editor.foreground": "#fbf1c7",
-
-    "list.activeSelectionBackground": "#1C1D26",
-    "list.inactiveSelectionBackground": "#1C1D26",
-
+    "focusBorder": "#d79921",
+    "foreground": "#f2e5bc",
+    
+    "badge.background": "#458588",    
+    
     "statusBar.background": "#1C1D26",
     "statusBar.noFolderBackground": "#1C1D26",
-    "statusBar.foreground": "#ebdbb2",
-    "tab.activeForeground": "#ebdbb2",
-
+    "statusBar.foreground": "#f2e5bc",
+    
+    "tab.activeForeground": "#f2e5bc",
+    
     "input.background": "#181921",
     "input.border": "#272836",
-
+    
+    "editor.foreground": "#f2e5bc",
     "editor.background": "#21222d",
     "editor.lineHighlightBackground": "#272836",
     "editorWidget.background": "#272836",
     "editor.selectionBackground": "#313242",
     "editor.selectionHighlightBackground": "#313242",
-    "editor.inactiveSelectionBackground": "#282828",
+    "editor.inactiveSelectionBackground": "#181921",
     "editor.wordHighlightStrongBackground": "#313242",
 
     "editor.findMatchBackground": "#264375",
@@ -46,6 +54,13 @@
     "peekViewResult.background": "#21222d",
     "peekViewResult.selectionBackground": "#3e588c",
     "peekView.border": "#3e588c",
+
+    "button.background": "#d79921",
+    "button.foreground": "#f9f5d7",
+
+    "dropdown.background": "#1C1D26",
+
+    "extensionButton.prominentBackground": "#599442",
 
     "terminal.ansiBlack": "#1d2021",
     "terminal.ansiBrightBlack": "#928374",
@@ -66,8 +81,7 @@
     "terminal.foreground": "#ebdbb2",
     "terminal.background": "#181921"
   },
-  "tokenColors": [
-    {
+  "tokenColors": [{
       "scope": "emphasis",
       "settings": {
         "fontStyle": "italic"

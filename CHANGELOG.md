@@ -6,3 +6,6 @@
  
 ## 1.1.3
  - PeekView color change.
+
+## 1.2.0
+ - Sidebar, buttons, badges, focus and dropdown updated.
