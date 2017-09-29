@@ -2,7 +2,6 @@
   "name": "Popping and Locking",
   "type": "dark",
   "colors": {
-
     "activityBar.background": "#1C1D26",
     "activityBar.foreground": "#f2e5bc",
     "activityBarBadge.background": "#d79921",
@@ -25,18 +24,18 @@
 
     "focusBorder": "#d79921",
     "foreground": "#f2e5bc",
-    
-    "badge.background": "#458588",    
-    
+
+    "badge.background": "#458588",
+
     "statusBar.background": "#1C1D26",
     "statusBar.noFolderBackground": "#1C1D26",
     "statusBar.foreground": "#f2e5bc",
-    
+
     "tab.activeForeground": "#f2e5bc",
-    
+
     "input.background": "#181921",
     "input.border": "#272836",
-    
+
     "editor.foreground": "#f2e5bc",
     "editor.background": "#21222d",
     "editor.lineHighlightBackground": "#272836",
@@ -45,6 +44,7 @@
     "editor.selectionHighlightBackground": "#313242",
     "editor.inactiveSelectionBackground": "#181921",
     "editor.wordHighlightStrongBackground": "#313242",
+    "editorCursor.foreground": "#f42c3e",
 
     "editor.findMatchBackground": "#264375",
     "editor.findMatchHighlightBackground": "#3e588c",
@@ -61,6 +61,12 @@
     "dropdown.background": "#1C1D26",
 
     "extensionButton.prominentBackground": "#599442",
+
+    "notification.background": "#313242",
+    "notification.buttonBackground": "#458588",
+    "notification.infoBackground": "#458588",
+    "notification.warningBackground": "#d79921",
+    "notification.errorBackground": "#cc241d",
 
     "terminal.ansiBlack": "#1d2021",
     "terminal.ansiBrightBlack": "#928374",
@@ -81,7 +87,8 @@
     "terminal.foreground": "#ebdbb2",
     "terminal.background": "#181921"
   },
-  "tokenColors": [{
+  "tokenColors": [
+    {
       "scope": "emphasis",
       "settings": {
         "fontStyle": "italic"
@@ -102,7 +109,7 @@
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#928374",
+        "foreground": "#ebdbb2",
         "fontStyle": "italic"
       }
     },
@@ -127,7 +134,7 @@
     {
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#fe8019"
+        "foreground": "#d3869b"
       }
     },
     {
@@ -508,13 +515,13 @@
     {
       "scope": ["entity.name.tag", "punctuation.tag"],
       "settings": {
-        "foreground": "#d3869b"
+        "foreground": "#fe8019"
       }
     },
     {
       "scope": ["punctuation"],
       "settings": {
-        "foreground": "#a89984"
+        "foreground": "#ebdbb2"
       }
     },
     {

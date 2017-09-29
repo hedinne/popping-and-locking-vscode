@@ -17,23 +17,21 @@ Other languages haven't been tested against, but PRs are welcomed.
 
 ## Screenshots
 
-### Full window
-![js](images/window.png)
 
 ### JS
 ![js](images/js.png)
 
-### HTML
+### JSX
+![jsx](images/jsx.png)
 
+### HTML
 ![html](images/html.png)
 
-### CSS
-
-![html](images/css.png)
+### SCSS
+![scss](images/scss.png)
 
 ### JSON
-
-![html](images/css.png)
+![json](images/json.png)
 
 ## Based on
 - https://github.com/morhetz/gruvbox
