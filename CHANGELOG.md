@@ -15,3 +15,6 @@
  - Red cursor, 
  - Notification, 
  - JSX fix.
+
+## 1.4.0
+ - Fontstyle for strings changed to normal.

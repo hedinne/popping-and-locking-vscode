@@ -44,6 +44,8 @@
     "editor.selectionHighlightBackground": "#313242",
     "editor.inactiveSelectionBackground": "#181921",
     "editor.wordHighlightStrongBackground": "#313242",
+    "editor.wordHighlightBackground": "#181921",
+
     "editorCursor.foreground": "#f42c3e",
 
     "editor.findMatchBackground": "#264375",
@@ -87,8 +89,7 @@
     "terminal.foreground": "#ebdbb2",
     "terminal.background": "#181921"
   },
-  "tokenColors": [
-    {
+  "tokenColors": [{
       "scope": "emphasis",
       "settings": {
         "fontStyle": "italic"
@@ -233,8 +234,7 @@
     {
       "scope": "meta.preprocessor.string",
       "settings": {
-        "foreground": "#b8bb26",
-        "fontStyle": "italic"
+        "foreground": "#b8bb26"
       }
     },
     {
@@ -270,8 +270,7 @@
     {
       "scope": "string",
       "settings": {
-        "foreground": "#b8bb26",
-        "fontStyle": "italic"
+        "foreground": "#b8bb26"
       }
     },
     {

@@ -2,7 +2,7 @@
     "name": "popping-and-locking-vscode",
     "displayName": "Popping and Locking VSCode",
     "description": "Vivid and well balanced theme for VS Code.",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "publisher": "hedinne",
     "engines": {
         "vscode": "^1.12.0"
