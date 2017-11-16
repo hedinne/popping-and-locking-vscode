@@ -22,7 +22,7 @@
     "tab.activeBackground": "#21222d",
     "editorGroupHeader.tabsBackground": "#1C1D26",
 
-    "focusBorder": "#d79921",
+    "focusBorder": "#3e588c",
     "foreground": "#f2e5bc",
 
     "badge.background": "#458588",
@@ -40,17 +40,19 @@
     "editor.background": "#21222d",
     "editor.lineHighlightBackground": "#272836",
     "editorWidget.background": "#272836",
-    "editor.selectionBackground": "#313242",
-    "editor.selectionHighlightBackground": "#313242",
-    "editor.inactiveSelectionBackground": "#181921",
-    "editor.wordHighlightStrongBackground": "#313242",
-    "editor.wordHighlightBackground": "#181921",
+
+    "editor.selectionBackground": "#722A7F",
+    "editor.selectionHighlightBackground": "#513D58",
+    "editor.inactiveSelectionBackground": "#722A7F",
+
+    "editor.wordHighlightStrongBackground": "#722A7F",
+    "editor.wordHighlightBackground": "#513D58",
 
     "editorCursor.foreground": "#f42c3e",
 
-    "editor.findMatchBackground": "#264375",
-    "editor.findMatchHighlightBackground": "#3e588c",
-    "editor.findRangeHighlightBackground": "#3e588c",
+    "editor.findMatchBackground": "#722A7F",
+    "editor.findMatchHighlightBackground": "#513D58",
+    "editor.findRangeHighlightBackground": "#513D58",
 
     "peekViewEditor.background": "#21222d",
     "peekViewResult.background": "#21222d",
@@ -69,6 +71,11 @@
     "notification.infoBackground": "#458588",
     "notification.warningBackground": "#d79921",
     "notification.errorBackground": "#cc241d",
+
+    "gitDecoration.modifiedResourceForeground": "#fabd2f",
+    "gitDecoration.untrackedResourceForeground": "#7ec16e",
+    "gitDecoration.ignoredResourceForeground": "#3e588c",
+    "gitDecoration.conflictingResourceForeground": "#f42c3e",
 
     "terminal.ansiBlack": "#1d2021",
     "terminal.ansiBrightBlack": "#928374",
@@ -324,7 +331,7 @@
     {
       "scope": "support.type.property-name",
       "settings": {
-        "foreground": "#689d6a"
+        "foreground": "#fabd2f"
       }
     },
     {
