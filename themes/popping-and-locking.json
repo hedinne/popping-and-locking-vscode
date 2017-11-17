@@ -115,9 +115,9 @@
       }
     },
     {
-      "scope": "comment",
+      "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#ebdbb2",
+        "foreground": "#506899",
         "fontStyle": "italic"
       }
     },
@@ -526,12 +526,6 @@
     },
     {
       "scope": ["punctuation"],
-      "settings": {
-        "foreground": "#ebdbb2"
-      }
-    },
-    {
-      "scope": "punctuation.quoted",
       "settings": {
         "foreground": "#ebdbb2"
       }
