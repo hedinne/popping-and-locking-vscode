@@ -9,9 +9,9 @@
 
     "sideBar.background": "#1C1D26",
     "sideBar.foreground": "#fbf1c7",
-    "sideBarSectionHeader.background": "#313242",
-    "list.activeSelectionBackground": "#1C1D26",
-    "list.inactiveSelectionBackground": "#21222d",
+    "sideBarSectionHeader.background": "#21222d",
+    "list.activeSelectionBackground": "#313242",
+    "list.inactiveSelectionBackground": "#313242",
     "list.hoverBackground": "#313242",
     "list.focusBackground": "#313242",
 
