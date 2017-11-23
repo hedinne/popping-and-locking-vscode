@@ -1,37 +1,37 @@
 {
-	"name": "popping-and-locking-vscode",
-	"displayName": "Popping and Locking VSCode",
-	"description": "Vivid and well balanced theme for VS Code.",
-	"version": "1.4.0",
-	"publisher": "hedinne",
-	"engines": {
-		"vscode": "^1.12.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"galleryBanner": {
-		"color": "#21222d",
-		"theme": "dark"
-	},
-	"icon": "images/icon.png",
-	"homepage": "https://github.com/hedinne/popping-and-locking-vscode/blob/master/README.md",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/hedinne/popping-and-locking-vscode.git"
-	},
-	"contributes": {
-		"themes": [
-			{
-				"label": "Popping and Locking",
-				"uiTheme": "vs-dark",
-				"path": "./themes/popping-and-locking.json"
-			}
-		]
-	},
-	"__metadata": {
-		"id": "1edaf626-3d50-4223-abdb-0a09c33bb1e9",
-		"publisherDisplayName": "hedinne",
-		"publisherId": "65a088bc-3a5e-485e-83a2-87837645d68b"
-	}
+    "name": "popping-and-locking-vscode",
+    "displayName": "Popping and Locking VSCode",
+    "description": "Vivid and well balanced theme for VS Code.",
+    "version": "2.0.0",
+    "publisher": "hedinne",
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "galleryBanner": {
+        "color": "#21222d",
+        "theme": "dark"
+    },
+    "icon": "images/icon.png",
+    "homepage": "https://github.com/hedinne/popping-and-locking-vscode/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hedinne/popping-and-locking-vscode.git"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Popping and Locking",
+                "uiTheme": "vs-dark",
+                "path": "./themes/popping-and-locking.json"
+            }
+        ]
+    },
+    "__metadata": {
+        "id": "1edaf626-3d50-4223-abdb-0a09c33bb1e9",
+        "publisherDisplayName": "hedinne",
+        "publisherId": "65a088bc-3a5e-485e-83a2-87837645d68b"
+    }
 }
