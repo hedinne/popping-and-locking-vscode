@@ -528,12 +528,7 @@
     },
     {
       // css propperty
-      "scope": [
-        "meta.property-group",
-        "support.constant.property-value.css",
-        "meta.property-value",
-        "support.constant.property-value.css"
-      ],
+      "scope": ["meta.property-group", "support.constant.property-value.css"],
       "settings": {
         "foreground": "#b8bb26"
       }

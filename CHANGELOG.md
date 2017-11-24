@@ -34,3 +34,7 @@ Major change. Let me know if you liked old version better ;)
 * HTML (JSX) colors changed. Better readability.
 * Sidebar (explorer) highlighting changed. Open files more visable.
 * Git decoration in sidebar match rest of the theme.
+
+## 2.0.1
+
+* CSS color fixed brackets fixed.
