@@ -39,7 +39,11 @@ CSS, JS and more).
 
 ![json](images/json.png)
 
-## Based on
+## If you have any questions or comments.
+
+Please contact me. https://github.com/hedinne/popping-and-locking-vscode
+
+## Orignally based on
 
 * https://github.com/morhetz/gruvbox
 * https://github.com/jdinhlife/vscode-theme-gruvbox

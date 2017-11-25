@@ -38,3 +38,7 @@ Major change. Let me know if you liked old version better ;)
 ## 2.0.1
 
 * CSS color fixed brackets fixed.
+
+## 2.0.2
+
+* New screenshots.
