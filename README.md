@@ -39,6 +39,10 @@ CSS, JS and more).
 
 ![json](images/json.png)
 
+### JS on Windows
+
+![windows](images/windows.png)
+
 ## If you have any questions or comments.
 
 Please contact me. https://github.com/hedinne/popping-and-locking-vscode

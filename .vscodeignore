@@ -1,0 +1,4 @@
+.vscode/**
+.gitignore
+vsc-extension-quickstart.md
+assets
