@@ -42,3 +42,11 @@ Major change. Let me know if you liked old version better ;)
 ## 2.0.2
 
 * New screenshots.
+
+## 2.0.3
+
+* New Logo, Windows screenshot. VSCode extension related changes.
+
+## 2.0.4
+
+* Docs updated.

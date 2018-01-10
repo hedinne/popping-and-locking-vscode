@@ -43,6 +43,24 @@ CSS, JS and more).
 
 ![windows](images/windows.png)
 
+## Related customization
+
+### Colors for Bracket Pair Colorizer
+
+```json
+  "bracketPairColorizer.consecutivePairColors": [
+    "()",
+    "[]",
+    "{}",
+    ["#cc241d", "#b16286", "#458588", "#689d6a", "#98971a", "#d79921"],
+    "#f2e5bc"
+  ]
+```
+
+### Popping and Locking for Hyper
+
+https://www.npmjs.com/package/hyper-popping-and-locking
+
 ## If you have any questions or comments.
 
 Please contact me. https://github.com/hedinne/popping-and-locking-vscode
