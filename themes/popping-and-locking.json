@@ -120,13 +120,14 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "foreground": "#458588",
-        "fontStyle": " bold italic"
+        "fontStyle": "bold italic"
       }
     },
     {
       "scope": ["constant", "variable.arguments"],
       "settings": {
         "foreground": "#d3869b"
+        ,"fontStyle":"bold"
       }
     },
     {
@@ -349,6 +350,21 @@
       }
     },
     {
+      "scope": "keyword.control.export",
+      "settings": {
+        "foreground": "#f42c3e",
+        "fontStyle": "italic"
+
+      }
+    },
+    {
+      "scope": "keyword.control.import",
+      "settings": {
+        "foreground": "#f42c3e",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "scope": "keyword.control.module",
       "settings": {
         "foreground": "#7ec16e"
@@ -424,9 +440,10 @@
       }
     },
     {
-      "scope": "variable.this",
+      "scope": "variable.language.this",
       "settings": {
         "foreground": "#d3869b"
+        ,"fontStyle":"bold italic"
       }
     },
     {
