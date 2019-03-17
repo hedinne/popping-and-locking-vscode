@@ -451,6 +451,8 @@
       ],
       "settings": {
         "foreground": "#7ec16e"
+,        "fontStyle": "italic"
+
       }
     },
     {
