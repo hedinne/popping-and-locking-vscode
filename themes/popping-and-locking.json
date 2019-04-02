@@ -126,8 +126,8 @@
     {
       "scope": ["constant", "variable.arguments"],
       "settings": {
-        "foreground": "#d3869b"
-        ,"fontStyle":"bold"
+        "foreground": "#d3869b",
+        "fontStyle": "bold"
       }
     },
     {
@@ -354,7 +354,6 @@
       "settings": {
         "foreground": "#f42c3e",
         "fontStyle": "italic"
-
       }
     },
     {
@@ -442,8 +441,8 @@
     {
       "scope": "variable.language.this",
       "settings": {
-        "foreground": "#d3869b"
-        ,"fontStyle":"bold italic"
+        "foreground": "#d3869b",
+        "fontStyle": "bold italic"
       }
     },
     {
@@ -467,9 +466,16 @@
         "entity.name.function.static"
       ],
       "settings": {
-        "foreground": "#7ec16e"
-,        "fontStyle": "italic"
-
+        "foreground": "#7ec16e",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Arow function declarations",
+      "scope": ["storage.type.function.arrow"],
+      "settings": {
+        "foreground": "#7ec16e",
+        "fontStyle": "bold"
       }
     },
     {
@@ -478,6 +484,15 @@
       "settings": {
         "foreground": "#d3869b",
         "fontStyle": "italic"
+      }
+    },
+
+    {
+      "name": "Logical operator",
+      "scope": "keyword.operator.logical",
+      "settings": {
+        "foreground": "#f42c3e",
+        "fontStyle": "bold"
       }
     },
     {
