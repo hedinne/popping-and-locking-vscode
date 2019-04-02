@@ -28,8 +28,22 @@
     "badge.background": "#458588",
 
     "statusBar.background": "#1C1D26",
-    "statusBar.noFolderBackground": "#1C1D26",
+    "statusBar.noFolderBackground": "#7c4fa5",
     "statusBar.foreground": "#f2e5bc",
+
+    "statusBar.border": "#594a1b",
+    "statusBar.debuggingBackground": "#ad5716",
+    "statusBar.debuggingForeground": "#f2e5bc",
+    "statusBar.debuggingBorder": "#594a1b",
+
+    "statusBar.noFolderForeground": "#f2e5bc",
+    "statusBar.noFolderBorder": "#594a1b",
+
+    "statusBarItem.activeBackground": "#1C1D26",
+
+    "statusBarItem.hoverBackground": "#1C1D26",
+    "statusBarItem.prominentBackground": "#1C1D26",
+    "statusBarItem.prominentHoverBackground": "#1C1D26",
 
     "tab.activeForeground": "#f2e5bc",
 
@@ -74,7 +88,7 @@
 
     "gitDecoration.modifiedResourceForeground": "#fabd2f",
     "gitDecoration.untrackedResourceForeground": "#7ec16e",
-    "gitDecoration.ignoredResourceForeground": "#3e588c",
+    "gitDecoration.ignoredResourceForeground": "#268dd6",
     "gitDecoration.conflictingResourceForeground": "#f42c3e",
 
     "terminal.ansiBlack": "#1d2021",
