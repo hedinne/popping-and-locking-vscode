@@ -1,71 +1,70 @@
 {
-    "name": "luxcium-popping-and-locking-vscode",
-    "displayName": "Popping and Locking Theme luxcium version",
-    "description": "Vivid and well balanced theme for VS Code.",
-    "version": "2.0.4",
-    "publisher": "luxcium",
-    "engines": {
-        "vscode": "^1.12.0"
+  "name": "luxcium-popping-and-locking-vscode",
+  "displayName": "Popping and Locking Theme luxcium version",
+  "description": "Vivid and well balanced theme for VS Code.",
+  "version": "2.0.4",
+  "publisher": "luxcium",
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "galleryBanner": {
+    "color": "#21222d",
+    "theme": "dark"
+  },
+  "icon": "luxcium.ico",
+  "tags": [
+    "js",
+    "jsx",
+    "osx",
+    "git",
+    "css",
+    "dark",
+    "blue",
+    "icon",
+    "scss",
+    "html",
+    "clean",
+    "green",
+    "macOS",
+    "vivid",
+    "theme",
+    "yellow",
+    "windows",
+    "orginal",
+    "balanced",
+    "saturated",
+    "beautiful",
+    "dark theme",
+    "color-theme",
+    "web development"
+  ],
+  "screenshots": [
+    {
+      "path": "images/js.png"
     },
-    "categories": [
-        "Themes"
-    ],
-    "galleryBanner": {
-        "color": "#21222d",
-        "theme": "dark"
+    {
+      "path": "images/jsx.png"
     },
-    "tags": [
-        "js",
-        "jsx",
-        "osx",
-        "git",
-        "css",
-        "dark",
-        "blue",
-        "icon",
-        "scss",
-        "html",
-        "clean",
-        "green",
-        "macOS",
-        "vivid",
-        "theme",
-        "yellow",
-        "windows",
-        "orginal",
-        "balanced",
-        "saturated",
-        "beautiful",
-        "dark theme",
-        "color-theme",
-        "web development"
-    ],
-    "screenshots": [
-        {
-            "path": "images/js.png"
-        },
-        {
-            "path": "images/jsx.png"
-        },
-        {
-            "path": "images/scss.png"
-        },
-        {
-            "path": "images/html.png"
-        },
-        {
-            "path": "images/json.png"
-        }
-    ],
-
-    "contributes": {
-        "themes": [
-            {
-                "label": "Luxcium Popping and Locking",
-                "uiTheme": "vs-dark",
-                "path": "./themes/popping-and-locking.json"
-            }
-        ]
+    {
+      "path": "images/scss.png"
+    },
+    {
+      "path": "images/html.png"
+    },
+    {
+      "path": "images/json.png"
     }
-
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Luxcium Popping and Locking",
+        "uiTheme": "vs-dark",
+        "path": "./themes/popping-and-locking.json"
+      }
+    ]
+  }
 }
