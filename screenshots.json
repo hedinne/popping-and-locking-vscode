@@ -1,0 +1,19 @@
+{
+  "screenshots": [
+    {
+      "path": "images/js.png"
+    },
+    {
+      "path": "images/jsx.png"
+    },
+    {
+      "path": "images/scss.png"
+    },
+    {
+      "path": "images/html.png"
+    },
+    {
+      "path": "images/json.png"
+    }
+  ]
+}
