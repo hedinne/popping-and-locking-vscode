@@ -2,12 +2,12 @@
   "name": "Popping and Locking",
   "type": "dark",
   "colors": {
-    "activityBar.background": "#1C1D26",
+    "activityBar.background": "#1C1D30",
     "activityBar.foreground": "#f2e5bc",
     "activityBarBadge.background": "#d79921",
     "activityBarBadge.foreground": "#f9f5d7",
 
-    "sideBar.background": "#1C1D26",
+    "sideBar.background": "#1C1D30",
     "sideBar.foreground": "#fbf1c7",
     "sideBarSectionHeader.background": "#21222d",
     "list.activeSelectionBackground": "#313242",
@@ -15,19 +15,19 @@
     "list.hoverBackground": "#313242",
     "list.focusBackground": "#313242",
 
-    "titleBar.activeBackground": "#1C1D26",
+    "titleBar.activeBackground": "#1C1D30",
     "titleBar.activeForeground": "#f2e5bc",
 
-    "tab.inactiveBackground": "#1C1D26",
+    "tab.inactiveBackground": "#1C1D30",
     "tab.activeBackground": "#21222d",
-    "editorGroupHeader.tabsBackground": "#1C1D26",
+    "editorGroupHeader.tabsBackground": "#1C1D30",
 
     "focusBorder": "#3e588c",
     "foreground": "#f2e5bc",
 
     "badge.background": "#458588",
 
-    "statusBar.background": "#1C1D26",
+    "statusBar.background": "#1C1D30",
     "statusBar.noFolderBackground": "#7c4fa5",
     "statusBar.foreground": "#f2e5bc",
 
@@ -39,11 +39,11 @@
     "statusBar.noFolderForeground": "#f2e5bc",
     "statusBar.noFolderBorder": "#594a1b",
 
-    "statusBarItem.activeBackground": "#1C1D26",
+    "statusBarItem.activeBackground": "#1C1D30",
 
-    "statusBarItem.hoverBackground": "#1C1D26",
-    "statusBarItem.prominentBackground": "#1C1D26",
-    "statusBarItem.prominentHoverBackground": "#1C1D26",
+    "statusBarItem.hoverBackground": "#1C1D30",
+    "statusBarItem.prominentBackground": "#1C1D30",
+    "statusBarItem.prominentHoverBackground": "#1C1D30",
 
     "tab.activeForeground": "#f2e5bc",
 
@@ -76,7 +76,7 @@
     "button.background": "#d79921",
     "button.foreground": "#f9f5d7",
 
-    "dropdown.background": "#1C1D26",
+    "dropdown.background": "#1C1D30",
 
     "extensionButton.prominentBackground": "#599442",
 
@@ -282,13 +282,15 @@
     {
       "scope": "storage",
       "settings": {
-        "foreground": "#f42c3e"
+        "foreground": "#f42c3e",
+        "fontStyle": "bold italic"
       }
     },
     {
       "scope": "storage.modifier",
       "settings": {
-        "foreground": "#fe8019"
+        "foreground": "#fe8019",
+        "fontStyle": "bold"
       }
     },
     {
@@ -367,14 +369,14 @@
       "scope": "keyword.control.export",
       "settings": {
         "foreground": "#f42c3e",
-        "fontStyle": "italic"
+        "fontStyle": "bold italic"
       }
     },
     {
       "scope": "keyword.control.import",
       "settings": {
         "foreground": "#f42c3e",
-        "fontStyle": "italic"
+        "fontStyle": "bold italic"
       }
     },
     {
