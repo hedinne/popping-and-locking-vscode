@@ -1,13 +1,13 @@
 {
-  "name": "vsc-pop-n-lock-theme",
+  "name": "pop-n-lock-theme-vscode",
   "displayName": "Pop N' Lock Theme by Luxcium",
   "description": "Perfectly balanced theme with vivid colours for VS Code.",
-  "version": "3.0.0",
+  "version": "2.0.4",
+  "engines": {
+    "vscode": "^1.12.0"
+  },
   "publisher": "Luxcium",
   "icon": "images/Scientia-is-lux-principium-400px.png",
-  "engines": {
-    "vscode": "^1.1"
-  },
   "homepage": "https://github.com/luxcium/vsc-pop-n-lock-theme/blob/master/README.md",
   "repository": {
     "type": "git",
