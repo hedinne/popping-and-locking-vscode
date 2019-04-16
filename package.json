@@ -4,7 +4,7 @@
   "description": "Perfectly balanced theme with vivid colours for VS Code.",
   "version": "3.0.0",
   "publisher": "Luxcium",
-  "icon": "luxcium.ico",
+  "icon": "images/Scientia-is-lux-principium-400px.png",
   "engines": {
     "vscode": "^1.12.0"
   },
