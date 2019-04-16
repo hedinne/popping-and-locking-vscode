@@ -1,9 +1,10 @@
 {
-  "name": "luxcium-popping-and-locking-vscode",
-  "displayName": "Popping and Locking Theme luxcium version",
-  "description": "Vivid and well balanced theme for VS Code.",
-  "version": "2.0.4",
+  "name": "luxcium-pop-and-lock-vscode-theme",
+  "displayName": "Pop N' Lock Theme by Luxcium",
+  "description": "Perfectly balanced theme with vivid colors for VS Code.",
+  "version": "3.0.0",
   "publisher": "luxcium",
+  "icon": "images/Scientia-is-lux-principium-400px.png",
   "engines": {
     "vscode": "^1.12.0"
   },
@@ -11,10 +12,9 @@
     "Themes"
   ],
   "galleryBanner": {
-    "color": "#21222d",
+    "color": "#115",
     "theme": "dark"
   },
-  "icon": "Scientia-is-lux-principium-400px.png",
   "tags": [
     "js",
     "jsx",
@@ -41,29 +41,12 @@
     "color-theme",
     "web development"
   ],
-  "screenshots": [
-    {
-      "path": "images/js.png"
-    },
-    {
-      "path": "images/jsx.png"
-    },
-    {
-      "path": "images/scss.png"
-    },
-    {
-      "path": "images/html.png"
-    },
-    {
-      "path": "images/json.png"
-    }
-  ],
   "contributes": {
     "themes": [
       {
-        "label": "Luxcium Popping and Locking",
+        "label": "Pop N' Lock Theme by Luxcium",
         "uiTheme": "vs-dark",
-        "path": "./themes/popping-and-locking.json"
+        "path": "./themes/PopN-Lock.json"
       }
     ]
   }
