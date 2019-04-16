@@ -1,46 +1,18 @@
 {
-  "name": "pop-n-lock-vscode-theme",
+  "name": "vsc-pop-n-lock-theme",
   "displayName": "Pop N' Lock Theme by Luxcium",
   "description": "Perfectly balanced theme with vivid colours for VS Code.",
   "version": "3.0.0",
   "publisher": "Luxcium",
   "icon": "images/Scientia-is-lux-principium-400px.png",
   "engines": {
-    "vscode": "^1.12.0"
+    "vscode": "^1.1"
   },
-  "categories": [
-    "Themes"
-  ],
-  "galleryBanner": {
-    "color": "#115",
-    "theme": "dark"
+  "homepage": "https://github.com/luxcium/vsc-pop-n-lock-theme/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luxcium/vsc-pop-n-lock-theme.git"
   },
-  "tags": [
-    "js",
-    "jsx",
-    "osx",
-    "git",
-    "css",
-    "dark",
-    "blue",
-    "icon",
-    "scss",
-    "html",
-    "clean",
-    "green",
-    "macOS",
-    "vivid",
-    "theme",
-    "yellow",
-    "windows",
-    "orginal",
-    "balanced",
-    "saturated",
-    "beautiful",
-    "dark theme",
-    "color-theme",
-    "web development"
-  ],
   "contributes": {
     "themes": [
       {
@@ -49,5 +21,34 @@
         "path": "./themes/PopN-Lock.json"
       }
     ]
-  }
+  },
+  "categories": [
+    "Themes"
+  ],
+  "galleryBanner": {
+    "color": "#111115",
+    "theme": "dark"
+  },
+  "tags": [
+    "balanced",
+    "beautiful",
+    "blue",
+    "css",
+    "dark-color-theme",
+    "dark",
+    "git",
+    "html",
+    "js",
+    "jsx",
+    "luxcium",
+    "orginal",
+    "popping-and-locking-vscode",
+    "saturated",
+    "scss",
+    "theme",
+    "vivid-theme",
+    "vivid",
+    "vscode",
+    "web-development"
+  ]
 }
