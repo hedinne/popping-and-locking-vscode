@@ -6,7 +6,21 @@
   "publisher": "Luxcium",
   "icon": "images/Scientia-is-lux-principium-400px.png",
   "engines": {
-    "vscode": "^1.12.0"
+    "vscode": "^1.1"
+  },
+  "homepage": "https://github.com/luxcium/vsc-pop-n-lock-theme/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luxcium/vsc-pop-n-lock-theme.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pop N' Lock Theme by Luxcium",
+        "uiTheme": "vs-dark",
+        "path": "./themes/PopN-Lock.json"
+      }
+    ]
   },
   "categories": [
     "Themes"
@@ -16,38 +30,25 @@
     "theme": "dark"
   },
   "tags": [
+    "balanced",
+    "beautiful",
+    "blue",
+    "css",
+    "dark-color-theme",
+    "dark",
+    "git",
+    "html",
     "js",
     "jsx",
-    "osx",
-    "git",
-    "css",
-    "dark",
-    "blue",
-    "icon",
-    "scss",
-    "html",
-    "clean",
-    "green",
-    "macOS",
-    "vivid",
-    "theme",
-    "yellow",
-    "windows",
+    "luxcium",
     "orginal",
-    "balanced",
+    "popping-and-locking-vscode",
     "saturated",
-    "beautiful",
-    "dark theme",
-    "color-theme",
-    "web development"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Pop N' Lock Theme by Luxcium",
-        "uiTheme": "vs-dark",
-        "path": "./themes/PopN-Lock.json"
-      }
-    ]
-  }
+    "scss",
+    "theme",
+    "vivid-theme",
+    "vivid",
+    "vscode",
+    "web-development"
+  ]
 }
