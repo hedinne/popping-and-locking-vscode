@@ -23,7 +23,7 @@
     "theme": "dark"
   },
   "preview": true,
-  "main": "themes/PopN-Lock.json",
+  "main": "./themes/PopN-Lock.json",
   "contributes": {
     "themes": [
       {
