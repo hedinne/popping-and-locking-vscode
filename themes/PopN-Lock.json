@@ -456,20 +456,6 @@
       }
     },
     {
-      "scope": ["variable.language.this", "variable.language.super"],
-      "settings": {
-        "foreground": "#D66282",
-        "fontStyle": "bold italic"
-      }
-    },
-    {
-      "scope": ["entity.name.class", "entity.name.type.class.ts"],
-      "settings": {
-        "foreground": "#F0959F",
-        "fontStyle": "bold"
-      }
-    },
-    {
       "scope": [
         "entity.name",
         "entity.static",
@@ -499,6 +485,13 @@
       "settings": {
         "foreground": "#8AE180",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["variable.language.this", "variable.language.super"],
+      "settings": {
+        "foreground": "#D66282",
+        "fontStyle": "bold italic"
       }
     },
     {
@@ -611,6 +604,13 @@
       "scope": "punctuation.quasi",
       "settings": {
         "foreground": "#F42C3E"
+      }
+    },
+    {
+      "scope": ["entity.name.class", "entity.name.type.class.ts"],
+      "settings": {
+        "foreground": "#95dcef",
+        "fontStyle": "bold"
       }
     }
   ]
