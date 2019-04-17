@@ -1,6 +1,6 @@
 {
   "name": "pop-n-lock-theme-vscode",
-  "version": "2.6.0",
+  "version": "2.6.1",
   "publisher": "Luxcium",
   "engines": {
     "vscode": "^1.12.0"
