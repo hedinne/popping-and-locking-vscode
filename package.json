@@ -1,6 +1,6 @@
 {
   "name": "pop-n-lock-theme-vscode",
-  "version": "2.5.0-pre.3",
+  "version": "2.1.0",
   "publisher": "Luxcium",
   "engines": {
     "vscode": "^1.12.0"
@@ -34,9 +34,9 @@
     ]
   },
   "scripts": {
-    "publish:major": "",
-    "publish:minor": "",
-    "publish:patch": ""
+    "release:major": "npm version major && vsce package && vsce publish",
+    "release:minor": "npm version minor && vsce package && vsce publish",
+    "release:patch": "npm version patch && vsce package && vsce publish"
   },
   "icon": "images/Scientia-is-lux-principium-400px.png",
   "__metadata": {
