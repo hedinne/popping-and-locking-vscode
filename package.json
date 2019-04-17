@@ -33,6 +33,11 @@
       }
     ]
   },
+  "scripts": {
+    "publish:major": "",
+    "publish:minor": "",
+    "publish:patch": ""
+  },
   "icon": "images/Scientia-is-lux-principium-400px.png",
   "__metadata": {
     "id": "a7696c32-2e89-4fbb-8a90-f47309e6295e",
