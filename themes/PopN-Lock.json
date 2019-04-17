@@ -565,13 +565,6 @@
         "fontStyle": "bold"
       }
     },
-    {
-      "scope": "storage.type.class",
-      "settings": {
-        "foreground": "#FE8019",
-        "fontStyle": "normal"
-      }
-    },
 
     {
       "name": "CSS propperty",
@@ -607,10 +600,17 @@
       }
     },
     {
+      "scope": "storage.type.class",
+      "settings": {
+        "foreground": "#FE8019",
+        "fontStyle": "bold"
+      }
+    },
+    {
       "scope": ["entity.name.class", "entity.name.type.class.ts"],
       "settings": {
-        "foreground": "#95dcef",
-        "fontStyle": "bold"
+        "foreground": "#af0",
+        "fontStyle": "normal"
       }
     }
   ]
