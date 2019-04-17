@@ -1,5 +1,5 @@
 {
-  "name": "Popping and Locking",
+  "name": "Pop N' Lock Theme by Luxcium",
   "type": "dark",
   "colors": {
     "activityBar.background": "#191B2A",
@@ -110,6 +110,7 @@
     "terminal.foreground": "#EBDBB2",
     "terminal.background": "#181921"
   },
+
   "tokenColors": [
     {
       "scope": "emphasis",
