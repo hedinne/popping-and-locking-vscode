@@ -113,6 +113,20 @@
 
   "tokenColors": [
     {
+      "scope": "constant.language.boolean.true",
+      "settings": {
+        "foreground": "#8AE180",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "constant.language.boolean.false",
+      "settings": {
+        "foreground": "#8AE180",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "scope": "emphasis",
       "settings": {
         "fontStyle": "italic"
