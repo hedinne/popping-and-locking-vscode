@@ -32,6 +32,7 @@ export default class ClassName extends ParentClass implements IInterface {
     ) {
       this.value = parametre.value;
     }
+    this.value = " parametre.value;";
   }
   public async asyncMethode() {
     const variable1 = 10;

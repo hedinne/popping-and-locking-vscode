@@ -1,0 +1,17 @@
+// const buttonBackground = "";
+// const darken = "";
+// const defaultInsertColor = "";
+// const editorBackground = "";
+// const editorHoverBackground = "";
+// const editorSelectionBackground = "";
+// const editorWidgetBackground = "";
+// const editorWidgetBorder = "";
+// const lessProminent = "";
+// const lighten = "";
+// const listActiveSelectionBackground = "";
+// const mergeBorder = "";
+// const mergeCommonHeaderBackground = "";
+// const mergeIncomingHeaderBackground = "";
+// const RGBA = "";
+// const rulerTransparency = "";
+// const selectForeground = "";
