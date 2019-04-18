@@ -1,0 +1,1151 @@
+{
+  "tokenColors": [
+    {
+      "scope": ["constant.language.nan", "constant.language.infinity"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }
+  ],
+
+  "names": [
+    {
+      "scope": ["case-clause.expr"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["case-clause.expr "],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["cast.expr"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["comment.block.documentation"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["comment.block"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["comment.line.double-slash"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["comment.line.shebang"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["comment.line.triple-slash.directive"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["constant.character.control.regexp"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["constant.character.escape.backslash.regexp"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["constant.character.escape"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["constant.character.numeric.regexp"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["constant.language.access-type.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["constant.language.boolean.false"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["constant.language.boolean.true"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["constant.language.import-export-all"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["constant.language.infinity"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["constant.language.nan"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["constant.language.null"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["constant.language.symbol-type.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["constant.language.undefined"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["constant.numeric.binary"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["constant.numeric.decimal"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["constant.numeric.hex"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["constant.numeric.octal"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["constant.other.character-class.range.regexp"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["constant.other.character-class.regexp"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["constant.other.character-class.set.regexp"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["constant.other.description.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["constant.other.email.link.underline.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["entity.name.function.tagged-template"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["entity.name.function"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["entity.name.function variable.language.this"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["entity.name.label"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["entity.name.tag.directive"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["entity.name.tag.inline.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["entity.name.type.alias"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["entity.name.type.class"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["entity.name.type.enum"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["entity.name.type.instance.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["entity.name.type.interface"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["entity.name.type.module"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["entity.name.type"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["entity.other.attribute-name.directive"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["entity.other.inherited-class"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["invalid.illegal.newline"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["invalid.illegal.syntax.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.control.anchor.regexp"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.control.as"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.control.conditional"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.control.default"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.control.export"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.control.flow"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.control.from"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.control.import"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.control.loop"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.control.new"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.control.require"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.control.switch"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.control.trycatch"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.control"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.control.with"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.generator.asterisk"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.arithmetic"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.assignment.compound.bitwise"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.assignment.compound"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.assignment.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.assignment"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.bitwise.shift"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.bitwise"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.comparison"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.control.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.decrement"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.definiteassignment"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.expression.delete"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.expression.import"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.expression.in"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.expression.infer"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.expression.instanceof"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.expression.is"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.expression.keyof"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.expression.of"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.expression.typeof"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.expression.void"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.increment"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.logical"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.negation.regexp"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.new"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.optional"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.or.regexp"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.quantifier.regexp"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.relational"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.rest"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.spread"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.ternary"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.type.annotation"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.type.modifier"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.operator.type"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.other.back-reference.regexp"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.other.debugger"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["keyword.other"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.array-binding-pattern-variable"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.array.literal"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.arrow"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": [
+        "meta.arrow meta.return.type.arrow keyword.operator.type.annotation"
+      ],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.assertion.look-ahead.regexp"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.assertion.look-behind.regexp"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.assertion.negative-look-ahead.regexp"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.assertion.negative-look-behind.regexp"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.block"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.block punctuation.definition.block"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.brace.angle"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.brace.round"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.brace.square"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.class"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.decorator"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.definition.function entity.name.function"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.definition.method entity.name.function"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.definition.property entity.name.function"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.definition.property variable.object.property"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.definition.variable entity.name.function"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.definition.variable variable.other.constant"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": [
+        "meta.definition.variable variable.other.constant entity.name.function"
+      ],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.definition.variable variable.other.readwrite"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.delimiter.decimal.period"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.enum.declaration"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.example.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.export.default"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.export"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.field.declaration"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.function-call"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.function-call punctuation.accessor.optional"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.function.expression"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.function"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.group.assertion.regexp"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.group.regexp"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.import-equals.external"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.import-equals.internal"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.import"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.indexer.declaration"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.indexer.mappedtype.declaration"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.interface"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.method.declaration"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.namespace.declaration"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.object-binding-pattern-variable"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.object-literal.key"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.object-literal.key punctuation.separator.key-value"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.object.member"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.object.member meta.object-literal.key"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.object.type"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.objectliteral"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.parameter.object-binding-pattern"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.parameters"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.paramter.array-binding-pattern"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.return.type.arrow"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.return.type"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.tag"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.template.expression"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.type.annotation"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.type.constructor"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.type.constructor keyword.control.new"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.type.declaration"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.type.function.return"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.type.function"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.type.parameters"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": [
+        "meta.type.parameters punctuation.definition.typeparameters.begin"
+      ],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": [
+        "meta.type.parameters punctuation.definition.typeparameters.end"
+      ],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.type.paren.cover"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.type.tuple"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.var-single-variable.expr"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["meta.var.expr"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["new.expr"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.accessor.optional"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.accessor"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.decorator.internaldeclaration"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.decorator"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.binding-pattern.array"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.binding-pattern.object"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.block.tag.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.block"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.bracket.angle.begin.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.bracket.angle.end.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.bracket.curly.begin.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.bracket.curly.end.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.bracket.square.begin.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.bracket.square.end.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.character-class.regexp"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.comment"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.group.assertion.regexp"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.group.no-capture.regexp"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.group.regexp"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.inline.tag.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": [
+        "punctuation.definition.optional-value.begin.bracket.square.jsdoc"
+      ],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": [
+        "punctuation.definition.optional-value.end.bracket.square.jsdoc"
+      ],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.parameters.begin"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.parameters.end"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.section.case-statement"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.string.begin.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.string.begin"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.string.end.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.string.end"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.string.template.begin"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.string.template.end"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.tag.directive"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.template-expression.begin"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.template-expression.end"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.typeparameters.begin"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.definition.typeparameters.end"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.destructuring"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.separator.comma"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.separator.label"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.separator.parameter"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.separator.pipe.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.terminator.statement"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["punctuation.whitespace.comment.leading"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["source.embedded"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["storage.modifier.async"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["storage.modifier"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["storage.type.class.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["storage.type.class"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["storage.type.enum"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["storage.type.function.arrow"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["storage.type.function"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["storage.type.interface"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["storage.type.internaldeclaration"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["storage.type.namespace"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["storage.type.numeric.bigint"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["storage.type.property"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["storage.type"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["storage.type.type"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["string.quoted.double"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["string.quoted.single"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["string.regexp"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["string.template"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.class.builtin"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.class.console"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.class.error"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.class.node"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.class.promise"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.class"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.constant.json"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.constant.math"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.constant.property.math"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.constant"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.function.console"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.function.json"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.function.math"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.function.process"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.function"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.type.builtin"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.type.object.module"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.type.primitive"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.variable.object.node"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.variable.object.process"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.variable.property.importmeta"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.variable.property.process"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.variable.property.target"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["support.variable.property"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["switch-block.expr"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["switch-expression.expr"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["switch-statement.expr"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["TypeScript"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["variable.language.arguments"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["variable.language.super"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["variable.language.this"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["variable.object.property"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["variable.other.constant.object.property"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["variable.other.constant.object"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["variable.other.constant.property"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["variable.other.constant"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["variable.other.description.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["variable.other.enummember"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["variable.other.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["variable.other.link.underline.jsdoc"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["variable.other.object.property"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["variable.other.object"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["variable.other.property"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["variable.other.readwrite.alias"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["variable.other.readwrite"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["variable.other.regexp"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["variable.parameter"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    }, // !--
+    {
+      "scope": ["variable.language.this"],
+      "settings": { "foreground": "#fec", "fontStyle": "bold underline" }
+    } // !--
+  ]
+}

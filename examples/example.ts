@@ -14,6 +14,7 @@ export const asyncAnonymArowFunction = async () => {
   let checker: boolean;
   checker = true;
   checker = false;
+  checker.valueOf();
   return variable1;
 };
 
