@@ -113,17 +113,45 @@
 
   "tokenColors": [
     {
+      "scope": ["constant.language.nan", "constant.language.infinity"],
+      "settings": {
+        "foreground": "#3681E7",
+        "fontStyle": "bold"
+      }
+    },
+    {
       "scope": "constant.language.boolean.true",
       "settings": {
-        "foreground": "#8AE180",
-        "fontStyle": "italic"
+        "foreground": "#81E736",
+        "fontStyle": "bold italic"
       }
     },
     {
       "scope": "constant.language.boolean.false",
       "settings": {
-        "foreground": "#8AE180",
-        "fontStyle": "italic"
+        "foreground": "#E73681",
+        "fontStyle": "bold italic"
+      }
+    },
+    {
+      "scope": "constant.language.null",
+      "settings": {
+        "foreground": "#EA574C",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "constant.language.undefined",
+      "settings": {
+        "foreground": "#C98AA5",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "constant.language",
+      "settings": {
+        "foreground": "#E52073",
+        "fontStyle": "bold italic"
       }
     },
     {
