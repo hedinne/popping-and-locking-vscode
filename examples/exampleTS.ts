@@ -5,7 +5,7 @@ interface IInterface {
 
 async function asyncFunction() {
   const variable1 = 10;
-  let variable2: string;
+  let variable2: string = "this is a string indeed";
   variable2 = variable1.toFixed(2);
   return variable2;
 }

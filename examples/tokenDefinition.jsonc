@@ -24,7 +24,37 @@
         "foreground": "#EDAF"
       }
     },
+    {
+      "scope": "module.node",
+      "settings": {
+        "foreground": "#99C6CA"
+      }
+    },
 
+    {
+      "scope": [
+        "TypeScript",
+        "variable.language.arguments",
+        "variable.object.property",
+        "variable.object.property",
+        "variable.other.constant.object.property",
+        "variable.other.constant.object",
+        "variable.other.constant.property",
+        "variable.other.constant",
+        "variable.other.description.jsdoc",
+        "variable.other.enummember",
+        "variable.other.jsdoc",
+        "variable.other.link.underline.jsdoc",
+        "variable.other.object.property",
+        "variable.other.object",
+        "variable.other.property",
+        "variable.other.readwrite.alias",
+        "variable.other.readwrite",
+        "variable.other.regexp",
+        "variable.parameter"
+      ],
+      "settings": { "foreground": "#B1F0FE", "fontStyle": "normal" }
+    },
     {
       "scope": ["variable.language.this", "variable.language.super"],
       "settings": {
@@ -528,4 +558,5 @@
       }
     }
   ]
+  // !
 }
