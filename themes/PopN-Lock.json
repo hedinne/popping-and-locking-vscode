@@ -4,9 +4,53 @@
 
   "tokenColors": [],
   "colors": {
+    "contrastBorder": "#FEDA",
+
+    "foreground": "#ebdbb2",
+
+    "editor.background": "#1C192F",
+    "editor.foreground": "#ebdbb2",
+
+    "activityBar.background": "#201C2C",
+    "activityBar.foreground": "#ebdbb2",
+    "activityBar.inactiveForeground": "#ebdbb2DD",
+    "activityBar.border": "#78F3",
+
+    "statusBar.background": "#201C2C",
+    "statusBar.debuggingBackground": "#C60",
+    "statusBar.noFolderBackground": "#848",
+    "statusBar.foreground": "#ebdbb2",
+    "statusBar.border": "#78F1",
+
+    "titleBar.activeForeground": "#ebdbb2",
+    "titleBar.inactiveForeground": "#ebdbb2",
+    "titleBar.activeBackground": "#201C2C",
+    "titleBar.inactiveBackground": "#201C2C",
+    "titleBar.border": "#78F1",
+    "inputOption.activeBorder": "#EDB3",
+
+    "tab.activeBackground": "#1C192F",
+    "tab.inactiveBackground": "#19152F",
+    "tab.activeForeground": "#ebdbb2FF",
+    "tab.inactiveForeground": "#ebdbb2BB",
+    "tab.unfocusedActiveForeground": "#ebdbb2BB",
+    "tab.unfocusedInactiveForeground": "#ebdbb277",
+    "tab.activeBorderTop": "#EA2",
+    "tab.unfocusedActiveBorderTop": "#48A7",
+    "tab.activeModifiedBorder": "#d65d0e",
+
     "progressBar.background": "#48A",
     "activityBarBadge.background": "#EA2",
     "activityBarBadge.foreground": "#FEB",
+
+    "sideBar.background": "#15102A",
+    "sideBar.dropBackground": "#15102A",
+    "sideBar.foreground": "#ebdbb2",
+    "sideBarSectionHeader.background": "#15102AAA",
+    "sideBarSectionHeader.foreground": "#ebdbb2",
+    "sideBarTitle.foreground": "#ebdbb2",
+    "sideBar.border": "#ebdbb222",
+    "sideBarSectionHeader.border": "#ebdbb222",
 
     "badge.background": "#48A",
     "badge.foreground": "#FEB",
@@ -42,11 +86,8 @@
     "editorWarning.foreground": "#599442",
 
     "editorCursor.foreground": "#C23",
-    "editorCursor.background": "#19152F",
     "terminalCursor.foreground": "#C23",
-    "terminalCursor.background": "#19152F",
 
-    "terminal.border": "#FF0000FF",
     "terminal.background": "#1D1521",
     "terminal.foreground": "#ebdbb2",
     "terminal.ansiBlack": "#1D1521",
