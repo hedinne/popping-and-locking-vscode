@@ -47,7 +47,7 @@ export default class ClassName extends ParentClass implements IInterface {
   private _otherMethode() {
     try {
       return {
-        values: [null, undefined, NaN, Infinity, true, false]
+        values: [null, NaN, Infinity, this, true, false, undefined]
       };
     } catch (error) {
       throw new Error(error.message);

@@ -63,6 +63,7 @@
         "foreground": "#CC241D"
       }
     },
+
     {
       "scope": "markup.underline",
       "settings": {

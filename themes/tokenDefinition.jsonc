@@ -1,18 +1,6 @@
 {
   "tokens": [
     {
-      "scope": [
-        "entity.name",
-        "entity.static",
-        "entity.name.class.static.function",
-        "entity.name.function",
-        "entity.name.type"
-      ],
-      "settings": {
-        "foreground": "#FABD2F"
-      }
-    },
-    {
       "name": "Function declarations",
       "scope": [
         "storage.type.function",
@@ -25,13 +13,18 @@
       }
     },
     {
-      "name": "Arow function declarations",
-      "scope": ["storage.type.function.arrow"],
+      "scope": [
+        "entity.name",
+        "entity.static",
+        "entity.name.class.static.function",
+        "entity.name.function",
+        "entity.name.type"
+      ],
       "settings": {
-        "foreground": "#8AE180",
-        "fontStyle": "normal"
+        "foreground": "#EDAF"
       }
     },
+
     {
       "scope": ["variable.language.this", "variable.language.super"],
       "settings": {
@@ -56,22 +49,7 @@
         "fontStyle": "normal"
       }
     },
-    {
-      "scope": "entity.name.function.function-call",
-      "settings": {
-        "foreground": "#8AE180"
-      }
-    },
-    {
-      "scope": [
-        "entity.name.method",
-        "entity.name.method.function-call",
-        "entity.name.static.function-call"
-      ],
-      "settings": {
-        "foreground": "#689D6A"
-      }
-    },
+
     {
       "scope": ["entity.name.class", "entity.name.type.class.ts"],
       "settings": {
@@ -125,17 +103,6 @@
     {
       "scope": ["comment.line.shebang"],
       "settings": { "foreground": "#B93558", "fontStyle": "normal" }
-    },
-    {
-      "name": "number",
-      "scope": [
-        "constant.numeric",
-        "constant.numeric.binary",
-        "constant.numeric.decimal",
-        "constant.numeric.hex",
-        "constant.numeric.octal"
-      ],
-      "settings": { "foreground": "#8AE180", "fontStyle": "bold" }
     },
 
     {
@@ -637,20 +604,7 @@
         "foreground": "#F42C3E"
       }
     },
-    {
-      "scope": "keyword.control.export",
-      "settings": {
-        "foreground": "#F42C3E",
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "scope": "keyword.control.import",
-      "settings": {
-        "foreground": "#F42C3E",
-        "fontStyle": "italic"
-      }
-    },
+
     {
       "scope": "keyword.operator",
       "settings": {
