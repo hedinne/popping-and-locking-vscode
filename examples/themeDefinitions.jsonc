@@ -431,15 +431,7 @@
       "settings": { "foreground": "#FEBF", "fontStyle": "normal" }
     },
 
-    {
-      "scope": [
-        "string.quoted.double",
-        "string.quoted.single",
-        "string.entity",
-        "string.template"
-      ],
-      "settings": { "foreground": "#B5C033", "fontStyle": "normal" }
-    },
+   
     {
       "scope": "string.regexp",
       "settings": {
