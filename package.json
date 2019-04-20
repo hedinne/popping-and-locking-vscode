@@ -1,13 +1,13 @@
 {
   "name": "pop-n-lock-theme-vscode",
-  "version": "2.6.4",
+  "version": "3.0.0",
   "publisher": "Luxcium",
   "engines": {
     "vscode": "^1.12.0"
   },
   "license": "MIT",
-  "displayName": "Pop N' Lock Theme by Luxcium",
-  "description": "Perfectly balanced theme with vivid colours for VS Code.",
+  "displayName": "💥Pop N' 🗝Lock Theme by Luxcium✨",
+  "description": "🐲 Perfectly balanced theme with vivid colours for VS Code.",
   "categories": [
     "Themes"
   ],
@@ -19,10 +19,10 @@
     "web-development"
   ],
   "galleryBanner": {
-    "color": "#0f0f33",
+    "color": "#19172C",
     "theme": "dark"
   },
-  "preview": false,
+  "preview": true,
   "contributes": {
     "themes": [
       {
@@ -35,7 +35,8 @@
   "scripts": {
     "release:major": "npm version major && vsce package && vsce publish",
     "release:minor": "npm version minor && vsce package && vsce publish",
-    "release:patch": "npm version patch && vsce package && vsce publish"
+    "release:patch": "npm version patch && vsce package && vsce publish",
+    "release": "vsce package && vsce publish"
   },
   "icon": "images/Scientia-is-lux-principium-400px.png",
   "homepage": "https://github.com/luxcium/vsc-pop-n-lock-theme/blob/master/README.md",
