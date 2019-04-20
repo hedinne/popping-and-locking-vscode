@@ -2,3 +2,6 @@
 .gitignore
 vsc-extension-quickstart.md
 assets
+tsconfig.json
+.prettierc
+node_modules
