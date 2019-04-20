@@ -77,6 +77,13 @@
       }
     },
     {
+      "scope": "storage.modifier",
+      "settings": {
+        "foreground": "#FE8019",
+        "fontStyle": "normal"
+      }
+    },
+    {
       "name": "Variable names that are specified by the language",
       "scope": ["variable.language"],
       "settings": {
@@ -108,13 +115,6 @@
         "fontStyle": "normal"
       }
     },
-    {
-      "scope": "storage.type.class",
-      "settings": {
-        "foreground": "#FE8019",
-        "fontStyle": "normal"
-      }
-    },
 
     {
       "name": "Variable and parameter name",
@@ -132,21 +132,6 @@
     {
       "scope": ["case-clause.expr", "case-clause.expr ", "cast.expr"],
       "settings": { "foreground": "#FEBF", "fontStyle": "normal" }
-    },
-    {
-      "scope": [
-        "comment.block.documentation",
-        "comment.block",
-        "comment.line.double-slash",
-        "comment.line.shebang",
-        "comment.line.triple-slash.directive"
-      ],
-      "settings": { "foreground": "#458588", "fontStyle": "normal" }
-    },
-
-    {
-      "scope": ["comment.line.shebang"],
-      "settings": { "foreground": "#B93558", "fontStyle": "normal" }
     },
 
     {
@@ -194,26 +179,6 @@
     {
       "scope": ["invalid.illegal.newline", "invalid.illegal.syntax.jsdoc"],
       "settings": { "foreground": "#FEBF", "fontStyle": "normal" }
-    },
-    {
-      "scope": [
-        "keyword.control.as",
-        "keyword.control.default",
-        "keyword.control.import",
-        "keyword.control.from",
-        "keyword.control.export",
-        "keyword.control.anchor.regexp",
-        "keyword.control.conditional",
-        "keyword.control.flow",
-        "keyword.control.loop",
-        "keyword.control.new",
-        "keyword.control.require",
-        "keyword.control.switch",
-        "keyword.control.trycatch",
-        "keyword.control.with",
-        "keyword.control"
-      ],
-      "settings": { "foreground": "#C42C3E", "fontStyle": "normal" }
     },
 
     {
