@@ -26,7 +26,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Pop N' Lock Theme by Luxcium",
+        "label": "dev Pop N' Lock Theme by Luxcium",
         "uiTheme": "vs-dark",
         "path": "./themes/PopN-Lock.json"
       }
