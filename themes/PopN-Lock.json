@@ -1040,7 +1040,7 @@
         "source.js variable.parameter",
         "source.js variable"
       ],
-      "settings": { "foreground": "#8AD", "fontStyle": "" }
+      "settings": { "foreground": "#58E", "fontStyle": "" }
     },
     /*
         CONSTANT
