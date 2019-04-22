@@ -1013,7 +1013,7 @@
         "source.js variable.other.property",
         "meta.object-literal.key.js"
       ],
-      "settings": { "foreground": "#CED", "fontStyle": "" }
+      "settings": { "foreground": "#5AB", "fontStyle": "" }
     },
     /*
         VARIABLE OTHER
@@ -1040,7 +1040,7 @@
         "source.js variable.parameter",
         "source.js variable"
       ],
-      "settings": { "foreground": "#58E", "fontStyle": "" }
+      "settings": { "foreground": "#5AB", "fontStyle": "" }
     },
     /*
         CONSTANT

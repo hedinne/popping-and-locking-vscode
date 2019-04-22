@@ -1,4 +1,4 @@
-import { default as love } from "./../backup/types/index2";
+import { default as love } from "../types/index2";
 
 export async function notMuch(ValueIn: string) {
   return { ValueIn, love };
