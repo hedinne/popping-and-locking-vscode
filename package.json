@@ -1,12 +1,12 @@
 {
-  "name": "pop-n-lock-theme-vscode",
-  "version": "3.0.2",
+  "name": "dev-pop-n-lock-theme-vscode",
+  "version": "3.0.3",
   "publisher": "Luxcium",
   "engines": {
     "vscode": "^1.12.0"
   },
   "license": "MIT",
-  "displayName": "Pop N' Lock Theme by Luxcium✨",
+  "displayName": "DEV Pop N' Lock Theme by Luxcium✨",
   "description": "🐲Perfectly balanced theme with vivid colours for VS Code.",
   "categories": [
     "Themes"
@@ -26,7 +26,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Pop N' Lock Theme by Luxcium",
+        "label": "DEV Pop N' Lock Theme by Luxcium",
         "uiTheme": "vs-dark",
         "path": "./themes/PopN-Lock.json"
       }
