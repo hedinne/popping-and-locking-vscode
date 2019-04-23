@@ -8,6 +8,7 @@ One Dark but has changed a lot since. It is designed for web languages (HTML,
 CSS, JS, TypeScript and more).
 
 ## Screenshots
+![Main view](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/Screenshots1.png)
 
 ```json
 {
