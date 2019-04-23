@@ -6,8 +6,8 @@
     "vscode": "^1.12.0"
   },
   "license": "MIT",
-  "displayName": "Pop N' Lock Theme by Luxcium ?",
-  "description": "??Perfectly balanced TypeScript theme with vivid colours.",
+  "displayName": "Pop N' Lock Theme by Luxcium ✨",
+  "description": "🐲Perfectly balanced TypeScript theme with vivid colours.",
   "categories": [
     "Themes"
   ],
@@ -26,7 +26,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Pop N' Lock Theme by Luxcium ?",
+        "label": "Pop N' Lock Theme by Luxcium ✨",
         "uiTheme": "vs-dark",
         "path": "./themes/PopN-Lock.json"
       }
@@ -80,7 +80,7 @@
   },
   "__metadata": {
     "id": "e9677069-69cb-4942-ba29-54429a6cb4af",
-    "publisherDisplayName": "Luxcium ?",
+    "publisherDisplayName": "Luxcium ✨",
     "publisherId": "896dbdcd-d417-4c51-8ff0-ec82723b0706"
   }
 }
