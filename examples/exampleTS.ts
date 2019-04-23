@@ -79,7 +79,8 @@ export enum Delays {
   Medium = 2000,
   Long = 5000
 }
-export default class ClassName extends ParentClass implements Interface {
+export default class ClassName extends ParentClass
+implements Interface {
   public value: string;
   public values: tada;
 
