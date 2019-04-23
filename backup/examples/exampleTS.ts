@@ -1,4 +1,4 @@
-#!/she/bang
+#! /she/bang
 
 /// <reference no-default-lib="false"/>
 
@@ -11,7 +11,7 @@
 // Comment
 
 /*
-// comment
+    comment
 */
 
 import { default as love } from "../types/index2";
