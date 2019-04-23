@@ -1,13 +1,13 @@
 {
-  "name": "dev-322-pop-n-lock-typescript-theme-vscode",
+  "name": "pop-n-lock-theme-vscode",
   "version": "3.2.2",
   "publisher": "Luxcium",
   "engines": {
     "vscode": "^1.12.0"
   },
   "license": "MIT",
-  "displayName": "DEV 3.2.2 Pop N' Lock Theme by Luxcium",
-  "description": "Perfectly balanced TypeScript theme with vivid colours.",
+  "displayName": "Pop N' Lock Theme by Luxcium ✨",
+  "description": "🐲Perfectly balanced TypeScript theme with vivid colours.",
   "categories": [
     "Themes"
   ],
@@ -26,7 +26,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "DEV 3.2.2 Pop N' Lock Theme by Luxcium",
+        "label": "Pop N' Lock Theme by Luxcium ✨",
         "uiTheme": "vs-dark",
         "path": "./themes/PopN-Lock.json"
       }
@@ -39,14 +39,14 @@
     "release": "vsce package && vsce publish"
   },
   "icon": "images/Scientia-is-lux-principium-400px.png",
-  "homepage": "https://github.com/luxcium/pop-n-lock-typescript-theme-vscode/#readme",
+  "homepage": "https://github.com/luxcium/pop-n-lock-theme-vscode/#readme",
   "bugs": {
-    "url": "https://github.com/luxcium/pop-n-lock-typescript-theme-vscode/issues",
+    "url": "https://github.com/luxcium/pop-n-lock-theme-vscode/issues",
     "email": "luxcium@neb401.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/luxcium/pop-n-lock-typescript-theme-vscode.git"
+    "url": "https://github.com/luxcium/pop-n-lock-theme-vscode.git"
   },
   "tags": [
     "pop",
@@ -80,7 +80,7 @@
   },
   "__metadata": {
     "id": "e9677069-69cb-4942-ba29-54429a6cb4af",
-    "publisherDisplayName": "Luxcium",
+    "publisherDisplayName": "Luxcium ✨",
     "publisherId": "896dbdcd-d417-4c51-8ff0-ec82723b0706"
   }
 }
