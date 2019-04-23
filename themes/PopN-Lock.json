@@ -1764,7 +1764,7 @@
         "source.ts variable.other.property",
         "meta.object-literal.key.ts"
       ],
-      "settings": { "foreground": "#CED", "fontStyle": "" }
+      "settings": { "foreground": "#69E", "fontStyle": "" }
     },
     /*
         VARIABLE OTHER
@@ -1791,7 +1791,7 @@
         "source.ts variable.parameter",
         "source.ts variable"
       ],
-      "settings": { "foreground": "#8AD", "fontStyle": "" }
+      "settings": { "foreground": "#ADDD", "fontStyle": "" }
     },
     /*
         CONSTANT
@@ -2064,7 +2064,7 @@
   ],
   "colors": {
     // EDITOR
-    "editor.background": "#232135",
+    "editor.background": "#202135",
     "editor.foreground": "#DCAD",
     "editorPane.background": "#221f36",
     "editorGutter.background": "#1D1C2F",
