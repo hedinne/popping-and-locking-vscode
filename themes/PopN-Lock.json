@@ -452,7 +452,7 @@
     {
       "name": "STORAGE TYPE => CONSTRUCTOR KEYWORD ETC ....",
       "scope": ["source.ts meta.method.declaration.ts storage.type"],
-      "settings": { "foreground": "#E35E", "fontStyle": "italic" }
+      "settings": { "foreground": "#E35D", "fontStyle": "italic" }
     },
     {
       "name": "STORAGE.MODIFIER => Public, Private, extends, implements, etc...",
@@ -506,13 +506,13 @@
         "source.ts keyword.control.import",
         "source.ts keyword.control.export"
       ],
-      "settings": { "foreground": "#E35E", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
     },
     // BOLD
     {
       "name": "KEYWORD.CONTROL Default is bold on export ",
       "scope": ["source.ts meta.export.default keyword.control.default"],
-      "settings": { "foreground": "#E35E", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
     },
     /*
         KEYWORD CONTROL
@@ -524,7 +524,7 @@
         "source.ts keyword.control.default",
         "source.ts keyword.control.from"
       ],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
+      "settings": { "foreground": "#E35D", "fontStyle": "" }
     },
     // NORMAL
     {
@@ -543,57 +543,57 @@
         "source.ts keyword.other",
         "source.ts keyword.generator.asterisk"
       ],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
+      "settings": { "foreground": "#E35D", "fontStyle": "" }
     },
     {
       "scope": ["source.ts meta.block keyword.control.flow"],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
+      "settings": { "foreground": "#E35D", "fontStyle": "" }
     },
     /*
         storage type
     */
     {
       "scope": ["source.ts storage.type.interface"],
-      "settings": { "foreground": "#E35E", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
     },
     {
       "scope": ["source.ts storage.type.internaldeclaration"],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
+      "settings": { "foreground": "#E35D", "fontStyle": "" }
     },
     {
       "scope": ["source.ts storage.type.namespace"],
-      "settings": { "foreground": "#E35E", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
     },
     {
       "scope": ["source.ts storage.type.numeric.bigint"],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
+      "settings": { "foreground": "#E35D", "fontStyle": "" }
     },
     {
       "scope": ["source.ts storage.type.type"],
-      "settings": { "foreground": "#E35E", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
     },
     {
       "scope": ["source.ts variable.other.object.property"],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
+      "settings": { "foreground": "#E35D", "fontStyle": "" }
     },
     {
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.ts storage.type"],
-      "settings": { "foreground": "#E35E", "fontStyle": "bold italic" }
+      "settings": { "foreground": "#E35D", "fontStyle": "bold italic" }
     },
     {
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.ts meta.block meta.var.expr storage.type"],
-      "settings": { "foreground": "#E35E", "fontStyle": "italic" }
+      "settings": { "foreground": "#E35D", "fontStyle": "italic" }
     },
     {
       "scope": ["source.ts storage.type.enum"],
-      "settings": { "foreground": "#E35E", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
     },
 
     {
       "scope": ["source.ts keyword.operator.logical"],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
+      "settings": { "foreground": "#E35D", "fontStyle": "" }
     },
     {
       "scope": [
@@ -1809,7 +1809,7 @@
     {
       "name": "STORAGE TYPE => CONSTRUCTOR KEYWORD ETC ....",
       "scope": ["source.js meta.method.declaration.js storage.type"],
-      "settings": { "foreground": "#E35E", "fontStyle": "italic" }
+      "settings": { "foreground": "#E35D", "fontStyle": "italic" }
     },
     {
       "name": "STORAGE.MODIFIER => Public, Private, extends, implements, etc...",
@@ -1863,13 +1863,13 @@
         "source.js keyword.control.import",
         "source.js keyword.control.export"
       ],
-      "settings": { "foreground": "#E35E", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
     },
     // BOLD
     {
       "name": "KEYWORD.CONTROL Default is bold on export ",
       "scope": ["source.js meta.export.default keyword.control.default"],
-      "settings": { "foreground": "#E35E", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
     },
     /*
         KEYWORD CONTROL
@@ -1881,7 +1881,7 @@
         "source.js keyword.control.default",
         "source.js keyword.control.from"
       ],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
+      "settings": { "foreground": "#E35D", "fontStyle": "" }
     },
     // NORMAL
     {
@@ -1900,57 +1900,57 @@
         "source.js keyword.other",
         "source.js keyword.generator.asterisk"
       ],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
+      "settings": { "foreground": "#E35D", "fontStyle": "" }
     },
     {
       "scope": ["source.js meta.block keyword.control.flow"],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
+      "settings": { "foreground": "#E35D", "fontStyle": "" }
     },
     /*
         storage type
     */
     {
       "scope": ["source.js storage.type.interface"],
-      "settings": { "foreground": "#E35E", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
     },
     {
       "scope": ["source.js storage.type.internaldeclaration"],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
+      "settings": { "foreground": "#E35D", "fontStyle": "" }
     },
     {
       "scope": ["source.js storage.type.namespace"],
-      "settings": { "foreground": "#E35E", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
     },
     {
       "scope": ["source.js storage.type.numeric.bigint"],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
+      "settings": { "foreground": "#E35D", "fontStyle": "" }
     },
     {
       "scope": ["source.js storage.type.type"],
-      "settings": { "foreground": "#E35E", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
     },
     {
       "scope": ["source.js variable.other.object.property"],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
+      "settings": { "foreground": "#E35D", "fontStyle": "" }
     },
     {
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.js storage.type"],
-      "settings": { "foreground": "#E35E", "fontStyle": "bold italic" }
+      "settings": { "foreground": "#E35D", "fontStyle": "bold italic" }
     },
     {
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.js meta.block meta.var.expr storage.type"],
-      "settings": { "foreground": "#E35E", "fontStyle": "italic" }
+      "settings": { "foreground": "#E35D", "fontStyle": "italic" }
     },
     {
       "scope": ["source.js storage.type.enum"],
-      "settings": { "foreground": "#E35E", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
     },
 
     {
       "scope": ["source.js keyword.operator.logical"],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
+      "settings": { "foreground": "#E35D", "fontStyle": "" }
     },
     {
       "scope": [
