@@ -1,18 +1,8 @@
 #! /she/bang
-
 /// <reference no-default-lib="false"/>
-
-/**
- * @format
- * hello
- *
- */
-
-// Comment
-
-/*
-    comment
-*/
+/** @format */
+// Double slash comment
+/* comment */
 
 import { default as love } from "../backup/types/index2";
 // import { default as love } from "./../backup/types/index2";
