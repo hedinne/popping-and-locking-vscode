@@ -5,13 +5,14 @@
 /* comment */
 
 import { default as love } from "../backup/types/index2";
+import { AnyRecordWithTtl } from "dns";
 // import { default as love } from "./../backup/types/index2";
 
 // Below are examples of using TSLint errors suppression
 // Here it is suppressing missing type definitions for greeter function
 
 // tslint:disable-next-line typedef
-export async function greeter(name) {
+export async function greeter(name:any) {
   // tslint:disable-next-line no-unsafe-any no-return-await
   return await delayedHello(name, Delays.Long);
 }
