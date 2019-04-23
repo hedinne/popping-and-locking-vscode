@@ -590,9 +590,8 @@
         "source.js string.template",
         "source.js string.value"
       ],
-      "settings": { "foreground": "#BBDD44DD", "fontStyle": "" }
+      "settings": { "foreground": "#BD2C", "fontStyle": "" }
     },
-    // BOLD !!!
     {
       "scope": [
         "source.js entity.name.type.alias",
@@ -605,14 +604,18 @@
         "source.js entity.name.type.class",
         "source.js meta.definition.method",
         "source.js entity.name.function",
-        "source.js entity.other.inherited-class.js"
+        "source.js entity.other.inherited-class.ts",
+        "source.js entity.name.type",
+        "source.js meta.type.declaration support.type.primitive",
+        "source.js meta.interface support.type.primitive",
+        "source.js support.type.primitive"
       ],
-      "settings": { "foreground": "#Eabd2f", "fontStyle": "" }
+      "settings": { "foreground": "#EB2E", "fontStyle": "" }
     },
-    // "ARROW FUNCTION STYLE",
+
+    // "ARROW FUNCTION STYLE", "#4CBA"
     // "FUNCTION KEYWORD STYLE"
     // "FUNCTION KEYWORD OR ARROW COLOUR"
-    // "FUNCTION NAME DEFINITION"
     {
       "name": "ARROW FUNCTION STYLE",
       "scope": ["source.js storage.type.function.arrow"],
@@ -629,44 +632,35 @@
         "source.js storage.type.function",
         "source.js storage.type.function.arrow"
       ],
-      "settings": { "foreground": "#66BB22" }
-    },
-    {
-      "name": "FUNCTION NAME DEFINITION",
-      "scope": [],
-      "settings": { "foreground": "#EDBE", "fontStyle": "bold" }
+      "settings": { "foreground": "#6B2C" }
     },
     // "CLASS KEYWORD DEFINITION"
-    // "CLASS NAME DEFINITION"
     // PUBLIC, PRIVATE, EXTENDS, IMPLEMENTS, ETC..."
     // "VARIABLE SUPER",
     // "VARIABLE THIS",
     // "NEW KEYWORD DEFINITION",
     // "ASYNC KEYWORD DEFINITION"
+    // "PROPERTY TYPE" (GET SET ...)
+    // "SUPPORT PRIMITIVE TYPE",
     {
       "name": "CLASS KEYWORD DEFINITION",
       "scope": ["source.js storage.type.class"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold italic" }
-    },
-    {
-      "name": "CLASS NAME DEFINITION",
-      "scope": [],
-      "settings": { "foreground": "#EDBE", "fontStyle": "bold" }
+      "settings": { "foreground": "#DD1E", "fontStyle": "bold italic" }
     },
     {
       "name": "STORAGE.MODIFIER => Public, Private, extends, implements, etc...",
       "scope": ["source.js storage", "source.js storage.modifier"],
-      "settings": { "foreground": "#fe8019CC", "fontStyle": "bold" }
+      "settings": { "foreground": "#E81E", "fontStyle": "" }
     },
     {
       "name": "VARIABLE SUPER",
       "scope": ["source.js variable.language.super"],
-      "settings": { "foreground": "#A5E", "fontStyle": "bold italic" }
+      "settings": { "foreground": "#C5EE", "fontStyle": "bold italic" }
     },
     {
       "name": "VARIABLE THIS",
       "scope": ["source.js variable.language.this"],
-      "settings": { "foreground": "#d3869b", "fontStyle": "bold italic" }
+      "settings": { "foreground": "#D89E", "fontStyle": "italic" }
     },
     {
       "name": "NEW KEYWORD DEFINITION",
@@ -674,45 +668,44 @@
         "source.js keyword.control.new",
         "source.js keyword.operator.new"
       ],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
+      "settings": { "foreground": "#E81E", "fontStyle": "" }
     },
     {
       "name": "ASYNC KEYWORD DEFINITION",
       "scope": ["source.js meta.class storage.modifier.async"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
+      "settings": { "foreground": "#E81E", "fontStyle": "italic" }
     },
     {
       "name": "ASYNC KEYWORD DEFINITION",
       "scope": ["source.js storage.modifier.async"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
+      "settings": { "foreground": "#E81E", "fontStyle": "italic" }
     },
     {
+      "name": "PROPERTY TYPE => GET SET etc ....",
+      "scope": ["source.js storage.type.property"],
+      "settings": { "foreground": "#E35E", "fontStyle": "bold" }
+    },
+    {
+      "scope": ["source.js punctuation.terminator.statement"],
+      "settings": { "foreground": "#5DAA", "fontStyle": "bold" }
+    },
+    /*
+        IMPORT EXPORT
+    */
+    // BOLD ITALIC
+    {
+      "name": "KEYWORD.CONTROL EXPORT IMPORT STYLE",
       "scope": [
-        "source.js entity.name.type",
-        "source.js support.type.primitive"
+        "source.js keyword.control.import",
+        "source.js keyword.control.export"
       ],
-      "settings": { "foreground": "#EB4E", "fontStyle": "" }
+      "settings": { "foreground": "#E35E", "fontStyle": "" }
     },
+    // BOLD
     {
-      "scope": [
-        "source.js constant.numeric",
-        "source.js constant.numeric.binary",
-        "source.js constant.numeric.decimal",
-        "source.js constant.numeric.hex",
-        "source.js constant.numeric.octal"
-      ],
-      "settings": { "foreground": "#E68E", "fontStyle": "bold" }
-    },
-    {
-      "scope": [
-        "source.js meta.type.declaration support.type.primitive",
-        "source.js meta.interface support.type.primitive"
-      ],
-      "settings": { "foreground": "#EB4E", "fontStyle": "" }
-    },
-    {
-      "scope": [],
-      "settings": { "foreground": "#E68E", "fontStyle": "bold" }
+      "name": "KEYWORD.CONTROL Default is bold on export ",
+      "scope": ["source.js meta.export.default keyword.control.default"],
+      "settings": { "foreground": "#E35E", "fontStyle": "" }
     },
     /*
         KEYWORD CONTROL
@@ -720,8 +713,6 @@
     {
       "name": "KEYWORD.CONTROL EXPORT IMPORT FROM ETC.",
       "scope": [
-        "source.js keyword.control.export",
-        "source.js keyword.control.import",
         "source.js keyword.control.as",
         "source.js keyword.control.default",
         "source.js keyword.control.from"
@@ -745,34 +736,41 @@
         "source.js keyword.other",
         "source.js keyword.generator.asterisk"
       ],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
+      "settings": { "foreground": "#D1AB", "fontStyle": "" }
     },
-    /*
-        IMPORT EXPORT
-    */
-    // BOLD ITALIC
-    {
-      "name": "KEYWORD.CONTROL EXPORT IMPORT STYLE",
-      "scope": [
-        "source.js keyword.control.import",
-        "source.js keyword.control.export"
-      ],
-      "settings": { "fontStyle": "bold" }
-    },
-    // BOLD
-    {
-      "name": "KEYWORD.CONTROL Default is bold on export ",
-      "scope": ["source.js meta.export.default keyword.control.default"],
-      "settings": { "foreground": "#E35E", "fontStyle": "bold" }
-    },
+
     /*
         storage type
     */
     {
-      "name": "PROPERTY TYPE => GET SET etc ....",
-      "scope": ["source.js storage.type.property"],
-      "settings": { "foreground": "#fe8019", "fontStyle": "bold" }
+      "scope": ["source.js storage.type.interface"],
+      "settings": { "foreground": "#D1AB", "fontStyle": "" }
     },
+    {
+      "scope": ["source.js storage.type.internaldeclaration"],
+      "settings": { "foreground": "#D1AB", "fontStyle": "" }
+    },
+    {
+      "scope": ["source.js storage.type.namespace"],
+      "settings": { "foreground": "#D1AB", "fontStyle": "" }
+    },
+    {
+      "scope": ["source.js storage.type.numeric.bigint"],
+      "settings": { "foreground": "#D1AB", "fontStyle": "" }
+    },
+    {
+      "scope": ["source.js storage.type.type"],
+      "settings": { "foreground": "#D1AB", "fontStyle": "" }
+    },
+    {
+      "scope": [],
+      "settings": { "foreground": "#D1AB", "fontStyle": "" }
+    },
+    {
+      "scope": ["source.js variable.other.object.property"],
+      "settings": { "foreground": "#D1AB", "fontStyle": "" }
+    },
+
     {
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.js storage.type"],
@@ -781,230 +779,28 @@
     {
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.js meta.block storage.type"],
-      "settings": { "foreground": "#E35E", "fontStyle": "italic" }
+      "settings": { "foreground": "#D1AB", "fontStyle": "italic" }
     },
     {
       "scope": ["source.js storage.type.enum"],
-      "settings": { "foreground": "#E35E", "fontStyle": "italic" }
-    },
-    {
-      "scope": ["source.js storage.type.interface"],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
-    },
-    {
-      "scope": ["source.js storage.type.internaldeclaration"],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
-    },
-    {
-      "scope": ["source.js storage.type.namespace"],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
-    },
-    {
-      "scope": ["source.js storage.type.numeric.bigint"],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
-    },
-    {
-      "scope": ["source.js storage.type.type"],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
-    },
-    {
-      "scope": [],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
-    },
-    {
-      "scope": ["source.js variable.other.object.property"],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
-    },
-    {
-      "scope": ["source.js keyword.operator.logical"],
-      "settings": { "foreground": "#E35E", "fontStyle": "bold" }
-    },
-    {
-      "scope": [
-        "source.js punctuation.definition.block",
-        "source.js string.quoted.single punctuation.definition.string.begin",
-        "source.js string.quoted.single punctuation.definition.string.end",
-        "source.js string.quoted.double punctuation.definition.string.begin",
-        "source.js string.quoted.double punctuation.definition.string.end",
-        "source.js punctuation.definition.parameters.begin",
-        "source.js punctuation.definition.parameters.end",
-        "source.js meta.brace.angle",
-        "source.js meta.brace.round",
-        "source.js meta.brace.square"
-      ],
-      "settings": { "foreground": "#EB4E", "fontStyle": "" }
-    },
-    {
-      "scope": [
-        "source.js punctuation.definition.parameters.begin",
-        "source.js punctuation.definition.parameters.end",
-        "source.js meta.brace.angle",
-        "source.js meta.brace.round",
-        "source.js meta.brace.square"
-      ],
-      "settings": { "foreground": "#BAAA99" }
+      "settings": { "foreground": "#D1AB", "fontStyle": "italic" }
     },
 
-    /*
-        KEYWORD OPERATOR
-    */
+    {
+      "scope": ["source.js keyword.operator.logical"],
+      "settings": { "foreground": "#D1AB", "fontStyle": "" }
+    },
     {
       "scope": [
-        "source.js keyword.operator.arithmetic",
-        "source.js keyword.operator.assignment.compound.bitwise",
-        "source.js keyword.operator.assignment.compound",
-        "source.js keyword.operator.assignment.jsdoc",
-        "source.js keyword.operator.bitwise.shift",
-        "source.js keyword.operator.bitwise",
-        "source.js keyword.operator.control.jsdoc",
-        "source.js keyword.operator.decrement",
-        "source.js keyword.operator.definiteassignment",
-        "source.js keyword.operator.expression.delete",
-        "source.js keyword.operator.expression.import",
-        "source.js keyword.operator.expression.in",
-        "source.js keyword.operator.expression.infer",
-        "source.js keyword.operator.expression.instanceof",
-        "source.js keyword.operator.expression.is",
-        "source.js keyword.operator.expression.keyof",
-        "source.js keyword.operator.expression.of",
-        "source.js keyword.operator.expression.typeof",
-        "source.js keyword.operator.expression.void",
-        "source.js keyword.operator.increment",
-        "source.js keyword.operator.negation.regexp",
-        "source.js keyword.operator.optional",
-        "source.js keyword.operator.or.regexp",
-        "source.js keyword.operator.quantifier.regexp",
-        "source.js keyword.operator.relational",
-        "source.js keyword.operator.rest",
-        "source.js keyword.operator.spread",
-        "source.js keyword.operator.type.modifier",
-        "source.js keyword.operator.type",
-        "source.js keyword.operator",
-        "source.js keyword.operator.comparison",
-        "source.js keyword.operator.ternary",
-        "source.js punctuation.separator.key-value",
-        "source.js keyword.operator.assignment",
-        "source.js keyword.operator.type.annotation"
+        "source.js storage.type.class.jsdoc punctuation.definition.block.tag.jsdoc"
       ],
-      "settings": { "foreground": "#5C9", "fontStyle": "" }
-    },
-    /*
-        SUPPORT
-    */
-    {
-      "scope": [
-        "source.js support.class",
-        "source.js support.class.builtin",
-        "source.js support.class.node",
-        "source.js support.class.promise",
-        "source.js support.constant",
-        "source.js support.constant.json",
-        "source.js support.constant.math",
-        "source.js support.constant.property-value.css",
-        "source.js support.constant.property.math",
-        "source.js support.function.builtin",
-        "source.js support.function.git-rebase",
-        "source.js support.function.json",
-        "source.js support.function.math",
-        "source.js support.function.process",
-        "source.js support.property-value",
-        "source.js support.property-value.scss",
-        "source.js support.type",
-        "source.js support.type.builtin",
-        "source.js support.type.object.module",
-        "source.js support.type.property-name",
-        "source.js support.type.property-name.css",
-        "source.js support.variable",
-        "source.js support.variable.object.node",
-        "source.js support.variable.object.process",
-        "source.js support.variable.property",
-        "source.js support.variable.property.importmeta",
-        "source.js support.variable.property.process",
-        "source.js support.variable.property.target"
-      ],
-      "settings": { "foreground": "#EDBE", "fontStyle": "" }
-    },
-    // console
-    {
-      "scope": ["source.js support.class.console"],
-      "settings": { "foreground": "#EDBE", "fontStyle": "" }
+      "settings": { "foreground": "#E24A", "fontStyle": "bold" }
     },
     {
-      "scope": ["source.js support.function.console"],
-      "settings": { "foreground": "#De7009", "fontStyle": "bold" }
+      "scope": ["source.js storage.type.class.jsdoc"],
+      "settings": { "foreground": "#EDAA", "fontStyle": "bold" }
     },
-    /*
-        ENTITY NAME
-    */
-    {
-      "scope": [
-        "source.js entity.function",
-        "source.js entity.name.class.static.function",
-        "source.js entity.name.class",
-        "source.js entity.name.function.function-call",
-        "source.js entity.name.function.static",
-        "source.js entity.name.function.tagged-template",
-        "source.js entity.name.label",
-        "source.js entity.name.method.function-call",
-        "source.js entity.name.method",
-        "source.js entity.name.selector",
-        "source.js entity.name.static.function-call",
-        "source.js entity.name.tag.directive",
-        "source.js entity.name.tag.inline.jsdoc",
-        "source.js entity.name.tag",
-        "source.js entity.name.type.enum",
-        "source.js entity.name.type.instance.jsdoc",
-        "source.js entity.name.type.module",
-        "source.js entity.name",
-        "source.js entity.other.attribute-name.css",
-        "source.js entity.other.attribute-name.directive",
-        "source.js entity.other.attribute-name",
-        "source.js entity.other.inherited-class",
-        "source.js entity.static"
-      ],
-      "settings": { "foreground": "#EDBE", "fontStyle": "" }
-    },
-    /*
-        VARIABLE
-    */
-    {
-      "scope": [
-        "source.ts meta.interface variable.object.property",
-        "source.ts variable.object.property",
-        "source.ts variable.other.constant.object.property",
-        "source.ts variable.other.constant.property",
-        "source.ts variable.other.property",
-        "meta.object-literal.key.ts"
-      ],
-      "settings": { "foreground": "#6BD", "fontStyle": "" }
-    },
-    /*
-        VARIABLE OTHER
-    */
-    {
-      "scope": [
-        "source.ts variable.arguments",
-        "source.ts variable.class",
-        "source.ts variable.language.arguments",
-        "source.ts variable.language",
-        "source.ts variable.name",
-        "source.ts variable.other.constant.object",
-        "source.ts variable.other.constant",
-        "source.ts variable.other.description.jsdoc",
-        "source.ts variable.other.enummember",
-        "source.ts variable.other.jsdoc",
-        "source.ts variable.other.link.underline.jsdoc",
-        "source.ts variable.other.object",
-        "source.ts variable.other.readwrite.alias",
-        "source.ts variable.other.readwrite",
-        "source.ts variable.other.readwrite",
-        "source.ts variable.other.regexp",
-        "source.ts variable.other",
-        "source.ts variable.parameter",
-        "source.ts variable"
-      ],
-      "settings": { "foreground": "#BBD", "fontStyle": "" }
-    },
+
     /*
         CONSTANT
     */
@@ -1024,114 +820,71 @@
         "source.js constant.other.email.link.underline.jsdoc",
         "source.js constant.rgb-value",
         "source.js constant.sha.git-rebase",
-        "source.js constant.character.escape"
+        "source.js constant.character.escape",
+        "source.js support.constant.property-value.css"
       ],
-      "settings": { "foreground": "#b16286", "fontStyle": "bold" }
+      "settings": { "foreground": "#C68E", "fontStyle": "" }
     },
     /*
         CONSTANT NUMERIC
     */
     {
+      "scope": [
+        "source.js constant.numeric",
+        "source.js constant.numeric.binary",
+        "source.js constant.numeric.decimal",
+        "source.js constant.numeric.hex",
+        "source.js constant.numeric.octal"
+      ],
+      "settings": { "foreground": "#C79E", "fontStyle": "" }
+    },
+    {
       "scope": ["source.js constant.language.boolean.false"],
-      "settings": { "foreground": "#E43", "fontStyle": "italic bold" }
+      "settings": { "foreground": "#E43D", "fontStyle": "italic" }
     },
     {
       "scope": ["source.js constant.language.boolean.true"],
-      "settings": { "foreground": "#8C2", "fontStyle": "italic bold" }
+      "settings": { "foreground": "#7C2D", "fontStyle": "italic" }
     },
     {
       "scope": ["source.js constant.language.undefined"],
-      "settings": { "foreground": "#b162B6", "fontStyle": "bold" }
+      "settings": { "foreground": "#B6BE", "fontStyle": "" }
     },
     {
       "scope": ["source.js constant.language.null"],
-      "settings": { "foreground": "#C96850", "fontStyle": "bold" }
+      "settings": { "foreground": "#D55E", "fontStyle": "" }
     },
     {
       "scope": ["source.js constant.language.infinity"],
-      "settings": { "foreground": "#458588", "fontStyle": "bold" }
+      "settings": { "foreground": "#7ADE", "fontStyle": "" }
     },
     {
       "scope": ["source.js constant.language.nan"],
-      "settings": { "foreground": "#458588", "fontStyle": "bold" }
+      "settings": { "foreground": "#7ADE", "fontStyle": "bold" }
     },
     {
-      "scope": ["source.js storage.type.class.jsdoc"],
-      "settings": { "foreground": "#EDBE", "fontStyle": "italic" }
+      "scope": ["source.js string.quasi"],
+      "settings": { "foreground": "#B35C", "fontStyle": "" }
     },
-    /*
-        META
-    */
     {
-      "scope": [
-        "source.js meta.array-binding-pattern-variable",
-        "source.js meta.array.literal",
-        "source.js meta.arrow",
-        "source.js meta.assertion.look-ahead.regexp",
-        "source.js meta.assertion.look-behind.regexp",
-        "source.js meta.assertion.negative-look-ahead.regexp",
-        "source.js meta.assertion.negative-look-behind.regexp",
-        "source.js meta.block",
-        "source.js meta.cast",
-        "source.js meta.class",
-        "source.js meta.decorator",
-        "source.js meta.definition.function",
-        "source.js meta.definition.method",
-        "source.js meta.definition.property",
-        "source.js meta.definition.variable",
-        "source.js meta.delimiter.decimal.period",
-        "source.js meta.enum.declaration",
-        "source.js meta.example.jsdoc",
-        "source.js meta.export",
-        "source.js meta.export.default",
-        "source.js meta.field.declaration",
-        "source.js meta.function",
-        "source.js meta.function-call",
-        "source.js meta.function.expression",
-        "source.js meta.group.assertion.regexp",
-        "source.js meta.group.regexp",
-        "source.js meta.header.diff",
-        "source.js meta.import",
-        "source.js meta.import-equals.external",
-        "source.js meta.import-equals.internal",
-        "source.js meta.indexer.declaration",
-        "source.js meta.indexer.mappedtype.declaration",
-        "source.js meta.interface",
-        "source.js meta.method.declaration",
-        "source.js meta.namespace.declaration",
-        "source.js meta.object-binding-pattern-variable",
-        "source.js meta.object-literal.key",
-        "source.js meta.object.member",
-        "source.js meta.object.type",
-        "source.js meta.objectliteral",
-        "source.js meta.parameter.object-binding-pattern",
-        "source.js meta.parameter.type.variable",
-        "source.js meta.parameters",
-        "source.js meta.paramter.array-binding-pattern",
-        "source.js meta.preprocessor",
-        "source.js meta.preprocessor.numeric",
-        "source.js meta.preprocessor.string",
-        "source.js meta.property-group",
-        "source.js meta.return-type",
-        "source.js meta.return.type",
-        "source.js meta.return.type.arrow",
-        "source.js meta.selector",
-        "source.js meta.structure.dictionary.key.python",
-        "source.js meta.tag",
-        "source.js meta.template.expression",
-        "source.js meta.type.annotation",
-        "source.js meta.type.constructor",
-        "source.js meta.type.declaration",
-        "source.js meta.type.function",
-        "source.js meta.type.function.return",
-        "source.js meta.type.name",
-        "source.js meta.type.parameters",
-        "source.js meta.type.paren.cover",
-        "source.js meta.type.tuple",
-        "source.js meta.var-single-variable.expr",
-        "source.js meta.var.expr"
-      ],
-      "settings": { "foreground": "#EDBE", "fontStyle": "" }
+      "scope": ["source.js punctuation.quasi"],
+      "settings": { "foreground": "#B35C", "fontStyle": "" }
+    },
+    {
+      "scope": ["source.js invalid"],
+      "settings": { "foreground": "#B35C", "fontStyle": "" }
+    },
+    {
+      "scope": ["source.js invalid.deprecated"],
+      "settings": { "foreground": "#B35C", "fontStyle": "underline" }
+    },
+    {
+      "scope": ["source.js invalid.illegal"],
+      "settings": { "foreground": "#B35C", "fontStyle": "bold" }
+    },
+    {
+      "scope": ["source.js invalid.illegal.newline"],
+      "settings": { "foreground": "#B35C", "fontStyle": "bold" }
     },
     {
       "scope": ["source.js emphasis"],
@@ -1140,30 +893,6 @@
     {
       "scope": ["source.js header"],
       "settings": { "foreground": "#EDBE", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.js string.quasi"],
-      "settings": { "foreground": "#B35E", "fontStyle": "" }
-    },
-    {
-      "scope": ["source.js punctuation.quasi"],
-      "settings": { "foreground": "#B35E", "fontStyle": "" }
-    },
-    {
-      "scope": ["source.js invalid"],
-      "settings": { "foreground": "#B35E", "fontStyle": "" }
-    },
-    {
-      "scope": ["source.js invalid.deprecated"],
-      "settings": { "foreground": "#B35E", "fontStyle": "underline" }
-    },
-    {
-      "scope": ["source.js invalid.illegal"],
-      "settings": { "foreground": "#B35E", "fontStyle": "bold" }
-    },
-    {
-      "scope": ["source.js invalid.illegal.newline"],
-      "settings": { "foreground": "#B35E", "fontStyle": "bold" }
     },
     {
       "scope": ["source.js keyword.other.back-reference.regexp"],
@@ -1179,7 +908,7 @@
     },
     {
       "scope": ["source.js markup.bold"],
-      "settings": { "foreground": "#EDBE", "fontStyle": "" }
+      "settings": { "foreground": "#EDBE", "fontStyle": "bold" }
     },
     {
       "scope": ["source.js markup.changed"],
@@ -1273,6 +1002,322 @@
       "scope": ["source.js cast.expr"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
+    /*
+        VARIABLE
+    */
+    {
+      "scope": [
+        "source.js variable.arguments",
+        "source.js variable.class",
+        "source.js variable.language.arguments",
+        "source.js variable.language",
+        "source.js variable.name",
+        "source.js variable.other.constant.object",
+        "source.js variable.other.constant",
+        "source.js variable.other.description.jsdoc",
+        "source.js variable.other.enummember",
+        "source.js variable.other.jsdoc",
+        "source.js variable.other.link.underline.jsdoc",
+        "source.js variable.other.object",
+        "source.js variable.other.readwrite.alias",
+        "source.js variable.other.readwrite",
+        "source.js variable.other.readwrite",
+        "source.js variable.other.regexp",
+        "source.js variable.other",
+        "source.js variable.parameter",
+        "source.js variable"
+      ],
+      "settings": { "foreground": "#A1C5BCEE", "fontStyle": "" }
+    },
+    /*
+        VARIABLE PROPERTIES LIKE
+    */
+    {
+      "scope": [
+        "source.js meta.interface variable.object.property",
+        "source.js variable.object.property",
+        "source.js variable.other.constant.object.property",
+        "source.js variable.other.constant.property",
+        "source.js variable.other.property",
+        "meta.object-literal.key.ts"
+      ],
+      "settings": { "foreground": "#69EE", "fontStyle": "" }
+    },
+    /*
+        SUPPORT
+    */
+    {
+      "scope": [
+        "source.js support.class",
+        "source.js support.class.builtin",
+        "source.js support.class.node",
+        "source.js support.class.promise",
+        "source.js support.constant",
+        "source.js support.constant.json",
+        "source.js support.constant.math",
+        "source.js support.type",
+        "source.js support.type.builtin",
+        "source.js support.type.object.module",
+        "source.js support.variable",
+        "source.js support.variable.object.node",
+        "source.js support.variable.object.process",
+        "source.js support.class.console"
+      ],
+      "settings": { "foreground": "#EDBE", "fontStyle": "" }
+    },
+    // properties like (BOLD)
+    {
+      "scope": [
+        "source.js support.variable.property",
+        "source.js support.variable.property.importmeta",
+        "source.js support.variable.property.process",
+        "source.js support.variable.property.target",
+        "source.js support.type.property-name",
+        "source.js support.type.property-name.css",
+        "source.js support.property-value",
+        "source.js support.property-value.scss",
+        "source.js support.constant.property.math"
+      ],
+      "settings": { "foreground": "#69EE", "fontStyle": "italic" }
+    },
+    // function like (BOLD)
+    {
+      "scope": [
+        "source.js support.function.builtin",
+        "source.js support.function.git-rebase",
+        "source.js support.function.json",
+        "source.js support.function.math",
+        "source.js support.function.process",
+        "source.js support.function.console"
+      ],
+      "settings": { "foreground": "#EAAD2F", "fontStyle": "italic" }
+    },
+    /*
+        KEYWORD OPERATOR
+    */
+    {
+      "scope": [
+        "source.js keyword.operator.arithmetic",
+        "source.js keyword.operator.assignment.compound.bitwise",
+        "source.js keyword.operator.assignment.compound",
+        "source.js keyword.operator.assignment.jsdoc",
+        "source.js keyword.operator.bitwise.shift",
+        "source.js keyword.operator.bitwise",
+        "source.js keyword.operator.control.jsdoc",
+        "source.js keyword.operator.decrement",
+        "source.js keyword.operator.increment",
+        "source.js keyword.operator.definiteassignment",
+        "source.js keyword.operator",
+        "source.js keyword.operator.comparison",
+        "source.js keyword.operator.ternary",
+        "source.js punctuation.separator.key-value",
+        "source.js keyword.operator.assignment",
+        "source.js keyword.operator.type.annotation"
+      ],
+      "settings": { "foreground": "#8E7B", "fontStyle": "" }
+    },
+    {
+      "scope": [
+        "source.js keyword.operator.expression.delete",
+        "source.js keyword.operator.expression.import",
+        "source.js keyword.operator.expression.in",
+        "source.js keyword.operator.expression.infer",
+        "source.js keyword.operator.expression.instanceof",
+        "source.js keyword.operator.expression.is",
+        "source.js keyword.operator.expression.keyof",
+        "source.js keyword.operator.expression.of",
+        "source.js keyword.operator.expression.typeof",
+        "source.js keyword.operator.expression.void",
+        "source.js keyword.operator.negation.regexp",
+        "source.js keyword.operator.optional",
+        "source.js keyword.operator.or.regexp",
+        "source.js keyword.operator.quantifier.regexp",
+        "source.js keyword.operator.relational",
+        "source.js keyword.operator.rest",
+        "source.js keyword.operator.spread",
+        "source.js keyword.operator.type.modifier",
+        "source.js keyword.operator.type"
+      ],
+      "settings": { "foreground": "#8E7B", "fontStyle": "" }
+    },
+
+    /*
+        PUNCTUATION
+    */
+    {
+      "scope": [
+        "source.js punctuation.definition.parameters.begin",
+        "source.js punctuation.definition.parameters.end",
+        "source.js meta.brace.angle",
+        "source.js meta.brace.round",
+        "source.js meta.brace.square",
+        "source.js punctuation.definition.block"
+      ],
+      "settings": { "foreground": "#EDBB", "fontStyle": "" }
+    },
+    {
+      "scope": [
+        "source.js string.quoted.single punctuation.definition.string.begin",
+        "source.js string.quoted.single punctuation.definition.string.end"
+      ],
+      "settings": { "foreground": "#EB4C", "fontStyle": "" }
+    },
+    {
+      "scope": [
+        "source.js string.quoted.double punctuation.definition.string.begin",
+        "source.js string.quoted.double punctuation.definition.string.end"
+      ],
+      "settings": { "foreground": "#EB4C", "fontStyle": "" }
+    },
+    {
+      "scope": [
+        "source.js punctuation.accessor.optional",
+        "source.js punctuation.accessor",
+        "source.js punctuation.decorator.internaldeclaration",
+        "source.js punctuation.decorator",
+        "source.js punctuation.definition.binding-pattern.array",
+        "source.js punctuation.definition.binding-pattern.object",
+        "source.js punctuation.definition.bracket.angle.begin.jsdoc",
+        "source.js punctuation.definition.bracket.angle.end.jsdoc",
+        "source.js punctuation.definition.bracket.curly.begin.jsdoc",
+        "source.js punctuation.definition.bracket.curly.end.jsdoc",
+        "source.js punctuation.definition.bracket.square.begin.jsdoc",
+        "source.js punctuation.definition.bracket.square.end.jsdoc",
+        "source.js punctuation.definition.character-class.regexp",
+        "source.js punctuation.definition.group.assertion.regexp",
+        "source.js punctuation.definition.group.no-capture.regexp",
+        "source.js punctuation.definition.group.regexp",
+        "source.js punctuation.definition.inline.tag.jsdoc",
+        "source.js punctuation.definition.optional-value.begin.bracket.square.jsdoc",
+        "source.js punctuation.definition.optional-value.end.bracket.square.jsdoc",
+        "source.js punctuation.definition.section.case-statement",
+        "source.js punctuation.definition.string.begin.jsdoc",
+        "source.js punctuation.definition.string.begin",
+        "source.js punctuation.definition.string.end.jsdoc",
+        "source.js punctuation.definition.string.end",
+        "source.js punctuation.definition.string.template.begin",
+        "source.js punctuation.definition.string.template.end",
+        "source.js punctuation.definition.tag.directive",
+        "source.js punctuation.definition.template-expression.begin",
+        "source.js punctuation.definition.template-expression.end",
+        "source.js punctuation.definition.typeparameters.begin",
+        "source.js punctuation.definition.typeparameters.end",
+        "source.js punctuation.destructuring",
+        "source.js punctuation.quoted",
+        "source.js punctuation.separator.comma",
+        "source.js punctuation.separator.label",
+        "source.js punctuation.separator.parameter",
+        "source.js punctuation.separator.pipe.jsdoc",
+        "source.js punctuation.tag",
+        "source.js punctuation.whitespace.comment.leading"
+      ],
+      "settings": { "foreground": "#EDBB", "fontStyle": "bold" }
+    },
+    /*
+        ENTITY NAME
+    */
+    {
+      "scope": [
+        "source.js entity.function",
+        "source.js entity.name.class.static.function",
+        "source.js entity.name.class",
+        "source.js entity.name.function.function-call",
+        "source.js entity.name.function.static",
+        "source.js entity.name.function.tagged-template",
+        "source.js entity.name.label",
+        "source.js entity.name.method.function-call",
+        "source.js entity.name.method",
+        "source.js entity.name.selector",
+        "source.js entity.name.static.function-call",
+        "source.js entity.name.tag.directive",
+        "source.js entity.name.tag.inline.jsdoc",
+        "source.js entity.name.tag",
+        "source.js entity.name.type.enum",
+        "source.js entity.name.type.instance.jsdoc",
+        "source.js entity.name.type.module",
+        "source.js entity.name",
+        "source.js entity.other.attribute-name.css",
+        "source.js entity.other.attribute-name.directive",
+        "source.js entity.other.attribute-name",
+        "source.js entity.other.inherited-class",
+        "source.js entity.static"
+      ],
+      "settings": { "foreground": "#EDBB", "fontStyle": "" }
+    },
+    /*
+        META
+    */
+    {
+      "scope": [
+        "source.js meta.array-binding-pattern-variable",
+        "source.js meta.array.literal",
+        "source.js meta.arrow",
+        "source.js meta.assertion.look-ahead.regexp",
+        "source.js meta.assertion.look-behind.regexp",
+        "source.js meta.assertion.negative-look-ahead.regexp",
+        "source.js meta.assertion.negative-look-behind.regexp",
+        "source.js meta.block",
+        "source.js meta.cast",
+        "source.js meta.class",
+        "source.js meta.decorator",
+        "source.js meta.definition.function",
+        "source.js meta.definition.method",
+        "source.js meta.definition.property",
+        "source.js meta.definition.variable",
+        "source.js meta.delimiter.decimal.period",
+        "source.js meta.enum.declaration",
+        "source.js meta.example.jsdoc",
+        "source.js meta.export",
+        "source.js meta.export.default",
+        "source.js meta.field.declaration",
+        "source.js meta.function",
+        "source.js meta.function-call",
+        "source.js meta.function.expression",
+        "source.js meta.group.assertion.regexp",
+        "source.js meta.group.regexp",
+        "source.js meta.header.diff",
+        "source.js meta.import",
+        "source.js meta.import-equals.external",
+        "source.js meta.import-equals.internal",
+        "source.js meta.indexer.declaration",
+        "source.js meta.indexer.mappedtype.declaration",
+        "source.js meta.interface",
+        "source.js meta.method.declaration",
+        "source.js meta.namespace.declaration",
+        "source.js meta.object-binding-pattern-variable",
+        "source.js meta.object-literal.key",
+        "source.js meta.object.member",
+        "source.js meta.object.type",
+        "source.js meta.objectliteral",
+        "source.js meta.parameter.object-binding-pattern",
+        "source.js meta.parameter.type.variable",
+        "source.js meta.parameters",
+        "source.js meta.paramter.array-binding-pattern",
+        "source.js meta.preprocessor",
+        "source.js meta.preprocessor.numeric",
+        "source.js meta.preprocessor.string",
+        "source.js meta.property-group",
+        "source.js meta.return-type",
+        "source.js meta.return.type",
+        "source.js meta.return.type.arrow",
+        "source.js meta.selector",
+        "source.js meta.structure.dictionary.key.python",
+        "source.js meta.tag",
+        "source.js meta.template.expression",
+        "source.js meta.type.annotation",
+        "source.js meta.type.constructor",
+        "source.js meta.type.declaration",
+        "source.js meta.type.function",
+        "source.js meta.type.function.return",
+        "source.js meta.type.name",
+        "source.js meta.type.parameters",
+        "source.js meta.type.paren.cover",
+        "source.js meta.type.tuple",
+        "source.js meta.var-single-variable.expr",
+        "source.js meta.var.expr"
+      ],
+      "settings": { "foreground": "#EDBE", "fontStyle": "" }
+    },
     // "typescript ---------------------------------------"
     // "typescript ---------------------------------------"
     // "typescript ---------------------------------------"
@@ -1293,8 +1338,23 @@
         "source.ts string.template",
         "source.ts string.value"
       ],
-      "settings": { "foreground": "#BD4D", "fontStyle": "" }
+      "settings": { "foreground": "#BE5C", "fontStyle": "" }
     },
+    {
+      "scope": [
+        "source.ts string.quoted.double punctuation.definition.string.begin",
+        "source.ts string.quoted.double punctuation.definition.string.end"
+      ],
+      "settings": { "foreground": "#EB4C", "fontStyle": "" }
+    },
+    {
+      "scope": [
+        "source.ts string.quoted.single punctuation.definition.string.begin",
+        "source.ts string.quoted.single punctuation.definition.string.end"
+      ],
+      "settings": { "foreground": "#EB4C", "fontStyle": "" }
+    },
+
     {
       "scope": [
         "source.ts entity.name.type.alias",
@@ -1307,12 +1367,16 @@
         "source.ts entity.name.type.class",
         "source.ts meta.definition.method",
         "source.ts entity.name.function",
-        "source.ts entity.other.inherited-class.ts"
+        "source.ts entity.other.inherited-class.ts",
+        "source.ts entity.name.type",
+        "source.ts meta.type.declaration support.type.primitive",
+        "source.ts meta.interface support.type.primitive",
+        "source.ts support.type.primitive"
       ],
-      "settings": { "foreground": "#EB4E", "fontStyle": "" }
+      "settings": { "foreground": "#FFC545DD", "fontStyle": "" }
     },
 
-    // "ARROW FUNCTION STYLE",
+    // "ARROW FUNCTION STYLE", "#4CBA"
     // "FUNCTION KEYWORD STYLE"
     // "FUNCTION KEYWORD OR ARROW COLOUR"
     {
@@ -1331,7 +1395,7 @@
         "source.ts storage.type.function",
         "source.ts storage.type.function.arrow"
       ],
-      "settings": { "foreground": "#6B2E" }
+      "settings": { "foreground": "#5D4C" }
     },
     // "CLASS KEYWORD DEFINITION"
     // PUBLIC, PRIVATE, EXTENDS, IMPLEMENTS, ETC..."
@@ -1341,26 +1405,30 @@
     // "ASYNC KEYWORD DEFINITION"
     // "PROPERTY TYPE" (GET SET ...)
     // "SUPPORT PRIMITIVE TYPE",
-
     {
       "name": "CLASS KEYWORD DEFINITION",
       "scope": ["source.ts storage.type.class"],
       "settings": { "foreground": "#E81E", "fontStyle": "bold italic" }
     },
     {
+      "name": "STORAGE TYPE => CONSTRUCTOR KEYWORD ETC ....",
+      "scope": ["source.ts meta.method.declaration.ts storage.type"],
+      "settings": { "foreground": "#E35E", "fontStyle": "italic" }
+    },
+    {
       "name": "STORAGE.MODIFIER => Public, Private, extends, implements, etc...",
       "scope": ["source.ts storage", "source.ts storage.modifier"],
-      "settings": { "foreground": "#E81E", "fontStyle": "bold" }
+      "settings": { "foreground": "#E81E", "fontStyle": "" }
     },
     {
       "name": "VARIABLE SUPER",
       "scope": ["source.ts variable.language.super"],
-      "settings": { "foreground": "#C5EE", "fontStyle": "bold italic" }
+      "settings": { "foreground": "#D1AE", "fontStyle": "bold italic" }
     },
     {
       "name": "VARIABLE THIS",
       "scope": ["source.ts variable.language.this"],
-      "settings": { "foreground": "#D89E", "fontStyle": "bold italic" }
+      "settings": { "foreground": "#C68E", "fontStyle": "bold italic" }
     },
     {
       "name": "NEW KEYWORD DEFINITION",
@@ -1373,36 +1441,21 @@
     {
       "name": "ASYNC KEYWORD DEFINITION",
       "scope": ["source.ts meta.class storage.modifier.async"],
-      "settings": { "foreground": "#E81E", "fontStyle": "bold" }
+      "settings": { "foreground": "#E81E", "fontStyle": "bold italic" }
     },
     {
       "name": "ASYNC KEYWORD DEFINITION",
       "scope": ["source.ts storage.modifier.async"],
-      "settings": { "foreground": "#E81E", "fontStyle": "bold" }
+      "settings": { "foreground": "#E81E", "fontStyle": "bold italic" }
     },
     {
       "name": "PROPERTY TYPE => GET SET etc ....",
       "scope": ["source.ts storage.type.property"],
-      "settings": { "foreground": "#E81E", "fontStyle": "bold" }
-    },
-    {
-      "name": "SUPPORT PRIMITIVE TYPE",
-      "scope": [
-        "source.ts entity.name.type",
-        "source.ts support.type.primitive"
-      ],
-      "settings": { "foreground": "#EB4E", "fontStyle": "" }
-    },
-    {
-      "scope": [
-        "source.ts meta.type.declaration support.type.primitive",
-        "source.ts meta.interface support.type.primitive"
-      ],
-      "settings": { "foreground": "#EB4E", "fontStyle": "" }
+      "settings": { "foreground": "#E81E", "fontStyle": "" }
     },
     {
       "scope": ["source.ts punctuation.terminator.statement"],
-      "settings": { "foreground": "#5DAB", "fontStyle": "bold" }
+      "settings": { "foreground": "#5DAE", "fontStyle": "" }
     },
     /*
         IMPORT EXPORT
@@ -1414,7 +1467,7 @@
         "source.ts keyword.control.import",
         "source.ts keyword.control.export"
       ],
-      "settings": { "foreground": "#E35B", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35E", "fontStyle": "bold" }
     },
     // BOLD
     {
@@ -1453,12 +1506,16 @@
       ],
       "settings": { "foreground": "#E35E", "fontStyle": "" }
     },
+    {
+      "scope": ["source.ts meta.block keyword.control.flow"],
+      "settings": { "foreground": "#E35E", "fontStyle": "" }
+    },
     /*
         storage type
     */
     {
       "scope": ["source.ts storage.type.interface"],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
+      "settings": { "foreground": "#E35E", "fontStyle": "bold" }
     },
     {
       "scope": ["source.ts storage.type.internaldeclaration"],
@@ -1466,7 +1523,7 @@
     },
     {
       "scope": ["source.ts storage.type.namespace"],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
+      "settings": { "foreground": "#E35E", "fontStyle": "bold" }
     },
     {
       "scope": ["source.ts storage.type.numeric.bigint"],
@@ -1474,39 +1531,36 @@
     },
     {
       "scope": ["source.ts storage.type.type"],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
-    },
-    {
-      "scope": [],
-      "settings": { "foreground": "#E35E", "fontStyle": "" }
+      "settings": { "foreground": "#E35E", "fontStyle": "bold" }
     },
     {
       "scope": ["source.ts variable.other.object.property"],
       "settings": { "foreground": "#E35E", "fontStyle": "" }
     },
-
     {
       "name": "STORAGE TYPE => LET CONST etc ....",
       "scope": ["source.ts storage.type"],
-      "settings": { "foreground": "#E35C", "fontStyle": "bold italic" }
+      "settings": { "foreground": "#E35E", "fontStyle": "bold italic" }
     },
     {
       "name": "STORAGE TYPE => LET CONST etc ....",
-      "scope": ["source.ts meta.block storage.type"],
+      "scope": ["source.ts meta.block meta.var.expr storage.type"],
       "settings": { "foreground": "#E35E", "fontStyle": "italic" }
     },
     {
       "scope": ["source.ts storage.type.enum"],
-      "settings": { "foreground": "#E35E", "fontStyle": "italic" }
+      "settings": { "foreground": "#E35E", "fontStyle": "bold" }
     },
 
     {
       "scope": ["source.ts keyword.operator.logical"],
-      "settings": { "foreground": "#E35C", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35E", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts punctuation.definition.block.tag.jsdoc"],
-      "settings": { "foreground": "#E24A", "fontStyle": "bold" }
+      "scope": [
+        "source.ts storage.type.class.jsdoc punctuation.definition.block.tag.jsdoc"
+      ],
+      "settings": { "foreground": "#E35A", "fontStyle": "bold" }
     },
     {
       "scope": ["source.ts storage.type.class.jsdoc"],
@@ -1535,7 +1589,7 @@
         "source.ts constant.character.escape",
         "source.ts support.constant.property-value.css"
       ],
-      "settings": { "foreground": "#C68E", "fontStyle": "bold" }
+      "settings": { "foreground": "#C68E", "fontStyle": "" }
     },
     /*
         CONSTANT NUMERIC
@@ -1548,55 +1602,55 @@
         "source.ts constant.numeric.hex",
         "source.ts constant.numeric.octal"
       ],
-      "settings": { "foreground": "#E68B", "fontStyle": "bold" }
+      "settings": { "foreground": "#C68E", "fontStyle": "" }
     },
     {
       "scope": ["source.ts constant.language.boolean.false"],
-      "settings": { "foreground": "#E43", "fontStyle": "italic bold" }
+      "settings": { "foreground": "#E43E", "fontStyle": "italic" }
     },
     {
       "scope": ["source.ts constant.language.boolean.true"],
-      "settings": { "foreground": "#8C2", "fontStyle": "italic bold" }
+      "settings": { "foreground": "#7C2E", "fontStyle": "italic" }
     },
     {
       "scope": ["source.ts constant.language.undefined"],
-      "settings": { "foreground": "#b162B6", "fontStyle": "bold" }
+      "settings": { "foreground": "#B6BE", "fontStyle": "italic" }
     },
     {
       "scope": ["source.ts constant.language.null"],
-      "settings": { "foreground": "#C96850", "fontStyle": "bold" }
+      "settings": { "foreground": "#D55E", "fontStyle": "italic" }
     },
     {
       "scope": ["source.ts constant.language.infinity"],
-      "settings": { "foreground": "#458588", "fontStyle": "bold" }
+      "settings": { "foreground": "#7ADE", "fontStyle": "italic" }
     },
     {
       "scope": ["source.ts constant.language.nan"],
-      "settings": { "foreground": "#458588", "fontStyle": "bold" }
+      "settings": { "foreground": "#7ADE", "fontStyle": "italic" }
     },
     {
       "scope": ["source.ts string.quasi"],
-      "settings": { "foreground": "#B35E", "fontStyle": "" }
+      "settings": { "foreground": "#B35C", "fontStyle": "" }
     },
     {
       "scope": ["source.ts punctuation.quasi"],
-      "settings": { "foreground": "#B35E", "fontStyle": "" }
+      "settings": { "foreground": "#B35C", "fontStyle": "" }
     },
     {
       "scope": ["source.ts invalid"],
-      "settings": { "foreground": "#B35E", "fontStyle": "" }
+      "settings": { "foreground": "#B35C", "fontStyle": "" }
     },
     {
       "scope": ["source.ts invalid.deprecated"],
-      "settings": { "foreground": "#B35E", "fontStyle": "underline" }
+      "settings": { "foreground": "#B35C", "fontStyle": "underline" }
     },
     {
       "scope": ["source.ts invalid.illegal"],
-      "settings": { "foreground": "#B35E", "fontStyle": "bold" }
+      "settings": { "foreground": "#B35C", "fontStyle": "bold" }
     },
     {
       "scope": ["source.ts invalid.illegal.newline"],
-      "settings": { "foreground": "#B35E", "fontStyle": "bold" }
+      "settings": { "foreground": "#B35C", "fontStyle": "bold" }
     },
     {
       "scope": ["source.ts emphasis"],
@@ -1620,7 +1674,7 @@
     },
     {
       "scope": ["source.ts markup.bold"],
-      "settings": { "foreground": "#EDBE", "fontStyle": "" }
+      "settings": { "foreground": "#EDBE", "fontStyle": "bold" }
     },
     {
       "scope": ["source.ts markup.changed"],
@@ -1739,7 +1793,7 @@
         "source.ts variable.parameter",
         "source.ts variable"
       ],
-      "settings": { "foreground": "#BCBD", "fontStyle": "" }
+      "settings": { "foreground": "#ACBC", "fontStyle": "" }
     },
     /*
         VARIABLE PROPERTIES LIKE
@@ -1753,7 +1807,7 @@
         "source.ts variable.other.property",
         "meta.object-literal.key.ts"
       ],
-      "settings": { "foreground": "#8BEC", "fontStyle": "" }
+      "settings": { "foreground": "#69EE", "fontStyle": "" }
     },
     /*
         SUPPORT
@@ -1790,7 +1844,7 @@
         "source.ts support.property-value.scss",
         "source.ts support.constant.property.math"
       ],
-      "settings": { "foreground": "#69E", "fontStyle": "bold" }
+      "settings": { "foreground": "#69EE", "fontStyle": "italic" }
     },
     // function like (BOLD)
     {
@@ -1802,7 +1856,7 @@
         "source.ts support.function.process",
         "source.ts support.function.console"
       ],
-      "settings": { "foreground": "#EAAD2F", "fontStyle": "bold" }
+      "settings": { "foreground": "#EAAD2F", "fontStyle": "italic" }
     },
     /*
         KEYWORD OPERATOR
@@ -1826,7 +1880,7 @@
         "source.ts keyword.operator.assignment",
         "source.ts keyword.operator.type.annotation"
       ],
-      "settings": { "foreground": "#5E98", "fontStyle": "bold" }
+      "settings": { "foreground": "#8E79", "fontStyle": "" }
     },
     {
       "scope": [
@@ -1850,42 +1904,23 @@
         "source.ts keyword.operator.type.modifier",
         "source.ts keyword.operator.type"
       ],
-      "settings": { "foreground": "#7C8E", "fontStyle": "" }
+      "settings": { "foreground": "#8E79", "fontStyle": "" }
     },
-    /*
-        ENTITY NAME
-    */
-    {
-      "scope": [
-        "source.ts entity.function",
-        "source.ts entity.name.class.static.function",
-        "source.ts entity.name.class",
-        "source.ts entity.name.function.function-call",
-        "source.ts entity.name.function.static",
-        "source.ts entity.name.function.tagged-template",
-        "source.ts entity.name.label",
-        "source.ts entity.name.method.function-call",
-        "source.ts entity.name.method",
-        "source.ts entity.name.selector",
-        "source.ts entity.name.static.function-call",
-        "source.ts entity.name.tag.directive",
-        "source.ts entity.name.tag.inline.jsdoc",
-        "source.ts entity.name.tag",
-        "source.ts entity.name.type.enum",
-        "source.ts entity.name.type.instance.jsdoc",
-        "source.ts entity.name.type.module",
-        "source.ts entity.name",
-        "source.ts entity.other.attribute-name.css",
-        "source.ts entity.other.attribute-name.directive",
-        "source.ts entity.other.attribute-name",
-        "source.ts entity.other.inherited-class",
-        "source.ts entity.static"
-      ],
-      "settings": { "foreground": "#EDBB", "fontStyle": "" }
-    },
+
     /*
         PUNCTUATION
     */
+    {
+      "scope": [
+        "source.ts punctuation.definition.parameters.begin",
+        "source.ts punctuation.definition.parameters.end",
+        "source.ts meta.brace.angle",
+        "source.ts meta.brace.round",
+        "source.ts meta.brace.square",
+        "source.ts punctuation.definition.block"
+      ],
+      "settings": { "foreground": "#EDBB", "fontStyle": "" }
+    },
     {
       "scope": [
         "source.ts punctuation.accessor.optional",
@@ -1894,7 +1929,6 @@
         "source.ts punctuation.decorator",
         "source.ts punctuation.definition.binding-pattern.array",
         "source.ts punctuation.definition.binding-pattern.object",
-        "source.ts punctuation.definition.block.tag.jsdoc",
         "source.ts punctuation.definition.bracket.angle.begin.jsdoc",
         "source.ts punctuation.definition.bracket.angle.end.jsdoc",
         "source.ts punctuation.definition.bracket.curly.begin.jsdoc",
@@ -1931,30 +1965,36 @@
       ],
       "settings": { "foreground": "#EDBB", "fontStyle": "bold" }
     },
+    /*
+        ENTITY NAME
+    */
     {
       "scope": [
-        "source.ts punctuation.definition.parameters.begin",
-        "source.ts punctuation.definition.parameters.end",
-        "source.ts meta.brace.angle",
-        "source.ts meta.brace.round",
-        "source.ts meta.brace.square",
-        "source.ts punctuation.definition.block"
+        "source.ts entity.function",
+        "source.ts entity.name.class.static.function",
+        "source.ts entity.name.class",
+        "source.ts entity.name.function.function-call",
+        "source.ts entity.name.function.static",
+        "source.ts entity.name.function.tagged-template",
+        "source.ts entity.name.label",
+        "source.ts entity.name.method.function-call",
+        "source.ts entity.name.method",
+        "source.ts entity.name.selector",
+        "source.ts entity.name.static.function-call",
+        "source.ts entity.name.tag.directive",
+        "source.ts entity.name.tag.inline.jsdoc",
+        "source.ts entity.name.tag",
+        "source.ts entity.name.type.enum",
+        "source.ts entity.name.type.instance.jsdoc",
+        "source.ts entity.name.type.module",
+        "source.ts entity.name",
+        "source.ts entity.other.attribute-name.css",
+        "source.ts entity.other.attribute-name.directive",
+        "source.ts entity.other.attribute-name",
+        "source.ts entity.other.inherited-class",
+        "source.ts entity.static"
       ],
       "settings": { "foreground": "#EDBB", "fontStyle": "" }
-    },
-    {
-      "scope": [
-        "source.ts string.quoted.single punctuation.definition.string.begin",
-        "source.ts string.quoted.single punctuation.definition.string.end"
-      ],
-      "settings": { "foreground": "#EB4C", "fontStyle": "bold" }
-    },
-    {
-      "scope": [
-        "source.ts string.quoted.double punctuation.definition.string.begin",
-        "source.ts string.quoted.double punctuation.definition.string.end"
-      ],
-      "settings": { "foreground": "#EB4C", "fontStyle": "" }
     },
     /*
         META

@@ -55,7 +55,7 @@ export const asyncAnonymArowFunction = async () => {
   return { some, variable1 };
 };
 
-export class ClassName extends ParentClass implements Interface {
+export default class ClassName extends ParentClass implements Interface {
   public value: string;
   public values: tada;
 
@@ -86,7 +86,7 @@ export class ClassName extends ParentClass implements Interface {
   public _othervalue: any;
   private _otherMethode() {
     try {
-      const popo: string = "ceci est un étron";
+      const popo: string = "ceci est un canon";
       let mice = "jerry";
       mice = "ichy";
       console.log("mice", mice);
