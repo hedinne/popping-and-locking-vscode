@@ -8,17 +8,28 @@ One Dark but has changed a lot since. It is designed for web languages (HTML,
 CSS, JS, TypeScript and more).
 
 ## Screenshots
+### Main view
 ![Main view](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/Screenshots1.png)
-
 ```json
 {
   "workbench.colorTheme": "Pop N' Lock Theme by Luxcium ✨",
 
   "files.encoding": "utf8",
   "files.autoGuessEncoding": false,
+
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.showReloadMessage": true,
+  "editor.fontFamily": "Fira Code iScript, Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.suggestFontSize": 16,
 }
 ```
 > Make sure to use utf8 encoding in your settings files the name of the theme contain emoticons.
+-----
+## Text editor sized to work along with external Terminal or web browser
+![Main view](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/Screenshots2.png)
+
 
 ## Orignally based on
 
