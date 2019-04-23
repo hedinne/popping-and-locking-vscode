@@ -1,3 +1,12 @@
+/**
+ * @format
+ * hello
+ *
+ */
+
+/*
+// hello
+ */
 import { default as love } from "../types/index2";
 
 export async function notMuch(ValueIn: string) {
@@ -62,7 +71,7 @@ export class ClassName extends ParentClass implements Interface {
   public set otherMethodeValue(some) {
     this._othervalue = some;
     const anyhow = this._otherMethode().souris;
-    console.log(some, anyhow);
+    console.log(some, anyhow, Math.PI);
   }
   public get otherMethodeValue() {
     return this._otherMethode();
