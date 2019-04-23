@@ -39,10 +39,10 @@
     "release": "vsce package && vsce publish"
   },
   "icon": "images/Scientia-is-lux-principium-400px.png",
-  "homepage": "https://github.com/luxcium/pop-n-lock-theme-vscode/blob/master/README.md",
+  "homepage": "https://github.com/luxcium/pop-n-lock-typescript-theme-vscode/blob/master/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/luxcium/pop-n-lock-theme-vscode.git"
+    "url": "https://github.com/luxcium/pop-n-lock-typescript-theme-vscode.git"
   },
   "tags": [
     "pop",
