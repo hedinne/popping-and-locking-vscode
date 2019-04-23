@@ -1,18 +1,18 @@
 {
-  "name": "dev-pop-n-lock-typescript-theme-vscode",
-  "version": "3.2.0",
+  "name": "pop-n-lock-typescript-theme-vscode",
+  "version": "3.2.1",
   "publisher": "Luxcium",
   "engines": {
     "vscode": "^1.12.0"
   },
   "license": "MIT",
-  "displayName": "DEV Pop N' Lock Theme by Luxcium ?",
-  "description": "🝲Perfectly balanced TypeScript theme with vivid colours.",
+  "displayName": "Pop N' Lock Theme by Luxcium ?",
+  "description": "??Perfectly balanced TypeScript theme with vivid colours.",
   "categories": [
     "Themes"
   ],
-  "_teteDeDragon": "🝲 tête de dragon Unicode: U+1F432, UTF-8: F0 9F 90 B2",
-  "_etincelles": " ? étincelles Unicode: U+2728, UTF-8: E2 9C A8",
+  "_teteDeDragon": "?? U+1F432 t???te de dragon Unicode : UTF-8: F0 9F 90 B2",
+  "_etincelles": "? U+2728 ???tincelles Unicode : UTF-8: E2 9C A8",
   "keywords": [
     "pop",
     "theme",
@@ -28,7 +28,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "DEV Pop N' Lock Theme by Luxcium ?",
+        "label": "Pop N' Lock Theme by Luxcium ?",
         "uiTheme": "vs-dark",
         "path": "./themes/PopN-Lock.json"
       }
