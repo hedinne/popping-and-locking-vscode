@@ -1,4 +1,20 @@
-import { default as love } from "./../backup/types/index2";
+#! /she/bang
+
+/// <reference no-default-lib="false"/>
+
+/**
+ * @format
+ * hello
+ *
+ */
+
+// Comment
+
+/*
+    comment
+*/
+
+import { default as love } from "../types/index2";
 
 export async function notMuch(ValueIn: string) {
   return { ValueIn, love };
@@ -39,7 +55,7 @@ export const asyncAnonymArowFunction = async () => {
   return { some, variable1 };
 };
 
-export class ClassName extends ParentClass implements Interface {
+export default class ClassName extends ParentClass implements Interface {
   public value: string;
   public values: tada;
 
@@ -62,7 +78,7 @@ export class ClassName extends ParentClass implements Interface {
   public set otherMethodeValue(some) {
     this._othervalue = some;
     const anyhow = this._otherMethode().souris;
-    console.log(some, anyhow);
+    console.log(some, anyhow, Math.PI);
   }
   public get otherMethodeValue() {
     return this._otherMethode();
@@ -70,7 +86,7 @@ export class ClassName extends ParentClass implements Interface {
   public _othervalue: any;
   private _otherMethode() {
     try {
-      const popo: string = "ceci est un étron";
+      const popo: string = "ceci est un canon";
       let mice = "jerry";
       mice = "ichy";
       console.log("mice", mice);
