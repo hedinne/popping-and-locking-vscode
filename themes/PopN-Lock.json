@@ -359,8 +359,9 @@
     // "typescript ---------------------------------------"
     // "typescript ---------------------------------------"
     // "typescript ---------------------------------------"
+    // "typescript ---------------------------------------"
     /*
-        STRING
+        STRINGs
     */
     {
       "name": "STRING's",
@@ -1117,6 +1118,9 @@
       "settings": { "foreground": "#F153", "fontStyle": "bold underline" }
     },
  //"COMON TS JSON JS LANGUAGES ------------------------------------",
+ //"COMON TS JSON JS LANGUAGES ------------------------------------",
+ //"COMON TS JSON JS LANGUAGES ------------------------------------",
+ //"COMON TS JSON JS LANGUAGES ------------------------------------",
     /*
         comment
     */
@@ -1261,7 +1265,6 @@
       "scope": ["source.json invalid.illegal.newline"],
       "settings": { "foreground": "#B35E", "fontStyle": "" }
     },
-
     //"PYTHON ----------------------------------------",
     //"PYTHON ----------------------------------------",
     //"PYTHON ----------------------------------------",
@@ -1313,8 +1316,11 @@
         "fontStyle": "bold"
       }
     },
-    {
       //"SHELL ----------------------------------------",
+      //"SHELL ----------------------------------------",
+      //"SHELL ----------------------------------------",
+      //"SHELL ----------------------------------------",
+    {
       "scope": "keyword.operator.logical",
       "settings": {
         "foreground": "#fb4934"
@@ -1341,8 +1347,11 @@
         "foreground": "#8ec07c"
       }
     },
-    {
       //"C C++ ----------------------------------------",
+      //"C C++ ----------------------------------------",
+      //"C C++ ----------------------------------------",
+      //"C C++ ----------------------------------------",
+    {
       "scope": "keyword.control.directive",
       "settings": {
         "foreground": "#8ec07c"
@@ -1354,8 +1363,11 @@
         "foreground": "#FC3E"
       }
     },
-    {
       //"MAKEFILE ----------------------------------------",
+      //"MAKEFILE ----------------------------------------",
+      //"MAKEFILE ----------------------------------------",
+      //"MAKEFILE ----------------------------------------",
+    {
       "scope": "meta.scope.prerequisites",
       "settings": {
         "foreground": "#FC3E"
@@ -1368,8 +1380,11 @@
         "fontStyle": "bold"
       }
     },
-    {
       //"JAVA ----------------------------------------",
+      //"JAVA ----------------------------------------",
+      //"JAVA ----------------------------------------",
+      //"JAVA ----------------------------------------",
+    {
       "name": "coloring of the Java import and package identifiers",
       "scope": [
         "storage.modifier.import.java",
@@ -1420,16 +1435,22 @@
         "foreground": "#FEB"
       }
     },
-    {
       //"LISP ----------------------------------------",
+      //"LISP ----------------------------------------",
+      //"LISP ----------------------------------------",
+      //"LISP ----------------------------------------",
+    {
       "name": "Lisp optional function parameters",
       "scope": "meta.function-parameters.lisp",
       "settings": {
         "foreground": "#FC3E"
       }
     },
-    {
       //"MARKUP ----------------------------------------",
+      //"MARKUP ----------------------------------------",
+      //"MARKUP ----------------------------------------",
+      //"MARKUP ----------------------------------------",
+    {
       "scope": "markup.underline",
       "settings": {
         "fontStyle": "underline"
@@ -1504,8 +1525,11 @@
         "foreground": "#8ec07c"
       }
     },
-    {
       //"CSS ----------------------------------------",
+      //"CSS ----------------------------------------",
+      //"CSS ----------------------------------------",
+      //"CSS ----------------------------------------",
+    {
       "scope": "entity.other.attribute-name.css",
       "settings": {
         "foreground": "#fe8019"
@@ -1557,8 +1581,11 @@
         "fontStyle": ""
       }
     },
-    {
       //"HTML / XML ----------------------------------------",
+      //"HTML / XML ----------------------------------------",
+      //"HTML / XML ----------------------------------------",
+      //"HTML / XML ----------------------------------------",
+    {
       "scope": ["punctuation.definition.tag"],
       "settings": {
         "foreground": "#83a598"
@@ -1571,8 +1598,11 @@
         "fontStyle": "bold"
       }
     },
-    {
       //"golang --------------------------------------------",
+      //"golang --------------------------------------------",
+      //"golang --------------------------------------------",
+      //"golang --------------------------------------------",
+    {
       "scope": ["source.go storage.type"],
       "settings": {
         "foreground": "#FC3E"
@@ -1608,15 +1638,21 @@
         "foreground": "#d3869b"
       }
     },
+      //"cucumber" --------------------------------------------",
+      //"cucumber" --------------------------------------------",
+      //"cucumber" --------------------------------------------",
+      //"cucumber" --------------------------------------------",
     {
-      //"cucumber",
       "scope": ["keyword.control.cucumber.table"],
       "settings": {
         "foreground": "#83a598"
       }
     },
-    {
       //"REASONML ------------------------------------",
+      //"REASONML ------------------------------------",
+      //"REASONML ------------------------------------",
+      //"REASONML ------------------------------------",
+    {
       "name": "ReasonML String",
       "scope": ["source.reason string.double", "source.reason string.regexp"],
       "settings": {
@@ -1647,8 +1683,11 @@
         "foreground": "#fe8019"
       }
     },
-    {
       //"POWERSHELL ------------------------------------",
+      //"POWERSHELL ------------------------------------",
+      //"POWERSHELL ------------------------------------",
+      //"POWERSHELL ------------------------------------",
+    {
       "name": "Powershell member",
       "scope": ["source.powershell variable.other.member.powershell"],
       "settings": {
@@ -1675,7 +1714,6 @@
       ],
       "settings": { "foreground": "#19b5fe", "fontStyle": "" }
     },
-    //"END OTHER LANGUAGES ------------------------------------",
     // "javascript ---------------------------------------"
     // "javascript ---------------------------------------"
     // "javascript ---------------------------------------"
@@ -1685,51 +1723,51 @@
     {
       "name": "STRING's",
       "scope": [
-        "source.ts string",
-        "source.ts string.constant.other.placeholder",
-        "source.ts string.entity",
-        "source.ts string.escape",
-        "source.ts string.quoted.double",
-        "source.ts string.quoted.single",
-        "source.ts string.regexp",
-        "source.ts string.tag",
-        "source.ts string.template",
-        "source.ts string.value"
+        "source.js string",
+        "source.js string.constant.other.placeholder",
+        "source.js string.entity",
+        "source.js string.escape",
+        "source.js string.quoted.double",
+        "source.js string.quoted.single",
+        "source.js string.regexp",
+        "source.js string.tag",
+        "source.js string.template",
+        "source.js string.value"
       ],
       "settings": { "foreground": "#BE5C", "fontStyle": "" }
     },
     {
       "scope": [
-        "source.ts string.quoted.double punctuation.definition.string.begin",
-        "source.ts string.quoted.double punctuation.definition.string.end"
+        "source.js string.quoted.double punctuation.definition.string.begin",
+        "source.js string.quoted.double punctuation.definition.string.end"
       ],
       "settings": { "foreground": "#EB4C", "fontStyle": "" }
     },
     {
       "scope": [
-        "source.ts string.quoted.single punctuation.definition.string.begin",
-        "source.ts string.quoted.single punctuation.definition.string.end"
+        "source.js string.quoted.single punctuation.definition.string.begin",
+        "source.js string.quoted.single punctuation.definition.string.end"
       ],
       "settings": { "foreground": "#EB4C", "fontStyle": "" }
     },
 
     {
       "scope": [
-        "source.ts entity.name.type.alias",
-        "source.ts meta.definition.variable entity.name.function",
-        "source.ts entity.name.type.interface",
-        "source.ts meta.definition.function.ts entity.name.function",
-        "source.ts support.function",
-        "source.ts meta.definition.function.ts entity.name.function",
-        "source.ts support.function",
-        "source.ts entity.name.type.class",
-        "source.ts meta.definition.method",
-        "source.ts entity.name.function",
-        "source.ts entity.other.inherited-class.ts",
-        "source.ts entity.name.type",
-        "source.ts meta.type.declaration support.type.primitive",
-        "source.ts meta.interface support.type.primitive",
-        "source.ts support.type.primitive"
+        "source.js entity.name.type.alias",
+        "source.js meta.definition.variable entity.name.function",
+        "source.js entity.name.type.interface",
+        "source.js meta.definition.function.js entity.name.function",
+        "source.js support.function",
+        "source.js meta.definition.function.js entity.name.function",
+        "source.js support.function",
+        "source.js entity.name.type.class",
+        "source.js meta.definition.method",
+        "source.js entity.name.function",
+        "source.js entity.other.inherited-class.js",
+        "source.js entity.name.type",
+        "source.js meta.type.declaration support.type.primitive",
+        "source.js meta.interface support.type.primitive",
+        "source.js support.type.primitive"
       ],
       "settings": { "foreground": "#FFC545DD", "fontStyle": "" }
     },
@@ -1739,19 +1777,19 @@
     // "FUNCTION KEYWORD OR ARROW COLOUR"
     {
       "name": "ARROW FUNCTION STYLE",
-      "scope": ["source.ts storage.type.function.arrow"],
+      "scope": ["source.js storage.type.function.arrow"],
       "settings": { "fontStyle": "bold" }
     },
     {
       "name": "FUNCTION KEYWORD STYLE",
-      "scope": ["source.ts storage.type.function"],
+      "scope": ["source.js storage.type.function"],
       "settings": { "fontStyle": "bold italic" }
     },
     {
       "name": "FUNCTION KEYWORD OR ARROW COLOUR",
       "scope": [
-        "source.ts storage.type.function",
-        "source.ts storage.type.function.arrow"
+        "source.js storage.type.function",
+        "source.js storage.type.function.arrow"
       ],
       "settings": { "foreground": "#5D4C" }
     },
@@ -1765,54 +1803,54 @@
     // "SUPPORT PRIMITIVE TYPE",
     {
       "name": "CLASS KEYWORD DEFINITION",
-      "scope": ["source.ts storage.type.class"],
+      "scope": ["source.js storage.type.class"],
       "settings": { "foreground": "#E81E", "fontStyle": "bold italic" }
     },
     {
       "name": "STORAGE TYPE => CONSTRUCTOR KEYWORD ETC ....",
-      "scope": ["source.ts meta.method.declaration.ts storage.type"],
+      "scope": ["source.js meta.method.declaration.js storage.type"],
       "settings": { "foreground": "#E35E", "fontStyle": "italic" }
     },
     {
       "name": "STORAGE.MODIFIER => Public, Private, extends, implements, etc...",
-      "scope": ["source.ts storage", "source.ts storage.modifier"],
+      "scope": ["source.js storage", "source.js storage.modifier"],
       "settings": { "foreground": "#E81E", "fontStyle": "" }
     },
     {
       "name": "VARIABLE SUPER",
-      "scope": ["source.ts variable.language.super"],
+      "scope": ["source.js variable.language.super"],
       "settings": { "foreground": "#D1AE", "fontStyle": "bold italic" }
     },
     {
       "name": "VARIABLE THIS",
-      "scope": ["source.ts variable.language.this"],
+      "scope": ["source.js variable.language.this"],
       "settings": { "foreground": "#C68E", "fontStyle": "bold italic" }
     },
     {
       "name": "NEW KEYWORD DEFINITION",
       "scope": [
-        "source.ts keyword.control.new",
-        "source.ts keyword.operator.new"
+        "source.js keyword.control.new",
+        "source.js keyword.operator.new"
       ],
       "settings": { "foreground": "#E81E", "fontStyle": "bold" }
     },
     {
       "name": "ASYNC KEYWORD DEFINITION",
-      "scope": ["source.ts meta.class storage.modifier.async"],
+      "scope": ["source.js meta.class storage.modifier.async"],
       "settings": { "foreground": "#E81E", "fontStyle": "bold italic" }
     },
     {
       "name": "ASYNC KEYWORD DEFINITION",
-      "scope": ["source.ts storage.modifier.async"],
+      "scope": ["source.js storage.modifier.async"],
       "settings": { "foreground": "#E81E", "fontStyle": "bold italic" }
     },
     {
       "name": "PROPERTY TYPE => GET SET etc ....",
-      "scope": ["source.ts storage.type.property"],
+      "scope": ["source.js storage.type.property"],
       "settings": { "foreground": "#E81E", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts punctuation.terminator.statement"],
+      "scope": ["source.js punctuation.terminator.statement"],
       "settings": { "foreground": "#5DAE", "fontStyle": "" }
     },
     /*
@@ -1822,15 +1860,15 @@
     {
       "name": "KEYWORD.CONTROL EXPORT IMPORT STYLE",
       "scope": [
-        "source.ts keyword.control.import",
-        "source.ts keyword.control.export"
+        "source.js keyword.control.import",
+        "source.js keyword.control.export"
       ],
       "settings": { "foreground": "#E35E", "fontStyle": "bold" }
     },
     // BOLD
     {
       "name": "KEYWORD.CONTROL Default is bold on export ",
-      "scope": ["source.ts meta.export.default keyword.control.default"],
+      "scope": ["source.js meta.export.default keyword.control.default"],
       "settings": { "foreground": "#E35E", "fontStyle": "bold" }
     },
     /*
@@ -1839,89 +1877,89 @@
     {
       "name": "KEYWORD.CONTROL EXPORT IMPORT FROM ETC.",
       "scope": [
-        "source.ts keyword.control.as",
-        "source.ts keyword.control.default",
-        "source.ts keyword.control.from"
+        "source.js keyword.control.as",
+        "source.js keyword.control.default",
+        "source.js keyword.control.from"
       ],
       "settings": { "foreground": "#E35E", "fontStyle": "" }
     },
     // NORMAL
     {
       "scope": [
-        "source.ts keyword.control",
-        "source.ts keyword.control.anchor.regexp",
-        "source.ts keyword.control.conditional",
-        "source.ts keyword.control.less",
-        "source.ts keyword.control.loop",
-        "source.ts keyword.control.module",
-        "source.ts keyword.control.require",
-        "source.ts keyword.control.switch",
-        "source.ts keyword.control.trycatch",
-        "source.ts keyword.control.with",
-        "source.ts keyword",
-        "source.ts keyword.other",
-        "source.ts keyword.generator.asterisk"
+        "source.js keyword.control",
+        "source.js keyword.control.anchor.regexp",
+        "source.js keyword.control.conditional",
+        "source.js keyword.control.less",
+        "source.js keyword.control.loop",
+        "source.js keyword.control.module",
+        "source.js keyword.control.require",
+        "source.js keyword.control.switch",
+        "source.js keyword.control.trycatch",
+        "source.js keyword.control.with",
+        "source.js keyword",
+        "source.js keyword.other",
+        "source.js keyword.generator.asterisk"
       ],
       "settings": { "foreground": "#E35E", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts meta.block keyword.control.flow"],
+      "scope": ["source.js meta.block keyword.control.flow"],
       "settings": { "foreground": "#E35E", "fontStyle": "" }
     },
     /*
         storage type
     */
     {
-      "scope": ["source.ts storage.type.interface"],
+      "scope": ["source.js storage.type.interface"],
       "settings": { "foreground": "#E35E", "fontStyle": "bold" }
     },
     {
-      "scope": ["source.ts storage.type.internaldeclaration"],
+      "scope": ["source.js storage.type.internaldeclaration"],
       "settings": { "foreground": "#E35E", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts storage.type.namespace"],
+      "scope": ["source.js storage.type.namespace"],
       "settings": { "foreground": "#E35E", "fontStyle": "bold" }
     },
     {
-      "scope": ["source.ts storage.type.numeric.bigint"],
+      "scope": ["source.js storage.type.numeric.bigint"],
       "settings": { "foreground": "#E35E", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts storage.type.type"],
+      "scope": ["source.js storage.type.type"],
       "settings": { "foreground": "#E35E", "fontStyle": "bold" }
     },
     {
-      "scope": ["source.ts variable.other.object.property"],
+      "scope": ["source.js variable.other.object.property"],
       "settings": { "foreground": "#E35E", "fontStyle": "" }
     },
     {
       "name": "STORAGE TYPE => LET CONST etc ....",
-      "scope": ["source.ts storage.type"],
+      "scope": ["source.js storage.type"],
       "settings": { "foreground": "#E35E", "fontStyle": "bold italic" }
     },
     {
       "name": "STORAGE TYPE => LET CONST etc ....",
-      "scope": ["source.ts meta.block meta.var.expr storage.type"],
+      "scope": ["source.js meta.block meta.var.expr storage.type"],
       "settings": { "foreground": "#E35E", "fontStyle": "italic" }
     },
     {
-      "scope": ["source.ts storage.type.enum"],
+      "scope": ["source.js storage.type.enum"],
       "settings": { "foreground": "#E35E", "fontStyle": "bold" }
     },
 
     {
-      "scope": ["source.ts keyword.operator.logical"],
+      "scope": ["source.js keyword.operator.logical"],
       "settings": { "foreground": "#E35E", "fontStyle": "" }
     },
     {
       "scope": [
-        "source.ts storage.type.class.jsdoc punctuation.definition.block.tag.jsdoc"
+        "source.js storage.type.class.jsdoc punctuation.definition.block.tag.jsdoc"
       ],
       "settings": { "foreground": "#E35A", "fontStyle": "bold" }
     },
     {
-      "scope": ["source.ts storage.type.class.jsdoc"],
+      "scope": ["source.js storage.type.class.jsdoc"],
       "settings": { "foreground": "#EDAA", "fontStyle": "bold" }
     },
 
@@ -1930,22 +1968,22 @@
     */
     {
       "scope": [
-        "source.ts constant",
-        "source.ts constant.character.escape.backslash.regexp",
-        "source.ts constant.character.numeric.regexp",
-        "source.ts constant.language",
-        "source.ts constant.language.access-type.jsdoc",
-        "source.ts constant.language.import-export-all",
-        "source.ts constant.language.symbol-type.jsdoc",
-        "source.ts constant.other.character-class.range.regexp",
-        "source.ts constant.other.character-class.regexp",
-        "source.ts constant.other.character-class.set.regexp",
-        "source.ts constant.other.description.jsdoc",
-        "source.ts constant.other.email.link.underline.jsdoc",
-        "source.ts constant.rgb-value",
-        "source.ts constant.sha.git-rebase",
-        "source.ts constant.character.escape",
-        "source.ts support.constant.property-value.css"
+        "source.js constant",
+        "source.js constant.character.escape.backslash.regexp",
+        "source.js constant.character.numeric.regexp",
+        "source.js constant.language",
+        "source.js constant.language.access-type.jsdoc",
+        "source.js constant.language.import-export-all",
+        "source.js constant.language.symbol-type.jsdoc",
+        "source.js constant.other.character-class.range.regexp",
+        "source.js constant.other.character-class.regexp",
+        "source.js constant.other.character-class.set.regexp",
+        "source.js constant.other.description.jsdoc",
+        "source.js constant.other.email.link.underline.jsdoc",
+        "source.js constant.rgb-value",
+        "source.js constant.sha.git-rebase",
+        "source.js constant.character.escape",
+        "source.js support.constant.property-value.css"
       ],
       "settings": { "foreground": "#C68E", "fontStyle": "" }
     },
@@ -1954,176 +1992,176 @@
     */
     {
       "scope": [
-        "source.ts constant.numeric",
-        "source.ts constant.numeric.binary",
-        "source.ts constant.numeric.decimal",
-        "source.ts constant.numeric.hex",
-        "source.ts constant.numeric.octal"
+        "source.js constant.numeric",
+        "source.js constant.numeric.binary",
+        "source.js constant.numeric.decimal",
+        "source.js constant.numeric.hex",
+        "source.js constant.numeric.octal"
       ],
       "settings": { "foreground": "#C68E", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts constant.language.boolean.false"],
+      "scope": ["source.js constant.language.boolean.false"],
       "settings": { "foreground": "#E43E", "fontStyle": "italic" }
     },
     {
-      "scope": ["source.ts constant.language.boolean.true"],
+      "scope": ["source.js constant.language.boolean.true"],
       "settings": { "foreground": "#7C2E", "fontStyle": "italic" }
     },
     {
-      "scope": ["source.ts constant.language.undefined"],
+      "scope": ["source.js constant.language.undefined"],
       "settings": { "foreground": "#B6BE", "fontStyle": "italic" }
     },
     {
-      "scope": ["source.ts constant.language.null"],
+      "scope": ["source.js constant.language.null"],
       "settings": { "foreground": "#D55E", "fontStyle": "italic" }
     },
     {
-      "scope": ["source.ts constant.language.infinity"],
+      "scope": ["source.js constant.language.infinity"],
       "settings": { "foreground": "#7ADE", "fontStyle": "italic" }
     },
     {
-      "scope": ["source.ts constant.language.nan"],
+      "scope": ["source.js constant.language.nan"],
       "settings": { "foreground": "#7ADE", "fontStyle": "italic" }
     },
     {
-      "scope": ["source.ts string.quasi"],
+      "scope": ["source.js string.quasi"],
       "settings": { "foreground": "#B35C", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts punctuation.quasi"],
+      "scope": ["source.js punctuation.quasi"],
       "settings": { "foreground": "#B35C", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts invalid"],
+      "scope": ["source.js invalid"],
       "settings": { "foreground": "#B35C", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts invalid.deprecated"],
+      "scope": ["source.js invalid.deprecated"],
       "settings": { "foreground": "#B35C", "fontStyle": "underline" }
     },
     {
-      "scope": ["source.ts invalid.illegal"],
+      "scope": ["source.js invalid.illegal"],
       "settings": { "foreground": "#B35C", "fontStyle": "bold" }
     },
     {
-      "scope": ["source.ts invalid.illegal.newline"],
+      "scope": ["source.js invalid.illegal.newline"],
       "settings": { "foreground": "#B35C", "fontStyle": "bold" }
     },
     {
-      "scope": ["source.ts emphasis"],
+      "scope": ["source.js emphasis"],
       "settings": { "foreground": "#EDBE", "fontStyle": "bold" }
     },
     {
-      "scope": ["source.ts header"],
+      "scope": ["source.js header"],
       "settings": { "foreground": "#EDBE", "fontStyle": "bold" }
     },
     {
-      "scope": ["source.ts keyword.other.back-reference.regexp"],
+      "scope": ["source.js keyword.other.back-reference.regexp"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts keyword.other.debugger"],
+      "scope": ["source.js keyword.other.debugger"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts keyword.other.unit"],
+      "scope": ["source.js keyword.other.unit"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts markup.bold"],
+      "scope": ["source.js markup.bold"],
       "settings": { "foreground": "#EDBE", "fontStyle": "bold" }
     },
     {
-      "scope": ["source.ts markup.changed"],
+      "scope": ["source.js markup.changed"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts markup.deleted"],
+      "scope": ["source.js markup.deleted"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts markup.heading"],
+      "scope": ["source.js markup.heading"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts markup.inline.raw"],
+      "scope": ["source.js markup.inline.raw"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts markup.inserted"],
+      "scope": ["source.js markup.inserted"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts markup.italic"],
+      "scope": ["source.js markup.italic"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts markup.punctuation.list.beginning"],
+      "scope": ["source.js markup.punctuation.list.beginning"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts markup.punctuation.quote.beginning"],
+      "scope": ["source.js markup.punctuation.quote.beginning"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts markup.underline"],
+      "scope": ["source.js markup.underline"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts module.node"],
+      "scope": ["source.js module.node"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts new.expr"],
+      "scope": ["source.js new.expr"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts prototype"],
+      "scope": ["source.js prototype"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts source.embedded"],
+      "scope": ["source.js source.embedded"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts strong"],
+      "scope": ["source.js strong"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts switch-block.expr"],
+      "scope": ["source.js switch-block.expr"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts switch-expression.expr"],
+      "scope": ["source.js switch-expression.expr"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts switch-statement.expr"],
+      "scope": ["source.js switch-statement.expr"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts *link*"],
+      "scope": ["source.js *link*"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts *uri*"],
+      "scope": ["source.js *uri*"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts *url*"],
+      "scope": ["source.js *url*"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts case-clause.expr "],
+      "scope": ["source.js case-clause.expr "],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts case-clause.expr"],
+      "scope": ["source.js case-clause.expr"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts cast.expr"],
+      "scope": ["source.js cast.expr"],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     /*
@@ -2131,25 +2169,25 @@
     */
     {
       "scope": [
-        "source.ts variable.arguments",
-        "source.ts variable.class",
-        "source.ts variable.language.arguments",
-        "source.ts variable.language",
-        "source.ts variable.name",
-        "source.ts variable.other.constant.object",
-        "source.ts variable.other.constant",
-        "source.ts variable.other.description.jsdoc",
-        "source.ts variable.other.enummember",
-        "source.ts variable.other.jsdoc",
-        "source.ts variable.other.link.underline.jsdoc",
-        "source.ts variable.other.object",
-        "source.ts variable.other.readwrite.alias",
-        "source.ts variable.other.readwrite",
-        "source.ts variable.other.readwrite",
-        "source.ts variable.other.regexp",
-        "source.ts variable.other",
-        "source.ts variable.parameter",
-        "source.ts variable"
+        "source.js variable.arguments",
+        "source.js variable.class",
+        "source.js variable.language.arguments",
+        "source.js variable.language",
+        "source.js variable.name",
+        "source.js variable.other.constant.object",
+        "source.js variable.other.constant",
+        "source.js variable.other.description.jsdoc",
+        "source.js variable.other.enummember",
+        "source.js variable.other.jsdoc",
+        "source.js variable.other.link.underline.jsdoc",
+        "source.js variable.other.object",
+        "source.js variable.other.readwrite.alias",
+        "source.js variable.other.readwrite",
+        "source.js variable.other.readwrite",
+        "source.js variable.other.regexp",
+        "source.js variable.other",
+        "source.js variable.parameter",
+        "source.js variable"
       ],
       "settings": { "foreground": "#ACBE", "fontStyle": "" }
     },
@@ -2158,12 +2196,12 @@
     */
     {
       "scope": [
-        "source.ts meta.interface variable.object.property",
-        "source.ts variable.object.property",
-        "source.ts variable.other.constant.object.property",
-        "source.ts variable.other.constant.property",
-        "source.ts variable.other.property",
-        "meta.object-literal.key.ts"
+        "source.js meta.interface variable.object.property",
+        "source.js variable.object.property",
+        "source.js variable.other.constant.object.property",
+        "source.js variable.other.constant.property",
+        "source.js variable.other.property",
+        "meta.object-literal.key.js"
       ],
       "settings": { "foreground": "#69EE", "fontStyle": "" }
     },
@@ -2172,47 +2210,47 @@
     */
     {
       "scope": [
-        "source.ts support.class",
-        "source.ts support.class.builtin",
-        "source.ts support.class.node",
-        "source.ts support.class.promise",
-        "source.ts support.constant",
-        "source.ts support.constant.json",
-        "source.ts support.constant.math",
-        "source.ts support.type",
-        "source.ts support.type.builtin",
-        "source.ts support.type.object.module",
-        "source.ts support.variable",
-        "source.ts support.variable.object.node",
-        "source.ts support.variable.object.process",
-        "source.ts support.class.console"
+        "source.js support.class",
+        "source.js support.class.builtin",
+        "source.js support.class.node",
+        "source.js support.class.promise",
+        "source.js support.constant",
+        "source.js support.constant.json",
+        "source.js support.constant.math",
+        "source.js support.type",
+        "source.js support.type.builtin",
+        "source.js support.type.object.module",
+        "source.js support.variable",
+        "source.js support.variable.object.node",
+        "source.js support.variable.object.process",
+        "source.js support.class.console"
       ],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     },
     // properties like (BOLD)
     {
       "scope": [
-        "source.ts support.variable.property",
-        "source.ts support.variable.property.importmeta",
-        "source.ts support.variable.property.process",
-        "source.ts support.variable.property.target",
-        "source.ts support.type.property-name",
-        "source.ts support.type.property-name.css",
-        "source.ts support.property-value",
-        "source.ts support.property-value.scss",
-        "source.ts support.constant.property.math"
+        "source.js support.variable.property",
+        "source.js support.variable.property.importmeta",
+        "source.js support.variable.property.process",
+        "source.js support.variable.property.target",
+        "source.js support.type.property-name",
+        "source.js support.type.property-name.css",
+        "source.js support.property-value",
+        "source.js support.property-value.scss",
+        "source.js support.constant.property.math"
       ],
       "settings": { "foreground": "#69EE", "fontStyle": "italic" }
     },
     // function like (BOLD)
     {
       "scope": [
-        "source.ts support.function.builtin",
-        "source.ts support.function.git-rebase",
-        "source.ts support.function.json",
-        "source.ts support.function.math",
-        "source.ts support.function.process",
-        "source.ts support.function.console"
+        "source.js support.function.builtin",
+        "source.js support.function.git-rebase",
+        "source.js support.function.json",
+        "source.js support.function.math",
+        "source.js support.function.process",
+        "source.js support.function.console"
       ],
       "settings": { "foreground": "#EAAD2F", "fontStyle": "italic" }
     },
@@ -2221,46 +2259,46 @@
     */
     {
       "scope": [
-        "source.ts keyword.operator.arithmetic",
-        "source.ts keyword.operator.assignment.compound.bitwise",
-        "source.ts keyword.operator.assignment.compound",
-        "source.ts keyword.operator.assignment.jsdoc",
-        "source.ts keyword.operator.bitwise.shift",
-        "source.ts keyword.operator.bitwise",
-        "source.ts keyword.operator.control.jsdoc",
-        "source.ts keyword.operator.decrement",
-        "source.ts keyword.operator.increment",
-        "source.ts keyword.operator.definiteassignment",
-        "source.ts keyword.operator",
-        "source.ts keyword.operator.comparison",
-        "source.ts keyword.operator.ternary",
-        "source.ts punctuation.separator.key-value",
-        "source.ts keyword.operator.assignment",
-        "source.ts keyword.operator.type.annotation"
+        "source.js keyword.operator.arithmetic",
+        "source.js keyword.operator.assignment.compound.bitwise",
+        "source.js keyword.operator.assignment.compound",
+        "source.js keyword.operator.assignment.jsdoc",
+        "source.js keyword.operator.bitwise.shift",
+        "source.js keyword.operator.bitwise",
+        "source.js keyword.operator.control.jsdoc",
+        "source.js keyword.operator.decrement",
+        "source.js keyword.operator.increment",
+        "source.js keyword.operator.definiteassignment",
+        "source.js keyword.operator",
+        "source.js keyword.operator.comparison",
+        "source.js keyword.operator.ternary",
+        "source.js punctuation.separator.key-value",
+        "source.js keyword.operator.assignment",
+        "source.js keyword.operator.type.annotation"
       ],
       "settings": { "foreground": "#8E79", "fontStyle": "" }
     },
     {
       "scope": [
-        "source.ts keyword.operator.expression.delete",
-        "source.ts keyword.operator.expression.import",
-        "source.ts keyword.operator.expression.in",
-        "source.ts keyword.operator.expression.infer",
-        "source.ts keyword.operator.expression.instanceof",
-        "source.ts keyword.operator.expression.is",
-        "source.ts keyword.operator.expression.keyof",
-        "source.ts keyword.operator.expression.of",
-        "source.ts keyword.operator.expression.typeof",
-        "source.ts keyword.operator.expression.void",
-        "source.ts keyword.operator.negation.regexp",
-        "source.ts keyword.operator.optional",
-        "source.ts keyword.operator.or.regexp",
-        "source.ts keyword.operator.quantifier.regexp",
-        "source.ts keyword.operator.relational",
-        "source.ts keyword.operator.rest",
-        "source.ts keyword.operator.spread",
-        "source.ts keyword.operator.type.modifier",
-        "source.ts keyword.operator.type"
+        "source.js keyword.operator.expression.delete",
+        "source.js keyword.operator.expression.import",
+        "source.js keyword.operator.expression.in",
+        "source.js keyword.operator.expression.infer",
+        "source.js keyword.operator.expression.instanceof",
+        "source.js keyword.operator.expression.is",
+        "source.js keyword.operator.expression.keyof",
+        "source.js keyword.operator.expression.of",
+        "source.js keyword.operator.expression.typeof",
+        "source.js keyword.operator.expression.void",
+        "source.js keyword.operator.negation.regexp",
+        "source.js keyword.operator.optional",
+        "source.js keyword.operator.or.regexp",
+        "source.js keyword.operator.quantifier.regexp",
+        "source.js keyword.operator.relational",
+        "source.js keyword.operator.rest",
+        "source.js keyword.operator.spread",
+        "source.js keyword.operator.type.modifier",
+        "source.js keyword.operator.type"
       ],
       "settings": { "foreground": "#8E79", "fontStyle": "" }
     },
@@ -2270,56 +2308,56 @@
     */
     {
       "scope": [
-        "source.ts punctuation.definition.parameters.begin",
-        "source.ts punctuation.definition.parameters.end",
-        "source.ts meta.brace.angle",
-        "source.ts meta.brace.round",
-        "source.ts meta.brace.square",
-        "source.ts punctuation.definition.block"
+        "source.js punctuation.definition.parameters.begin",
+        "source.js punctuation.definition.parameters.end",
+        "source.js meta.brace.angle",
+        "source.js meta.brace.round",
+        "source.js meta.brace.square",
+        "source.js punctuation.definition.block"
       ],
       "settings": { "foreground": "#EDBB", "fontStyle": "" }
     },
     {
       "scope": [
-        "source.ts punctuation.accessor.optional",
-        "source.ts punctuation.accessor",
-        "source.ts punctuation.decorator.internaldeclaration",
-        "source.ts punctuation.decorator",
-        "source.ts punctuation.definition.binding-pattern.array",
-        "source.ts punctuation.definition.binding-pattern.object",
-        "source.ts punctuation.definition.bracket.angle.begin.jsdoc",
-        "source.ts punctuation.definition.bracket.angle.end.jsdoc",
-        "source.ts punctuation.definition.bracket.curly.begin.jsdoc",
-        "source.ts punctuation.definition.bracket.curly.end.jsdoc",
-        "source.ts punctuation.definition.bracket.square.begin.jsdoc",
-        "source.ts punctuation.definition.bracket.square.end.jsdoc",
-        "source.ts punctuation.definition.character-class.regexp",
-        "source.ts punctuation.definition.group.assertion.regexp",
-        "source.ts punctuation.definition.group.no-capture.regexp",
-        "source.ts punctuation.definition.group.regexp",
-        "source.ts punctuation.definition.inline.tag.jsdoc",
-        "source.ts punctuation.definition.optional-value.begin.bracket.square.jsdoc",
-        "source.ts punctuation.definition.optional-value.end.bracket.square.jsdoc",
-        "source.ts punctuation.definition.section.case-statement",
-        "source.ts punctuation.definition.string.begin.jsdoc",
-        "source.ts punctuation.definition.string.begin",
-        "source.ts punctuation.definition.string.end.jsdoc",
-        "source.ts punctuation.definition.string.end",
-        "source.ts punctuation.definition.string.template.begin",
-        "source.ts punctuation.definition.string.template.end",
-        "source.ts punctuation.definition.tag.directive",
-        "source.ts punctuation.definition.template-expression.begin",
-        "source.ts punctuation.definition.template-expression.end",
-        "source.ts punctuation.definition.typeparameters.begin",
-        "source.ts punctuation.definition.typeparameters.end",
-        "source.ts punctuation.destructuring",
-        "source.ts punctuation.quoted",
-        "source.ts punctuation.separator.comma",
-        "source.ts punctuation.separator.label",
-        "source.ts punctuation.separator.parameter",
-        "source.ts punctuation.separator.pipe.jsdoc",
-        "source.ts punctuation.tag",
-        "source.ts punctuation.whitespace.comment.leading"
+        "source.js punctuation.accessor.optional",
+        "source.js punctuation.accessor",
+        "source.js punctuation.decorator.internaldeclaration",
+        "source.js punctuation.decorator",
+        "source.js punctuation.definition.binding-pattern.array",
+        "source.js punctuation.definition.binding-pattern.object",
+        "source.js punctuation.definition.bracket.angle.begin.jsdoc",
+        "source.js punctuation.definition.bracket.angle.end.jsdoc",
+        "source.js punctuation.definition.bracket.curly.begin.jsdoc",
+        "source.js punctuation.definition.bracket.curly.end.jsdoc",
+        "source.js punctuation.definition.bracket.square.begin.jsdoc",
+        "source.js punctuation.definition.bracket.square.end.jsdoc",
+        "source.js punctuation.definition.character-class.regexp",
+        "source.js punctuation.definition.group.assertion.regexp",
+        "source.js punctuation.definition.group.no-capture.regexp",
+        "source.js punctuation.definition.group.regexp",
+        "source.js punctuation.definition.inline.tag.jsdoc",
+        "source.js punctuation.definition.optional-value.begin.bracket.square.jsdoc",
+        "source.js punctuation.definition.optional-value.end.bracket.square.jsdoc",
+        "source.js punctuation.definition.section.case-statement",
+        "source.js punctuation.definition.string.begin.jsdoc",
+        "source.js punctuation.definition.string.begin",
+        "source.js punctuation.definition.string.end.jsdoc",
+        "source.js punctuation.definition.string.end",
+        "source.js punctuation.definition.string.template.begin",
+        "source.js punctuation.definition.string.template.end",
+        "source.js punctuation.definition.tag.directive",
+        "source.js punctuation.definition.template-expression.begin",
+        "source.js punctuation.definition.template-expression.end",
+        "source.js punctuation.definition.typeparameters.begin",
+        "source.js punctuation.definition.typeparameters.end",
+        "source.js punctuation.destructuring",
+        "source.js punctuation.quoted",
+        "source.js punctuation.separator.comma",
+        "source.js punctuation.separator.label",
+        "source.js punctuation.separator.parameter",
+        "source.js punctuation.separator.pipe.jsdoc",
+        "source.js punctuation.tag",
+        "source.js punctuation.whitespace.comment.leading"
       ],
       "settings": { "foreground": "#EDBB", "fontStyle": "bold" }
     },
@@ -2328,29 +2366,29 @@
     */
     {
       "scope": [
-        "source.ts entity.function",
-        "source.ts entity.name.class.static.function",
-        "source.ts entity.name.class",
-        "source.ts entity.name.function.function-call",
-        "source.ts entity.name.function.static",
-        "source.ts entity.name.function.tagged-template",
-        "source.ts entity.name.label",
-        "source.ts entity.name.method.function-call",
-        "source.ts entity.name.method",
-        "source.ts entity.name.selector",
-        "source.ts entity.name.static.function-call",
-        "source.ts entity.name.tag.directive",
-        "source.ts entity.name.tag.inline.jsdoc",
-        "source.ts entity.name.tag",
-        "source.ts entity.name.type.enum",
-        "source.ts entity.name.type.instance.jsdoc",
-        "source.ts entity.name.type.module",
-        "source.ts entity.name",
-        "source.ts entity.other.attribute-name.css",
-        "source.ts entity.other.attribute-name.directive",
-        "source.ts entity.other.attribute-name",
-        "source.ts entity.other.inherited-class",
-        "source.ts entity.static"
+        "source.js entity.function",
+        "source.js entity.name.class.static.function",
+        "source.js entity.name.class",
+        "source.js entity.name.function.function-call",
+        "source.js entity.name.function.static",
+        "source.js entity.name.function.tagged-template",
+        "source.js entity.name.label",
+        "source.js entity.name.method.function-call",
+        "source.js entity.name.method",
+        "source.js entity.name.selector",
+        "source.js entity.name.static.function-call",
+        "source.js entity.name.tag.directive",
+        "source.js entity.name.tag.inline.jsdoc",
+        "source.js entity.name.tag",
+        "source.js entity.name.type.enum",
+        "source.js entity.name.type.instance.jsdoc",
+        "source.js entity.name.type.module",
+        "source.js entity.name",
+        "source.js entity.other.attribute-name.css",
+        "source.js entity.other.attribute-name.directive",
+        "source.js entity.other.attribute-name",
+        "source.js entity.other.inherited-class",
+        "source.js entity.static"
       ],
       "settings": { "foreground": "#EDBB", "fontStyle": "" }
     },
@@ -2359,72 +2397,72 @@
     */
     {
       "scope": [
-        "source.ts meta.array-binding-pattern-variable",
-        "source.ts meta.array.literal",
-        "source.ts meta.arrow",
-        "source.ts meta.assertion.look-ahead.regexp",
-        "source.ts meta.assertion.look-behind.regexp",
-        "source.ts meta.assertion.negative-look-ahead.regexp",
-        "source.ts meta.assertion.negative-look-behind.regexp",
-        "source.ts meta.block",
-        "source.ts meta.cast",
-        "source.ts meta.class",
-        "source.ts meta.decorator",
-        "source.ts meta.definition.function",
-        "source.ts meta.definition.method",
-        "source.ts meta.definition.property",
-        "source.ts meta.definition.variable",
-        "source.ts meta.delimiter.decimal.period",
-        "source.ts meta.enum.declaration",
-        "source.ts meta.example.jsdoc",
-        "source.ts meta.export",
-        "source.ts meta.export.default",
-        "source.ts meta.field.declaration",
-        "source.ts meta.function",
-        "source.ts meta.function-call",
-        "source.ts meta.function.expression",
-        "source.ts meta.group.assertion.regexp",
-        "source.ts meta.group.regexp",
-        "source.ts meta.header.diff",
-        "source.ts meta.import",
-        "source.ts meta.import-equals.external",
-        "source.ts meta.import-equals.internal",
-        "source.ts meta.indexer.declaration",
-        "source.ts meta.indexer.mappedtype.declaration",
-        "source.ts meta.interface",
-        "source.ts meta.method.declaration",
-        "source.ts meta.namespace.declaration",
-        "source.ts meta.object-binding-pattern-variable",
-        "source.ts meta.object-literal.key",
-        "source.ts meta.object.member",
-        "source.ts meta.object.type",
-        "source.ts meta.objectliteral",
-        "source.ts meta.parameter.object-binding-pattern",
-        "source.ts meta.parameter.type.variable",
-        "source.ts meta.parameters",
-        "source.ts meta.paramter.array-binding-pattern",
-        "source.ts meta.preprocessor",
-        "source.ts meta.preprocessor.numeric",
-        "source.ts meta.preprocessor.string",
-        "source.ts meta.property-group",
-        "source.ts meta.return-type",
-        "source.ts meta.return.type",
-        "source.ts meta.return.type.arrow",
-        "source.ts meta.selector",
-        "source.ts meta.structure.dictionary.key.python",
-        "source.ts meta.tag",
-        "source.ts meta.template.expression",
-        "source.ts meta.type.annotation",
-        "source.ts meta.type.constructor",
-        "source.ts meta.type.declaration",
-        "source.ts meta.type.function",
-        "source.ts meta.type.function.return",
-        "source.ts meta.type.name",
-        "source.ts meta.type.parameters",
-        "source.ts meta.type.paren.cover",
-        "source.ts meta.type.tuple",
-        "source.ts meta.var-single-variable.expr",
-        "source.ts meta.var.expr"
+        "source.js meta.array-binding-pattern-variable",
+        "source.js meta.array.literal",
+        "source.js meta.arrow",
+        "source.js meta.assertion.look-ahead.regexp",
+        "source.js meta.assertion.look-behind.regexp",
+        "source.js meta.assertion.negative-look-ahead.regexp",
+        "source.js meta.assertion.negative-look-behind.regexp",
+        "source.js meta.block",
+        "source.js meta.cast",
+        "source.js meta.class",
+        "source.js meta.decorator",
+        "source.js meta.definition.function",
+        "source.js meta.definition.method",
+        "source.js meta.definition.property",
+        "source.js meta.definition.variable",
+        "source.js meta.delimiter.decimal.period",
+        "source.js meta.enum.declaration",
+        "source.js meta.example.jsdoc",
+        "source.js meta.export",
+        "source.js meta.export.default",
+        "source.js meta.field.declaration",
+        "source.js meta.function",
+        "source.js meta.function-call",
+        "source.js meta.function.expression",
+        "source.js meta.group.assertion.regexp",
+        "source.js meta.group.regexp",
+        "source.js meta.header.diff",
+        "source.js meta.import",
+        "source.js meta.import-equals.external",
+        "source.js meta.import-equals.internal",
+        "source.js meta.indexer.declaration",
+        "source.js meta.indexer.mappedtype.declaration",
+        "source.js meta.interface",
+        "source.js meta.method.declaration",
+        "source.js meta.namespace.declaration",
+        "source.js meta.object-binding-pattern-variable",
+        "source.js meta.object-literal.key",
+        "source.js meta.object.member",
+        "source.js meta.object.type",
+        "source.js meta.objectliteral",
+        "source.js meta.parameter.object-binding-pattern",
+        "source.js meta.parameter.type.variable",
+        "source.js meta.parameters",
+        "source.js meta.paramter.array-binding-pattern",
+        "source.js meta.preprocessor",
+        "source.js meta.preprocessor.numeric",
+        "source.js meta.preprocessor.string",
+        "source.js meta.property-group",
+        "source.js meta.return-type",
+        "source.js meta.return.type",
+        "source.js meta.return.type.arrow",
+        "source.js meta.selector",
+        "source.js meta.structure.dictionary.key.python",
+        "source.js meta.tag",
+        "source.js meta.template.expression",
+        "source.js meta.type.annotation",
+        "source.js meta.type.constructor",
+        "source.js meta.type.declaration",
+        "source.js meta.type.function",
+        "source.js meta.type.function.return",
+        "source.js meta.type.name",
+        "source.js meta.type.parameters",
+        "source.js meta.type.paren.cover",
+        "source.js meta.type.tuple",
+        "source.js meta.var-single-variable.expr",
+        "source.js meta.var.expr"
       ],
       "settings": { "foreground": "#EDBE", "fontStyle": "" }
     }
