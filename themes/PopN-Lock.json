@@ -5,7 +5,11 @@
   "tokenColors": [
     {
       "scope": ["comment.line.shebang"],
-      "settings": { "foreground": "#657065", "fontStyle": "underline" }
+      "settings": { "foreground": "#EDB3", "fontStyle": "bold underline" }
+    },
+    {
+      "scope": ["comment.line.shebang punctuation.definition.comment"],
+      "settings": { "foreground": "#FF054588", "fontStyle": "bold underline" }
     },
     {
       //"PYTHON ----------------------------------------",
@@ -428,18 +432,7 @@
         "source.js comment",
         "source.json comment"
       ],
-      "settings": { "foreground": "#555555", "fontStyle": "" }
-    },
-    {
-      "scope": [
-        "source.ts comment.block punctuation.definition.comment",
-        "source.js comment.block punctuation.definition.comment",
-        "source.json comment.block punctuation.definition.comment",
-        "source.ts comment.block",
-        "source.js comment.block",
-        "source.json comment.block"
-      ],
-      "settings": { "foreground": "#66F", "fontStyle": "bold italic" }
+      "settings": { "foreground": "#666E", "fontStyle": "" }
     },
     {
       "scope": [
@@ -450,7 +443,18 @@
         "source.ts comment.block.documentation",
         "source.json comment.block.documentation"
       ],
-      "settings": { "foreground": "#458588", "fontStyle": "bold" }
+      "settings": { "foreground": "#667E", "fontStyle": "bold" }
+    },
+    {
+      "scope": [
+        "source.ts comment.block punctuation.definition.comment",
+        "source.js comment.block punctuation.definition.comment",
+        "source.json comment.block punctuation.definition.comment",
+        "source.ts comment.block",
+        "source.js comment.block",
+        "source.json comment.block"
+      ],
+      "settings": { "foreground": "#55AE", "fontStyle": "" }
     },
     {
       "scope": [
@@ -461,26 +465,25 @@
         "source.json comment.line.double-slash punctuation.definition.comment",
         "source.json comment.line.double-slash"
       ],
-      "settings": { "foreground": "#458588 ", "fontStyle": "" }
+      "settings": { "foreground": "#258E", "fontStyle": "bold italic" }
     },
     {
       "scope": ["comment.line.triple-slash.directive string.quoted.double"],
-      "settings": { "foreground": "#a89984BB", "fontStyle": "" }
+      "settings": { "foreground": "#B98B", "fontStyle": "" }
     },
     {
       "scope": [
         "comment.line.triple-slash.directive meta.tag entity.name.tag.directive",
         "comment.line.triple-slash.directive entity.other.attribute-name.directive"
       ],
-      "settings": { "foreground": "#458588CC", "fontStyle": "" }
+      "settings": { "foreground": "#588C", "fontStyle": "" }
     },
     {
       "scope": [
-        "comment.line.triple-slash.directive punctuation.definition.comment",
-        "comment.line.triple-slash.directive punctuation.definition.string.begin",
-        "comment.line.triple-slash.directive punctuation.definition.string.end"
+        "comment.line.triple-slash.directive string.quoted.double.ts punctuation.definition.string.begin",
+        "comment.line.triple-slash.directive string.quoted.double.ts punctuation.definition.string.end"
       ],
-      "settings": { "foreground": "#a8998499", "fontStyle": "" }
+      "settings": { "foreground": "#CA5A", "fontStyle": "" }
     },
     {
       "scope": [
@@ -488,7 +491,7 @@
         "comment.line.triple-slash.directive keyword.operator.assignment",
         "comment.line.triple-slash.directive punctuation.definition.tag.directive"
       ],
-      "settings": { "foreground": "#454588", "fontStyle": "" }
+      "settings": { "foreground": "#44AE", "fontStyle": "" }
     },
     // "JSON ----------------------------------------",
     {
@@ -1573,7 +1576,7 @@
     },
     {
       "scope": ["source.ts storage.type.class.jsdoc"],
-      "settings": { "foreground": "#eedda7", "fontStyle": "bold" }
+      "settings": { "foreground": "#EDAC", "fontStyle": "bold" }
     },
     {
       "scope": [

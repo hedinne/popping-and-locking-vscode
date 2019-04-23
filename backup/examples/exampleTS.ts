@@ -1,12 +1,19 @@
+#!/she/bang
+
+/// <reference no-default-lib="false"/>
+
 /**
  * @format
  * hello
  *
  */
 
+// Comment
+
 /*
-// hello
- */
+// comment
+*/
+
 import { default as love } from "../types/index2";
 
 export async function notMuch(ValueIn: string) {
