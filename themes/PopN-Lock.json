@@ -356,6 +356,84 @@
     "walkThrough.embeddedEditorBackground": "#2C203C"
   },
   "tokenColors": [
+    {
+      "scope": ["comment.line.shebang punctuation.definition.comment"],
+      "settings": { "foreground": "#F153", "fontStyle": "bold underline" }
+    },
+    //"COMON TS JSON JS LANGUAGES ------------------------------------",
+    //"COMON TS JSON JS LANGUAGES ------------------------------------",
+    //"COMON TS JSON JS LANGUAGES ------------------------------------",
+    //"COMON TS JSON JS LANGUAGES ------------------------------------",
+    /*
+        comments sections
+    */
+    {
+      "scope": [
+        "source.ts comment",
+        "source.js comment",
+        "source.json comment"
+      ],
+      "settings": { "foreground": "#666E", "fontStyle": "" }
+    },
+    {
+      "scope": [
+        "source.js comment.block.documentation punctuation.definition.comment",
+        "source.ts comment.block.documentation punctuation.definition.comment",
+        "source.json comment.block.documentation punctuation.definition.comment",
+        "source.js comment.block.documentation",
+        "source.ts comment.block.documentation",
+        "source.json comment.block.documentation"
+      ],
+      "settings": { "foreground": "#667D", "fontStyle": "bold" }
+    },
+    {
+      "scope": [
+        "source.ts comment.block punctuation.definition.comment",
+        "source.js comment.block punctuation.definition.comment",
+        "source.json comment.block punctuation.definition.comment",
+        "source.ts comment.block",
+        "source.js comment.block",
+        "source.json comment.block"
+      ],
+      "settings": { "foreground": "#2BE9", "fontStyle": "" }
+    },
+    {
+      "scope": [
+        "source.ts comment.line.double-slash punctuation.definition.comment",
+        "source.ts comment.line.double-slash",
+        "source.js comment.line.double-slash punctuation.definition.comment",
+        "source.js comment.line.double-slash",
+        "source.json comment.line.double-slash punctuation.definition.comment",
+        "source.json comment.line.double-slash"
+      ],
+      "settings": { "foreground": "#55EC", "fontStyle": "bold italic" }
+    },
+    {
+      "scope": ["comment.line.triple-slash.directive string.quoted.double"],
+      "settings": { "foreground": "#B98B", "fontStyle": "" }
+    },
+    {
+      "scope": [
+        "comment.line.triple-slash.directive meta.tag entity.name.tag.directive",
+        "comment.line.triple-slash.directive entity.other.attribute-name.directive"
+      ],
+      "settings": { "foreground": "#55EC", "fontStyle": "" }
+    },
+    {
+      "scope": [
+        "comment.line.triple-slash.directive string.quoted.double.ts punctuation.definition.string.begin",
+        "comment.line.triple-slash.directive string.quoted.double.ts punctuation.definition.string.end"
+      ],
+      "settings": { "foreground": "#CA5A", "fontStyle": "" }
+    },
+    {
+      "scope": [
+        "comment.line.triple-slash.directive punctuation.definition.comment",
+        "comment.line.triple-slash.directive keyword.operator.assignment",
+        "comment.line.triple-slash.directive punctuation.definition.tag.directive"
+      ],
+      "settings": { "foreground": "#588D", "fontStyle": "" }
+    },
     // "typescript ---------------------------------------"
     // "typescript ---------------------------------------"
     // "typescript ---------------------------------------"
@@ -457,17 +535,17 @@
     {
       "name": "STORAGE.MODIFIER => Public, Private, extends, implements, etc...",
       "scope": ["source.ts storage", "source.ts storage.modifier"],
-      "settings": { "foreground": "#E81E", "fontStyle": "" }
+      "settings": { "foreground": "#E81D", "fontStyle": "" }
     },
     {
       "name": "VARIABLE SUPER",
       "scope": ["source.ts variable.language.super"],
-      "settings": { "foreground": "#D1AE", "fontStyle": "bold italic" }
+      "settings": { "foreground": "#D1AD", "fontStyle": "bold italic" }
     },
     {
       "name": "VARIABLE THIS",
       "scope": ["source.ts variable.language.this"],
-      "settings": { "foreground": "#C68E", "fontStyle": "bold italic" }
+      "settings": { "foreground": "#C68D", "fontStyle": "bold italic" }
     },
     {
       "name": "NEW KEYWORD DEFINITION",
@@ -475,22 +553,22 @@
         "source.ts keyword.control.new",
         "source.ts keyword.operator.new"
       ],
-      "settings": { "foreground": "#E81E", "fontStyle": "bold" }
+      "settings": { "foreground": "#E81D", "fontStyle": "bold" }
     },
     {
       "name": "ASYNC KEYWORD DEFINITION",
       "scope": ["source.ts meta.class storage.modifier.async"],
-      "settings": { "foreground": "#E81E", "fontStyle": "bold italic" }
+      "settings": { "foreground": "#E81D", "fontStyle": "bold italic" }
     },
     {
       "name": "ASYNC KEYWORD DEFINITION",
       "scope": ["source.ts storage.modifier.async"],
-      "settings": { "foreground": "#E81E", "fontStyle": "bold italic" }
+      "settings": { "foreground": "#E81D", "fontStyle": "bold italic" }
     },
     {
       "name": "PROPERTY TYPE => GET SET etc ....",
       "scope": ["source.ts storage.type.property"],
-      "settings": { "foreground": "#E81E", "fontStyle": "" }
+      "settings": { "foreground": "#E81D", "fontStyle": "" }
     },
     {
       "scope": ["source.ts punctuation.terminator.statement"],
@@ -1113,84 +1191,7 @@
       "scope": ["comment.line.shebang"],
       "settings": { "foreground": "#EDB4", "fontStyle": "italic" }
     },
-    {
-      "scope": ["comment.line.shebang punctuation.definition.comment"],
-      "settings": { "foreground": "#F153", "fontStyle": "bold underline" }
-    },
-    //"COMON TS JSON JS LANGUAGES ------------------------------------",
-    //"COMON TS JSON JS LANGUAGES ------------------------------------",
-    //"COMON TS JSON JS LANGUAGES ------------------------------------",
-    //"COMON TS JSON JS LANGUAGES ------------------------------------",
-    /*
-        comment
-    */
-    {
-      "scope": [
-        "source.ts comment",
-        "source.js comment",
-        "source.json comment"
-      ],
-      "settings": { "foreground": "#666E", "fontStyle": "" }
-    },
-    {
-      "scope": [
-        "source.js comment.block.documentation punctuation.definition.comment",
-        "source.ts comment.block.documentation punctuation.definition.comment",
-        "source.json comment.block.documentation punctuation.definition.comment",
-        "source.js comment.block.documentation",
-        "source.ts comment.block.documentation",
-        "source.json comment.block.documentation"
-      ],
-      "settings": { "foreground": "#667E", "fontStyle": "bold" }
-    },
-    {
-      "scope": [
-        "source.ts comment.block punctuation.definition.comment",
-        "source.js comment.block punctuation.definition.comment",
-        "source.json comment.block punctuation.definition.comment",
-        "source.ts comment.block",
-        "source.js comment.block",
-        "source.json comment.block"
-      ],
-      "settings": { "foreground": "#2BE9", "fontStyle": "" }
-    },
-    {
-      "scope": [
-        "source.ts comment.line.double-slash punctuation.definition.comment",
-        "source.ts comment.line.double-slash",
-        "source.js comment.line.double-slash punctuation.definition.comment",
-        "source.js comment.line.double-slash",
-        "source.json comment.line.double-slash punctuation.definition.comment",
-        "source.json comment.line.double-slash"
-      ],
-      "settings": { "foreground": "#55EE", "fontStyle": "bold italic" }
-    },
-    {
-      "scope": ["comment.line.triple-slash.directive string.quoted.double"],
-      "settings": { "foreground": "#B98B", "fontStyle": "" }
-    },
-    {
-      "scope": [
-        "comment.line.triple-slash.directive meta.tag entity.name.tag.directive",
-        "comment.line.triple-slash.directive entity.other.attribute-name.directive"
-      ],
-      "settings": { "foreground": "#55EC", "fontStyle": "" }
-    },
-    {
-      "scope": [
-        "comment.line.triple-slash.directive string.quoted.double.ts punctuation.definition.string.begin",
-        "comment.line.triple-slash.directive string.quoted.double.ts punctuation.definition.string.end"
-      ],
-      "settings": { "foreground": "#CA5A", "fontStyle": "" }
-    },
-    {
-      "scope": [
-        "comment.line.triple-slash.directive punctuation.definition.comment",
-        "comment.line.triple-slash.directive keyword.operator.assignment",
-        "comment.line.triple-slash.directive punctuation.definition.tag.directive"
-      ],
-      "settings": { "foreground": "#588D", "fontStyle": "" }
-    },
+
     // "JSON ----------------------------------------",
     // "JSON ----------------------------------------",
     // "JSON ----------------------------------------",

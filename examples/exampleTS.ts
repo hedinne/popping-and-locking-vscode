@@ -5,7 +5,6 @@
 /* comment */
 
 import { default as love } from "../backup/types/index2";
-import { AnyRecordWithTtl } from "dns";
 // import { default as love } from "./../backup/types/index2";
 
 // Below are examples of using TSLint errors suppression
