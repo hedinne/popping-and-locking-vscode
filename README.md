@@ -1,4 +1,5 @@
 # Pop N' Lock Theme by Luxcium ✨
+
 ## 🐲Perfectly balanced TypeScript theme with vivid colours.
 
 ## About
@@ -10,13 +11,14 @@ CSS, JS, TypeScript and more).
 # Screenshots
 
 ## Full fledged **Integrated Development Environment**
+
 ### Your favourite streamlined code editor is getting more bright and radiant
 
 ![Main view](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/Screenshots1.png)
 
 > Make sure to use utf8 encoding in your settings files the name of the theme contain emoticons.
 
-``` json
+```json
 {
   "workbench.colorTheme": "Pop N' Lock Theme by Luxcium ✨",
 
@@ -28,30 +30,35 @@ CSS, JS, TypeScript and more).
   "editor.fontFamily": "Fira Code iScript, Fira Code",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
-  "editor.suggestFontSize": 16,
+  "editor.suggestFontSize": 16
 }
 ```
 
------
+---
 
 ## **Text Editor** sized
 
 ### work along with external Terminal or web browser
 
-![Main view](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/Screenshots2.png)
+![Text Editor](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/Screenshots2.png)
 
-## Suggested options and settings
+## Many types of **Comment Sections**
 
-![Main view](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/Screenshots4.png)
+![Comment Section](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/comments-section.png)
+
+## **Suggested options and settings**
+
+![Suggested options](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/Screenshots4.png)
 
 > **For a better result use :**
+>
 > - [Fira Code iScript](https://github.com/kencrocken/FiraCodeiScript) and
 > - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
- 
 
 ![Vivid Theme](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/main-screenshot.png)
 
 ## **Suggested extensions**
+
 - [ErrorLens](https://marketplace.visualstudio.com/items?itemName=PhilHindle.errorlens)
 - [Statusbar error](https://marketplace.visualstudio.com/items?itemName=JoeBerria.statusbarerror)
 - [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
@@ -60,8 +67,9 @@ CSS, JS, TypeScript and more).
 - [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
 - [Alphabetical Sorter](https://marketplace.visualstudio.com/items?itemName=ue.alphabetical-sorter)
 
->  **Adjust these settings to your pleasing :**
-``` json
+> **Adjust these settings to your pleasing :**
+
+```json
 {
   "workbench.colorTheme": "Pop N' Lock Theme by Luxcium ✨",
 
@@ -75,7 +83,7 @@ CSS, JS, TypeScript and more).
   "editor.fontSize": 14,
   "editor.suggestFontSize": 16,
 
-  "editor.rulers": [80,120,121],
+  "editor.rulers": [80, 120, 121],
   "editor.wordWrapColumn": 80,
   "html.format.wrapLineLength": 120,
 
@@ -108,12 +116,9 @@ CSS, JS, TypeScript and more).
   "window.newWindowDimensions": "inherit",
   "window.zoomLevel": 0,
   "editor.glyphMargin": true,
-  "git.autofetch": true,
+  "git.autofetch": true
 }
-
 ```
-
-
 
 ## Originally based on
 
