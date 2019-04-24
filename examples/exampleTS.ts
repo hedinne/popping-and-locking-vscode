@@ -12,7 +12,7 @@ import { AnyRecordWithTtl } from "dns";
 // Here it is suppressing missing type definitions for greeter function
 
 // tslint:disable-next-line typedef
-export async function greeter(name:any) {
+export async function greeter(name: any) {
   // tslint:disable-next-line no-unsafe-any no-return-await
   return await delayedHello(name, Delays.Long);
 }
@@ -54,7 +54,14 @@ export const asyncAnonymArowFunction = async () => {
   some.otherMethodeValue;
   return { some, variable1 };
 };
-
+/**
+ * Some predefined delays (in milliseconds).
+ */
+export enum Delays {
+  Short = 500,
+  Medium = 2000,
+  Long = 5000
+}
 /**
  * Returns a Promise<string> that resolves after given time.
  *
@@ -70,17 +77,7 @@ function delayedHello(
     setTimeout(() => resolve(`Hello, ${name}`), delay)
   );
 }
-
-/**
- * Some predefined delays (in milliseconds).
- */
-export enum Delays {
-  Short = 500,
-  Medium = 2000,
-  Long = 5000
-}
-export default class ClassName extends ParentClass
-implements Interface {
+export default class ClassName extends ParentClass implements Interface {
   public value: string;
   public values: tada;
 
