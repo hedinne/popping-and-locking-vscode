@@ -508,6 +508,9 @@
       "settings": { "foreground": "#588E", "fontStyle": "" }
     },
     // "typescript ---------------------------------------"
+    // "typescript ---------------------------------------"
+    // "typescript ---------------------------------------"
+    // "typescript ---------------------------------------"
     /*
         STRINGs
     */
@@ -663,13 +666,13 @@
         "source.ts keyword.control.import",
         "source.ts keyword.control.export"
       ],
-      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35C", "fontStyle": "bold" }
     },
     // BOLD
     {
       "name": "KEYWORD.CONTROL Default is bold on export ",
       "scope": ["source.ts meta.export.default keyword.control.default"],
-      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35C", "fontStyle": "bold" }
     },
     /*
         KEYWORD CONTROL
@@ -711,7 +714,7 @@
     */
     {
       "scope": ["source.ts storage.type.interface"],
-      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35C", "fontStyle": "bold" }
     },
     {
       "scope": ["source.ts storage.type.internaldeclaration"],
@@ -719,7 +722,7 @@
     },
     {
       "scope": ["source.ts storage.type.namespace"],
-      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35C", "fontStyle": "bold" }
     },
     {
       "scope": ["source.ts storage.type.numeric.bigint"],
@@ -727,7 +730,7 @@
     },
     {
       "scope": ["source.ts storage.type.type"],
-      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35C", "fontStyle": "bold" }
     },
     {
       "scope": ["source.ts variable.other.object.property"],
@@ -745,7 +748,7 @@
     },
     {
       "scope": ["source.ts storage.type.enum"],
-      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35C", "fontStyle": "bold" }
     },
 
     {
@@ -1102,7 +1105,7 @@
     },
     {
       "scope": ["source.ts punctuation.decorator"],
-      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35C", "fontStyle": "bold" }
     },
     {
       "scope": [
@@ -1910,13 +1913,13 @@
         "source.js keyword.control.import",
         "source.js keyword.control.export"
       ],
-      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35C", "fontStyle": "bold" }
     },
     // BOLD
     {
       "name": "KEYWORD.CONTROL Default is bold on export ",
       "scope": ["source.js meta.export.default keyword.control.default"],
-      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35C", "fontStyle": "bold" }
     },
     /*
         KEYWORD CONTROL
@@ -1958,7 +1961,7 @@
     */
     {
       "scope": ["source.js storage.type.interface"],
-      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35C", "fontStyle": "bold" }
     },
     {
       "scope": ["source.js storage.type.internaldeclaration"],
@@ -1966,7 +1969,7 @@
     },
     {
       "scope": ["source.js storage.type.namespace"],
-      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35C", "fontStyle": "bold" }
     },
     {
       "scope": ["source.js storage.type.numeric.bigint"],
@@ -1974,7 +1977,7 @@
     },
     {
       "scope": ["source.js storage.type.type"],
-      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35C", "fontStyle": "bold" }
     },
     {
       "scope": ["source.js variable.other.object.property"],
@@ -1992,7 +1995,7 @@
     },
     {
       "scope": ["source.js storage.type.enum"],
-      "settings": { "foreground": "#E35D", "fontStyle": "bold" }
+      "settings": { "foreground": "#E35C", "fontStyle": "bold" }
     },
 
     {

@@ -29,6 +29,10 @@ function returnAllLists(userId, res) {
       });
     });
 }
+
+/**
+ * Send LIST
+ */
 export {
   returnAllLists,
   ListItem,

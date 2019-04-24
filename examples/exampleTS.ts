@@ -1,38 +1,56 @@
-#! /she/bang
-
-/// <reference no-default-lib="false"/>
-
-// Double slash comment
-/* comment */
-
-/**
- *
- * @see https://www.exemple.com
- *
- */
 /** @format */
 
 import express from "express";
 import jwt from "jsonwebtoken";
 import mongoose from "mongoose";
 import mongosanitize from "express-mongo-sanitize";
-require("dotenv").config();
+import { config } from "dotenv";
 
+config();
 const jwtSecret = process.env.JWTSECRET;
-
 const router = express.Router();
 const User = mongoose.model("User");
 const List = mongoose.model("List");
 const ListItem = mongoose.model("ListItem");
-import { default as love } from "../backup/types/index2";
 
-export { User, ListItem, List, router, jwtSecret, mongosanitize, jwt };
+function returnAllLists(userId: any, res: any) {
+  return User.findById(userId)
+    .populate({
+      path: "lists",
+      populate: {
+        path: "listItems"
+      }
+    })
+    .exec((userErr, doc) => {
+      if (!!userErr) console.error("User.populate Error", userErr);
+      return res.status(200).json({
+        success: true,
+        successMessage: "Here is the page",
+        data: doc.collection
+      });
+    });
+}
+
+/**
+ * Send LIST
+ */
+
+@sealed
+class Greeter {
+  greeting: string;
+  constructor(message: string) {
+    this.greeting = message;
+  }
+  greet() {
+    return "Hello, " + this.greeting;
+  }
+}
 
 export async function greeter(name: any) {
   return await delayedHello(name, Delays.Long);
 }
 export async function notMuch(ValueIn: string) {
-  return { ValueIn, love };
+  return { ValueIn };
 }
 
 class ParentClass {}
@@ -50,17 +68,6 @@ type tada = number | boolean;
 function sealed(constructor: Function) {
   Object.seal(constructor);
   Object.seal(constructor.prototype);
-}
-
-@sealed
-class Greeter {
-  greeting: string;
-  constructor(message: string) {
-    this.greeting = message;
-  }
-  greet() {
-    return "Hello, " + this.greeting;
-  }
 }
 
 async function asyncFunction() {
@@ -156,3 +163,13 @@ export default class ClassName extends ParentClass implements Interface {
     }
   }
 }
+export {
+  jwt,
+  jwtSecret,
+  List,
+  ListItem,
+  mongosanitize,
+  returnAllLists,
+  router,
+  User
+};
