@@ -47,7 +47,7 @@ CSS, JS, TypeScript and more).
 > **For a better result use :**
 > - [Fira Code iScript](https://github.com/kencrocken/FiraCodeiScript) and
 > - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
- 
+
 
 ![Vivid Theme](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/main-screenshot.png)
 
