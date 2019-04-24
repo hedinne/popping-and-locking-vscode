@@ -22,7 +22,7 @@
     "color": "#202135",
     "theme": "dark"
   },
-  "preview": true,
+  "preview": false,
   "contributes": {
     "themes": [
       {
