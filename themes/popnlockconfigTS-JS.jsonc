@@ -4,7 +4,7 @@
   "type": "dark",
   "tokenColors": [
     /*
-        STRINGs
+        STRING
     */
     {
       "name": "STRING's",
@@ -24,29 +24,17 @@
     },
     {
       "scope": [
-        "source.js punctuation.definition.template-expression.begin",
-        "source.js punctuation.definition.template-expression.end"
-      ],
-      "settings": { "foreground": "#EDAA", "fontStyle": "" }
-    },
-    {
-      "scope": [
-        "source.js punctuation.definition.string.template.begin",
-        "source.js punctuation.definition.string.template.end"
-      ],
-      "settings": { "foreground": "#7D2C", "fontStyle": "" }
-    },
-    {
-      "scope": [
-        "source.js punctuation.definition.string.begin",
-        "source.js punctuation.definition.string.end",
         "source.js string.quoted.double punctuation.definition.string.begin",
-        "source.js string.quoted.double punctuation.definition.string.end",
-        "source.js string.quoted.single punctuation.definition.string.begin",
-        "source.js string.quoted.single punctuation.definition.string.end",
-        "source.js punctuation.terminator.statement"
+        "source.js string.quoted.double punctuation.definition.string.end"
       ],
-      "settings": { "foreground": "#EB1B", "fontStyle": "" }
+      "settings": { "foreground": "#EB5B", "fontStyle": "" }
+    },
+    {
+      "scope": [
+        "source.js string.quoted.single punctuation.definition.string.begin",
+        "source.js string.quoted.single punctuation.definition.string.end"
+      ],
+      "settings": { "foreground": "#EB5B", "fontStyle": "" }
     },
 
     {
@@ -67,6 +55,8 @@
         "source.js meta.interface support.type.primitive",
         "source.js support.type.primitive"
       ],
+      // "#FFC533DD"
+      // "#FFBB33EE"
       "settings": { "foreground": "#FC4E", "fontStyle": "" }
     },
 
@@ -147,7 +137,10 @@
       "scope": ["source.js storage.type.property"],
       "settings": { "foreground": "#E81E", "fontStyle": "" }
     },
-
+    {
+      "scope": ["source.js punctuation.terminator.statement"],
+      "settings": { "foreground": "#FC4E", "fontStyle": "" }
+    },
     /*
           IMPORT EXPORT
       */
@@ -448,10 +441,6 @@
           VARIABLE
       */
     {
-      "scope": ["source.js variable.other.object"],
-      "settings": { "foreground": "#EDAE", "fontStyle": "" }
-    },
-    {
       "scope": [
         "source.js variable.arguments",
         "source.js variable.class",
@@ -461,6 +450,7 @@
         "source.js variable.other.constant.object",
         "source.js variable.other.constant",
         "source.js variable.other.enummember",
+        "source.js variable.other.object",
         "source.js variable.other.readwrite.alias",
         "source.js variable.other.readwrite",
         "source.js variable.other.readwrite",
@@ -593,24 +583,14 @@
         "source.js meta.brace.square",
         "source.js punctuation.definition.block"
       ],
-      "settings": { "foreground": "#EDAA", "fontStyle": "" }
-    },
-    {
-      "scope": ["source.js punctuation.decorator"],
-      "settings": { "foreground": "#E35C", "fontStyle": "bold" }
-    },
-    {
-      "scope": [
-        "source.js meta.decorator entity.name.function",
-        "source.js meta.decorator variable.other.readwrite"
-      ],
-      "settings": { "foreground": "#EDAA", "fontStyle": "bold" }
+      "settings": { "foreground": "#EDAE", "fontStyle": "" }
     },
     {
       "scope": [
         "source.js punctuation.accessor.optional",
         "source.js punctuation.accessor",
         "source.js punctuation.decorator.internaldeclaration",
+        "source.js punctuation.decorator",
         "source.js punctuation.definition.binding-pattern.array",
         "source.js punctuation.definition.binding-pattern.object",
         "source.js punctuation.definition.character-class.regexp",
@@ -618,9 +598,15 @@
         "source.js punctuation.definition.group.no-capture.regexp",
         "source.js punctuation.definition.group.regexp",
         "source.js punctuation.definition.section.case-statement",
+        "source.js punctuation.definition.string.begin",
+        "source.js punctuation.definition.string.end",
+        "source.js punctuation.definition.string.template.begin",
+        "source.js punctuation.definition.string.template.end",
+        "source.js punctuation.definition.tag.directive",
+        "source.js punctuation.definition.template-expression.begin",
+        "source.js punctuation.definition.template-expression.end",
         "source.js punctuation.definition.typeparameters.begin",
         "source.js punctuation.definition.typeparameters.end",
-        "source.js punctuation.definition.tag.directive",
         "source.js punctuation.destructuring",
         "source.js punctuation.quoted",
         "source.js punctuation.separator.comma",
