@@ -11,9 +11,12 @@ CSS, JS, TypeScript and more).
 
 ## Full fledged **Integrated Development Environment**
 ### Your favourite streamlined code editor is getting more bright and radiant
+
 ![Main view](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/Screenshots1.png)
+
 > Make sure to use utf8 encoding in your settings files the name of the theme contain emoticons.
-```json
+
+``` json
 {
   "workbench.colorTheme": "Pop N' Lock Theme by Luxcium ✨",
 
@@ -30,28 +33,34 @@ CSS, JS, TypeScript and more).
 ```
 
 -----
+
 ## **Text Editor** sized
+
 ### work along with external Terminal or web browser
+
 ![Main view](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/Screenshots2.png)
 
 ## Suggested options and settings
 
 ![Main view](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/Screenshots4.png)
->##  **For a better result use :**
+
+> **For a better result use :**
 > - [Fira Code iScript](https://github.com/kencrocken/FiraCodeiScript) and
 > - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
  
-> ## Suggested extensions
-> - [ErrorLens](https://marketplace.visualstudio.com/items?itemName=PhilHindle.errorlens)
-> - [Statusbar error](https://marketplace.visualstudio.com/items?itemName=JoeBerria.statusbarerror)
-> - [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
-> - [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
-> - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-> - [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
-> - [Alphabetical Sorter](https://marketplace.visualstudio.com/items?itemName=ue.alphabetical-sorter)
->
+![Vivid Theme](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/main-screenshot.png)
+
+## **Suggested extensions**
+- [ErrorLens](https://marketplace.visualstudio.com/items?itemName=PhilHindle.errorlens)
+- [Statusbar error](https://marketplace.visualstudio.com/items?itemName=JoeBerria.statusbarerror)
+- [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
+- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
+- [Alphabetical Sorter](https://marketplace.visualstudio.com/items?itemName=ue.alphabetical-sorter)
+
 >  **Adjust these settings to your pleasing :**
-```json
+``` json
 {
   "workbench.colorTheme": "Pop N' Lock Theme by Luxcium ✨",
 
