@@ -2,8 +2,6 @@
 
 /// <reference no-default-lib="false"/>
 
-/** @format */
-
 // Double slash comment
 /* comment */
 
@@ -12,9 +10,23 @@
  * @see https://www.exemple.com
  *
  */
+/** @format */
 
+import express from "express";
+import jwt from "jsonwebtoken";
+import mongoose from "mongoose";
+import mongosanitize from "express-mongo-sanitize";
+require("dotenv").config();
+
+const jwtSecret = process.env.JWTSECRET;
+
+const router = express.Router();
+const User = mongoose.model("User");
+const List = mongoose.model("List");
+const ListItem = mongoose.model("ListItem");
 import { default as love } from "../backup/types/index2";
-import { deprecate } from "util";
+
+export { User, ListItem, List, router, jwtSecret, mongosanitize, jwt };
 
 export async function greeter(name: any) {
   return await delayedHello(name, Delays.Long);
