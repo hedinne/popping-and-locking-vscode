@@ -1,18 +1,22 @@
 #! /she/bang
+
 /// <reference no-default-lib="false"/>
+
 /** @format */
+
 // Double slash comment
 /* comment */
 
+/**
+ *
+ * @see https://www.exemple.com
+ *
+ */
+
 import { default as love } from "../backup/types/index2";
-// import { default as love } from "./../backup/types/index2";
+import { deprecate } from "util";
 
-// Below are examples of using TSLint errors suppression
-// Here it is suppressing missing type definitions for greeter function
-
-// tslint:disable-next-line typedef
 export async function greeter(name: any) {
-  // tslint:disable-next-line no-unsafe-any no-return-await
   return await delayedHello(name, Delays.Long);
 }
 export async function notMuch(ValueIn: string) {
@@ -31,12 +35,30 @@ interface argument {
 
 type tada = number | boolean;
 
+function sealed(constructor: Function) {
+  Object.seal(constructor);
+  Object.seal(constructor.prototype);
+}
+
+@sealed
+class Greeter {
+  greeting: string;
+  constructor(message: string) {
+    this.greeting = message;
+  }
+  greet() {
+    return "Hello, " + this.greeting;
+  }
+}
+
 async function asyncFunction() {
   const variable1 = 2 + 10;
-  let variable2: string = "this is a string indeed";
-  variable2 = 'this is a "string" indeed';
-  variable2 = variable1.toFixed(200 - 400);
-  return variable2;
+  let message: string = "this is a string indeed";
+  message = 'this is a "string" indeed';
+  const variable3 = new Greeter(message);
+
+  const variable2 = await variable1.toFixed(200 - 400);
+  return { variable2, variable3 };
 }
 export type anyone = number | string;
 
@@ -67,6 +89,7 @@ export enum Delays {
  * @param {string} name - A name.
  * @param {number=} [delay=Delays.Medium] - Number of milliseconds to delay resolution of the Promise.
  * @returns {Promise<string>}
+ * @email me@mail.com {url=https://www.exemple.com}
  */
 function delayedHello(
   name: string,
@@ -117,7 +140,7 @@ export default class ClassName extends ParentClass implements Interface {
         souris: mice
       };
     } catch (error) {
-      throw new Error(error.message);
+      throw new global.GLOBAL.global.Error(error.message);
     }
   }
 }
