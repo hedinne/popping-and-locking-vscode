@@ -123,4 +123,4 @@ CSS, JS, TypeScript and more).
 
 ## How do I report feedback and issues?
 
-You can [file an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our IntelliCode for VS Code extension GitHub feedback repo.
+You can [file an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our GitHub repo for our VS Code extension.
