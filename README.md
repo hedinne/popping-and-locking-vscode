@@ -55,6 +55,7 @@ CSS, JS, TypeScript and more).
 > - [Fira Code iScript](https://github.com/kencrocken/FiraCodeiScript) and
 > - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
+
 ![Vivid Theme](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/main-screenshot.png)
 
 ## **Suggested extensions**
@@ -128,4 +129,4 @@ CSS, JS, TypeScript and more).
 
 ## How do I report feedback and issues?
 
-You can [file an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our IntelliCode for VS Code extension GitHub feedback repo.
+You can [file an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our GitHub repo for our VS Code extension.
