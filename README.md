@@ -4,21 +4,41 @@
 
 ## About
 
+Your favourite streamlined code editor is getting more bright and radiant, optimised to work in the Full fledged _Integrated Development Environment_ or in _Text Editor sized_ mode.
+
 This theme is based on the design of Hedinne's Popping And Locking with vivid colours to capture your attention yet be easy on the eyes. Originally based on the colour theme VS Dark+, Gruvbox Dark and
 One Dark but has changed a lot since. It is designed for web languages (HTML,
 CSS, JS, TypeScript and more).
 
-# Screenshots
+# TypeScript
 
-## Full fledged **Integrated Development Environment**
+[![TypeScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.7.0/TS1.png) TypeScript Screenshot (v3.7.0)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.7.0/TS2.png)
 
-### Your favourite streamlined code editor is getting more bright and radiant
+# JavaScript
 
-![Main view](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/Screenshots1.png)
+[![JavaScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.7.0/JS1.png) JavaScript Screenshot (v3.7.0)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.7.0/JS2.png)
 
-> Make sure to use utf8 encoding in your settings files the name of the theme contain emoticons.
+# **Text Editor sized**
 
-```json
+### work along with external Terminal or web browser
+
+![Text Editor](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/Screenshots2.png)
+
+# **For better results use apropriate fonts and icons theme**
+
+## [Fira Code iScript](https://github.com/kencrocken/FiraCodeiScript)
+
+## [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
+![Vivid Theme](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/main-screenshot.png)
+
+# **Options and settings**
+
+## **Make sure to set encoding of your config file to utf8**
+
+> _The name of the theme contain emoticon_
+
+```JSON
 {
   "workbench.colorTheme": "Pop N' Lock Theme by Luxcium ✨",
 
@@ -34,41 +54,21 @@ CSS, JS, TypeScript and more).
 }
 ```
 
----
-
-## **Text Editor** sized
-
-### work along with external Terminal or web browser
-
-![Text Editor](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/Screenshots2.png)
-
-## Many types of **Comment Sections**
-
-![Comment Section](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/comments-section.png)
-
-## **Suggested options and settings**
+# **Suggested extensions**
 
 ![Suggested options](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/Screenshots4.png)
 
-> **For a better result use :**
->
-> - [Fira Code iScript](https://github.com/kencrocken/FiraCodeiScript) and
-> - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-
-
-![Vivid Theme](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/main-screenshot.png)
-
-## **Suggested extensions**
-
-- [ErrorLens](https://marketplace.visualstudio.com/items?itemName=PhilHindle.errorlens)
-- [Statusbar error](https://marketplace.visualstudio.com/items?itemName=JoeBerria.statusbarerror)
-- [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
-- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
-- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
 - [Alphabetical Sorter](https://marketplace.visualstudio.com/items?itemName=ue.alphabetical-sorter)
+- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+- [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
+- [ErrorLens](https://marketplace.visualstudio.com/items?itemName=PhilHindle.errorlens)
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Statusbar error](https://marketplace.visualstudio.com/items?itemName=JoeBerria.statusbarerror)
+- [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
 
-> **Adjust these settings to your pleasing :**
+# **Adjust these settings to your pleasing :**
+
+## set the editor.rulers: [80, 120, 121],
 
 ```json
 {
@@ -121,12 +121,12 @@ CSS, JS, TypeScript and more).
 }
 ```
 
-## Originally based on
+# Originally based on
 
 - [Hedinne's Popping And Locking (VSCode Theme)](https://github.com/hedinne/popping-and-locking-vscode)
   - [Morhetz's Gruvbox](https://github.com/morhetz/gruvbox)
   - [Jdinhlife's Gruvbox (VSCode Theme)](https://github.com/jdinhlife/vscode-theme-gruvbox)
 
-## How do I report feedback and issues?
+# How to report feedback and issues?
 
 You can [file an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our GitHub repo for our VS Code extension.
