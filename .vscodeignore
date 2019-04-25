@@ -5,3 +5,5 @@ assets
 tsconfig.json
 .prettierc
 node_modules
+images
+backup
