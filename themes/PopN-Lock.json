@@ -7,8 +7,8 @@
     // EDITOR
     "editor.background": "#202135",
     "editor.foreground": "#DCAE",
-    "editorPane.background": "#221f36",
     "editorGutter.background": "#1D1C2F",
+    "editorPane.background": "#1C1C2C",
     "editorLineNumber.activeForeground": "#DCA8",
     "editorLineNumber.foreground": "#DCA4",
     "editorWhitespace.foreground": "#DCA2",
@@ -36,7 +36,7 @@
     "sideBarSectionHeader.background": "#7165",
     "sideBarSectionHeader.foreground": "#DCAE",
     "sideBarTitle.foreground": "#DCAE",
-    "sideBar.border": "#FC34",
+    "sideBar.border": "#FC36",
     // STATUSBAR
     "statusBar.background": "#1D2545",
     "statusBar.debuggingBackground": "#C60",
@@ -65,24 +65,30 @@
     "breadcrumb.foreground": "#DCA9",
     // TABS
     "tab.activeBackground": "#1D2545",
-    "tab.inactiveBackground": "#231943AA",
-    "tab.activeForeground": "#DCAF",
-    "tab.inactiveForeground": "#DCAA",
-    "tab.unfocusedInactiveForeground": "#DCA5",
-    "tab.hoverBackground": "#19172A",
-    "tab.unfocusedHoverBackground": "#1C1C2C",
-    "tab.unfocusedInactiveModifiedBorder": "#7161",
-    "tab.unfocusedActiveForeground": "#DCAE",
-    "tab.activeBorderTop": "#FC4E",
-    "tab.activeBorder": "#48AA",
-    "tab.activeModifiedBorder": "#BB2545BB",
-    "tab.border": "#1D2545",
-    "tab.hoverBorder": "#48A",
-    "tab.inactiveModifiedBorder": "#BB2545BB",
-    "tab.unfocusedActiveBorder": "#48A7",
-    "tab.unfocusedActiveBorderTop": "#FC4E",
-    "tab.unfocusedActiveModifiedBorder": "#BB2545BB",
-    "tab.unfocusedHoverBorder": "#48A",
+    "tab.inactiveBackground": "#2A2040",
+
+    "tab.hoverBackground": "#52A5",
+    "tab.unfocusedHoverBackground": "#53A4",
+    "tab.hoverBorder": "#48AE",
+    "tab.unfocusedHoverBorder": "#59AC",
+
+    "tab.activeForeground": "#9C4D",
+    "tab.inactiveForeground": "#DBAF",
+    "tab.unfocusedActiveForeground": "#DBAC",
+    "tab.unfocusedInactiveForeground": "#DBAA",
+
+    "tab.border": "#1C1C2C",
+    "tab.activeBorderTop": "#FB5F",
+    "tab.activeModifiedBorder": "#F34F",
+    "tab.inactiveModifiedBorder": "#E3DF",
+    "tab.unfocusedActiveBorderTop": "#FB99",
+    "tab.unfocusedActiveModifiedBorder": "#F54C",
+    "tab.unfocusedInactiveModifiedBorder": "#E5DC",
+
+    /*
+    "tab.activeBorder": "#1D2545",
+    "tab.unfocusedActiveBorder": "#1D2545",
+    */
 
     // BADGE
     "badge.background": "#48A",
@@ -121,7 +127,7 @@
     "list.invalidItemForeground": "#DCAE",
     "list.dropBackground": "#19152F",
     "list.focusBackground": "#19152F",
-    "list.hoverBackground": "#252045",
+    "list.hoverBackground": "#231943",
     "list.inactiveFocusBackground": "#19152F",
     // PEEKVIEWTITLE
     "peekViewTitle.background": "#1D1028",
@@ -213,13 +219,16 @@
     "gitDecoration.ignoredResourceForeground": "#48AB",
     "gitDecoration.modifiedResourceForeground": "#FDB92F",
     "gitDecoration.untrackedResourceForeground": "#9C3E",
+    "editorOverviewRuler.addedForeground": "#8B3",
+    "editorOverviewRuler.deletedForeground": "#B35",
+    "editorOverviewRuler.modifiedForeground": "#48A",
     // EDITORGUTTER
     "editorGutter.addedBackground": "#8B3E",
-    "editorOverviewRuler.addedForeground": "#8B3",
     "editorGutter.deletedBackground": "#B35E",
-    "editorOverviewRuler.deletedForeground": "#B35",
     "editorGutter.modifiedBackground": "#48AE",
-    "editorOverviewRuler.modifiedForeground": "#48A",
+    "editorGutter.commentRangeForeground": "#DCAE",
+    "peekViewEditorGutter.background": "#2C203C",
+
     // SETTINGS
     "settings.modifiedItemIndicator": "#8B3E",
     "settings.numberInputBackground": "#48A4",
@@ -287,11 +296,13 @@
     "debugToolBar.background": "#2C203C",
     "debugToolBar.border": "#52A5",
     "descriptionForeground": "#DCAE",
+
     "diffEditor.border": "#52A5",
     "diffEditor.insertedTextBackground": "#2C203C",
     "diffEditor.insertedTextBorder": "#52A5",
     "diffEditor.removedTextBackground": "#2C203C",
     "diffEditor.removedTextBorder": "#52A5",
+
     "editor.findMatchBackground": "#2C203C",
     "editor.findMatchBorder": "#36AD",
     "editor.findMatchHighlightBackground": "#2C203C",
@@ -309,8 +320,9 @@
     "editor.snippetTabstopHighlightBackground": "#2C203C",
     "editor.snippetTabstopHighlightBorder": "#7161",
     "editor.stackFrameHighlightBackground": "#2C203C",
+
     "editorCursor.background": "#29153A",
-    "editorGutter.commentRangeForeground": "#DCAE",
+
     "editorIndentGuide.activeBackground": "#2C203C",
     "editorIndentGuide.background": "#2C203C",
     "editorLink.activeForeground": "#DCAE",
@@ -327,7 +339,6 @@
     "menu.border": "#7161",
     "menu.foreground": "#DCAE",
     "menu.separatorBackground": "#2C203C",
-
     "merge.border": "#7161",
     "merge.commonContentBackground": "#2C203C",
     "merge.commonHeaderBackground": "#2C203C",
@@ -335,37 +346,28 @@
     "merge.currentHeaderBackground": "#2C203C",
     "merge.incomingContentBackground": "#2C203C",
     "merge.incomingHeaderBackground": "#2C203C",
-
     "panelInput.border": "#7165",
-
     "peekView.border": "#7161",
     "peekViewEditor.background": "#2C203C",
     "peekViewEditor.matchHighlightBackground": "#2C203C",
     "peekViewEditor.matchHighlightBorder": "#7161",
-    "peekViewEditorGutter.background": "#2C203C",
     "peekViewResult.background": "#2C203C",
     "peekViewResult.fileForeground": "#DCAE",
     "peekViewResult.lineForeground": "#DCAE",
     "peekViewResult.matchHighlightBackground": "#2C203C",
-
     "pickerGroup.border": "#7161",
     "pickerGroup.foreground": "#DCAE",
-
     "sideBarSectionHeader.border": "#7161",
     "statusBarItem.hostBackground": "#191729",
     "statusBarItem.hostForeground": "#DCAE",
     "statusBarItem.prominentForeground": "#DCAE",
-
     "textBlockQuote.background": "#2C203C",
     "textBlockQuote.border": "#7161",
     "textCodeBlock.background": "#2C203C",
-
     "textLink.activeForeground": "#64C9",
     "textLink.foreground": "#48AB",
-
     "textPreformat.foreground": "#DCAE",
     "textSeparator.foreground": "#DCAE",
-
     "walkThrough.embeddedEditorBackground": "#2C203C"
   },
   "tokenColors": [

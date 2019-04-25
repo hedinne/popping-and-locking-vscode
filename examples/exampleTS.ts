@@ -114,7 +114,7 @@ function delayedHello(
   name: string,
   delay: number = Delays.Medium
 ): Promise<string> {
-  return new Promise((resolve: (value?: string) => void) =>
+  return new Promise((resolve: (value?: string) => voi d) =>
     setTimeout(() => resolve(`Hello, ${name}`), delay)
   );
 }
