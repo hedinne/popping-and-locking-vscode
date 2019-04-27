@@ -1,9 +1,11 @@
 .vscode/**
 .gitignore
-vsc-extension-quickstart.md
-assets
-tsconfig.json
-.prettierc
-node_modules
 images
 backup
+node_modules
+luxcium.ico
+package-lock.json
+tsconfig.json
+vsc-extension-quickstart.md
+social-media-image.png
+.prettierc
