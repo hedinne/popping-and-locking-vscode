@@ -72,7 +72,7 @@ CSS, JS, TypeScript and more).
 
 # set the editor.rulers: [80, 120, 121] in vscode settings
 
-[![JavaScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.5/editor.rulers-vscode.png) editor.rulers setting (v3.9.5)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.5/editor.rulers-vscode.png)
+[![editor.rulers setting in vscode](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.5/editor.rulers-vscode.png) editor.rulers setting (v3.9.5)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.5/editor.rulers-vscode.png)
 
 ## **Adjust these settings to your pleasing :**
 
