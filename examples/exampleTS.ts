@@ -117,7 +117,7 @@ function delayedHello(
     setTimeout(() => resolve(`Hello, ${name}`), delay)
   );
 }
-export default class ClassName extends ParentClass implements Interface {
+export class ClassName extends ParentClass implements Interface {
   public value: string;
   public values: tada;
 
