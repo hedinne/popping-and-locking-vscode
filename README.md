@@ -22,13 +22,11 @@ CSS, JS, TypeScript and more).
 
 [![TSX/JSX](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.1/TSX-JSX.png) TSX/JSX Support Screenshot (v3.9.1)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.1/TSX-JSX.png)
 
-# **Text Editor sized**
+## **Text Editor sized** Work along with external Terminal or web browser
 
 ![Text Editor](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/Screenshots2.png)
 
-## work along with external Terminal or web browser
-
-# **For better results use apropriate fonts and icons theme**
+## **For better results use apropriate fonts and icons theme**
 
 ![Vivid Theme](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/main-screenshot.png)
 
@@ -36,9 +34,9 @@ CSS, JS, TypeScript and more).
 
 ### [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
-# **Options and settings**
+## **Options and settings**
 
-# Set the editor.rulers: [80, 120, 121] in vscode settings
+### Set the editor.rulers: [80, 120, 121] in vscode settings
 
 [![editor.rulers setting in vscode](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.5/editor.rulers-vscode.png) editor.rulers setting (v3.9.5)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.5/editor.rulers-vscode.png)
 
@@ -62,7 +60,7 @@ CSS, JS, TypeScript and more).
 }
 ```
 
-# **Suggested extensions**
+## **Suggested extensions**
 
 ![Suggested options](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/Screenshots4.png)
 
@@ -74,7 +72,7 @@ CSS, JS, TypeScript and more).
 - [Statusbar error](https://marketplace.visualstudio.com/items?itemName=JoeBerria.statusbarerror)
 - [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
 
-## **Adjust these settings to your pleasing :**
+### **Adjust these settings to your pleasing :**
 
 ```json
 {
@@ -136,3 +134,7 @@ CSS, JS, TypeScript and more).
 # How to report feedback and issues?
 
 You can [file an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issues) on our GitHub repo for our VS Code extension.
+
+---
+
+####The Luxcium logo is a trademark of NeB_401.Corp LTEE (all right reserved)
