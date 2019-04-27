@@ -418,6 +418,55 @@
     /* *** *** *** */
   },
   "tokenColors": [
+    // "COMMENTS ----------------------------------------",
+    // "COMMENTS ----------------------------------------",
+    // "COMMENTS ----------------------------------------",
+    // "COMMENTS ----------------------------------------",
+
+    {
+      "scope": ["comment"],
+      "settings": { "foreground": "#666E", "fontStyle": "" }
+    },
+    {
+      "scope": [
+        "comment.block punctuation.definition.comment",
+        "comment.block"
+      ],
+      "settings": { "foreground": "#53EC", "fontStyle": "" }
+    },
+    {
+      "scope": [
+        "comment.line.double-slash punctuation.definition.comment",
+        "comment.line.double-slash"
+      ],
+      "settings": { "foreground": "#2BD7", "fontStyle": "bold italic" }
+    },
+    {
+      "scope": ["comment.line.triple-slash.directive string.quoted.double"],
+      "settings": { "foreground": "#B98B", "fontStyle": "" }
+    },
+    {
+      "scope": [
+        "comment.line.triple-slash.directive meta.tag entity.name.tag.directive",
+        "comment.line.triple-slash.directive entity.other.attribute-name.directive"
+      ],
+      "settings": { "foreground": "#53EC", "fontStyle": "" }
+    },
+    // {
+    //   "scope": [
+    //     "comment.line.triple-slash.directive string.quoted.double.ts punctuation.definition.string.begin",
+    //     "comment.line.triple-slash.directive string.quoted.double.ts punctuation.definition.string.end"
+    //   ],
+    //   "settings": { "foreground": "#CA5A", "fontStyle": "" }
+    // },
+    {
+      "scope": [
+        "comment.line.triple-slash.directive punctuation.definition.comment",
+        "comment.line.triple-slash.directive keyword.operator.assignment",
+        "comment.line.triple-slash.directive punctuation.definition.tag.directive"
+      ],
+      "settings": { "foreground": "#588E", "fontStyle": "" }
+    },
     // "typescript ---------------------------------------"
     // "typescript ---------------------------------------"
     // "typescript ---------------------------------------"
@@ -1147,56 +1196,6 @@
         "source.ts meta.var.expr"
       ],
       "settings": { "foreground": "#EDAE", "fontStyle": "" }
-    },
-
-    // "COMMENTS ----------------------------------------",
-    // "COMMENTS ----------------------------------------",
-    // "COMMENTS ----------------------------------------",
-    // "COMMENTS ----------------------------------------",
-
-    {
-      "scope": ["comment"],
-      "settings": { "foreground": "#666E", "fontStyle": "" }
-    },
-    {
-      "scope": [
-        "comment.block punctuation.definition.comment",
-        "comment.block"
-      ],
-      "settings": { "foreground": "#53EC", "fontStyle": "" }
-    },
-    {
-      "scope": [
-        "comment.line.double-slash punctuation.definition.comment",
-        "comment.line.double-slash"
-      ],
-      "settings": { "foreground": "#2CD9", "fontStyle": "bold italic" }
-    },
-    {
-      "scope": ["comment.line.triple-slash.directive string.quoted.double"],
-      "settings": { "foreground": "#B98B", "fontStyle": "" }
-    },
-    {
-      "scope": [
-        "comment.line.triple-slash.directive meta.tag entity.name.tag.directive",
-        "comment.line.triple-slash.directive entity.other.attribute-name.directive"
-      ],
-      "settings": { "foreground": "#53EC", "fontStyle": "" }
-    },
-    // {
-    //   "scope": [
-    //     "comment.line.triple-slash.directive string.quoted.double.ts punctuation.definition.string.begin",
-    //     "comment.line.triple-slash.directive string.quoted.double.ts punctuation.definition.string.end"
-    //   ],
-    //   "settings": { "foreground": "#CA5A", "fontStyle": "" }
-    // },
-    {
-      "scope": [
-        "comment.line.triple-slash.directive punctuation.definition.comment",
-        "comment.line.triple-slash.directive keyword.operator.assignment",
-        "comment.line.triple-slash.directive punctuation.definition.tag.directive"
-      ],
-      "settings": { "foreground": "#588E", "fontStyle": "" }
     },
 
     // "JSON ----------------------------------------",
