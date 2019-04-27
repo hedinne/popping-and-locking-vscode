@@ -137,4 +137,4 @@ You can [file an issue](https://github.com/luxcium/pop-n-lock-theme-vscode/issue
 
 ---
 
-####The Luxcium logo is a trademark of NeB_401.Corp LTEE (all right reserved)
+#### The Luxcium logo is a trademark of NeB_401.Corp LTEE (all right reserved)
