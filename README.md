@@ -70,9 +70,11 @@ CSS, JS, TypeScript and more).
 - [Statusbar error](https://marketplace.visualstudio.com/items?itemName=JoeBerria.statusbarerror)
 - [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
 
-# **Adjust these settings to your pleasing :**
+# set the editor.rulers: [80, 120, 121] in vscode settings
 
-## set the editor.rulers: [80, 120, 121],
+[![JavaScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.5/editor.rulers-vscode.png) editor.rulers setting (v3.9.5)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.5/editor.rulers-vscode.png)
+
+## **Adjust these settings to your pleasing :**
 
 ```json
 {
