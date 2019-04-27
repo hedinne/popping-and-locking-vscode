@@ -10,7 +10,7 @@ config();
 const jwtSecret = process.env.JWTSECRET;
 const router = express.Router();
 const User = mongoose.model("User");
-const List = mongoose.model("List");
+const List = mongoose.mon; //.model("List");
 const ListItem = mongoose.model("ListItem");
 
 function returnAllLists(userId: any, res: any) {
