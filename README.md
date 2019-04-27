@@ -18,6 +18,10 @@ CSS, JS, TypeScript and more).
 
 [![JavaScript](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.7.0/JS1.png) JavaScript Screenshot (v3.7.0)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.7.0/JS2.png)
 
+# TSX/JSX
+
+[![TSX/JSX](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.1/TSX-JSX.png) TSX/JSX Support Screenshot (v3.9.1)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.1/TSX-JSX.png)
+
 # **Text Editor sized**
 
 ### work along with external Terminal or web browser
