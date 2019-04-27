@@ -38,6 +38,10 @@ CSS, JS, TypeScript and more).
 
 # **Options and settings**
 
+# Set the editor.rulers: [80, 120, 121] in vscode settings
+
+[![editor.rulers setting in vscode](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.5/editor.rulers-vscode.png) editor.rulers setting (v3.9.5)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.5/editor.rulers-vscode.png)
+
 ## **Make sure to set encoding of your config file to utf8**
 
 > _The name of the theme contain emoticon_
@@ -69,10 +73,6 @@ CSS, JS, TypeScript and more).
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Statusbar error](https://marketplace.visualstudio.com/items?itemName=JoeBerria.statusbarerror)
 - [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
-
-# set the editor.rulers: [80, 120, 121] in vscode settings
-
-[![editor.rulers setting in vscode](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.5/editor.rulers-vscode.png) editor.rulers setting (v3.9.5)](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/v3.9.5/editor.rulers-vscode.png)
 
 ## **Adjust these settings to your pleasing :**
 
