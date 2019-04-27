@@ -49,7 +49,7 @@
     "release:patch": "npm version patch && vsce package && vsce publish",
     "release": "vsce package && vsce publish"
   },
-  "icon": "Scientia-is-lux-principium-400px.png",
+  "icon": "Scientia-is-lux-principium-400px-TM.png",
   "homepage": "https://github.com/luxcium/pop-n-lock-theme-vscode/#readme",
   "bugs": {
     "url": "https://github.com/luxcium/pop-n-lock-theme-vscode/issues",
