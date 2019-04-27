@@ -24,17 +24,17 @@ CSS, JS, TypeScript and more).
 
 # **Text Editor sized**
 
-### work along with external Terminal or web browser
-
 ![Text Editor](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/Screenshots2.png)
+
+## work along with external Terminal or web browser
 
 # **For better results use apropriate fonts and icons theme**
 
-## [Fira Code iScript](https://github.com/kencrocken/FiraCodeiScript)
-
-## [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-
 ![Vivid Theme](https://raw.githubusercontent.com/luxcium/pop-n-lock-theme-vscode/master/images/main-screenshot.png)
+
+### [Fira Code iScript](https://github.com/kencrocken/FiraCodeiScript)
+
+### [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
 # **Options and settings**
 
@@ -85,7 +85,7 @@ CSS, JS, TypeScript and more).
 
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.showReloadMessage": true,
-  "editor.fontFamily": "Fira Code iScript, Fira Code",
+  "editor.fontFamily": "Fira Code iScript, LigaFantasqueSansMono",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.suggestFontSize": 16,
@@ -106,7 +106,7 @@ CSS, JS, TypeScript and more).
   "explorer.openEditors.visible": 5,
   "explorer.sortOrder": "type",
 
-  "terminal.integrated.fontFamily": "TerminessTTF NF,LigaFantasqueSansMono,MesloLGL Nerd Font,CQ Mono,Fira Code",
+  "terminal.integrated.fontFamily": "TerminessTTF NF,MesloLGL Nerd Font,CQ Mono",
   "terminal.integrated.letterSpacing": 1,
   "terminal.integrated.fontSize": 18,
   "terminal.integrated.cursorStyle": "block",
