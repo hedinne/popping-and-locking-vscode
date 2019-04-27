@@ -24,6 +24,17 @@
   },
   "preview": false,
   "contributes": {
+    "colors": [
+      {
+        "id": "superstatus.error",
+        "description": "Color for error message in the status bar.",
+        "defaults": {
+          "dark": "errorForeground",
+          "light": "errorForeground",
+          "highContrast": "#010203"
+        }
+      }
+    ],
     "themes": [
       {
         "label": "Pop N' Lock Theme by Luxcium ✨",
