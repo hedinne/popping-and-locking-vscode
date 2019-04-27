@@ -154,25 +154,25 @@
     "editorMarkerNavigationWarning.background": "#FC1B",
     /* *** *** *** *** */
     "editorOverviewRuler.addedForeground": "#8B3",
-    "editorOverviewRuler.border": "#41E",
+    "editorOverviewRuler.border": "#48AB",
     "editorOverviewRuler.bracketMatchForeground": "#AE4",
-    "editorOverviewRuler.commonContentForeground": "#DCAE",
-    "editorOverviewRuler.currentContentForeground": "#DCAE",
+    "editorOverviewRuler.commonContentForeground": "#8DA9",
+    "editorOverviewRuler.currentContentForeground": "#48A9",
     "editorOverviewRuler.deletedForeground": "#B35",
     "editorOverviewRuler.errorForeground": "#F43B",
     "editorOverviewRuler.findMatchForeground": "#36A",
-    "editorOverviewRuler.incomingContentForeground": "#DCAE",
+    "editorOverviewRuler.incomingContentForeground": "#E479",
     "editorOverviewRuler.infoForeground": "#48AB",
     "editorOverviewRuler.modifiedForeground": "#48A",
-    "editorOverviewRuler.rangeHighlightForeground": "#DCAE",
-    "editorOverviewRuler.selectionHighlightForeground": "#DCAE",
+    "editorOverviewRuler.rangeHighlightForeground": "#F73B",
+    "editorOverviewRuler.selectionHighlightForeground": "#FC4E",
     "editorOverviewRuler.warningForeground": "#694B",
     "editorOverviewRuler.wordHighlightForeground": "#8DA",
     "editorOverviewRuler.wordHighlightStrongForeground": "#E47",
     /* *** *** *** *** */
     "editorPane.background": "#1C1C2C",
     /* *** *** *** *** */
-    "editorRuler.foreground": "#F492",
+    "editorRuler.foreground": "#E476",
     /* *** *** *** *** */
     "editorSuggestWidget.background": "#235C",
     "editorSuggestWidget.border": "#4AEE",
@@ -285,7 +285,7 @@
     /*
     /* *** PEEK VIEW *** */
     "peekView.border": "#FC3C",
-    "peekViewEditor.background": "#235",
+    "peekViewEditor.background": "#235A",
     "peekViewEditor.matchHighlightBackground": "#426",
     "peekViewEditor.matchHighlightBorder": "#618",
     "peekViewEditorGutter.background": "#1D2545",

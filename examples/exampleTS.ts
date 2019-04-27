@@ -89,8 +89,8 @@ export const asyncAnonymArowFunction = async () => {
   checker = true;
   checker = false;
   checker.valueOf();
-  const gabriel = checker ? 48 : 47;
-  const some = new ClassName({ value: "value", gabriel });
+  const angel = checker ? 48 : 47;
+  const some = new ClassName({ value: "value", gabriel: angel });
   some.otherMethodeValue;
   return { some, variable1 };
 };
@@ -104,11 +104,10 @@ export enum Delays {
 }
 /**
  * Returns a Promise<string> that resolves after given time.
- *
  * @param {string} name - A name.
  * @param {number=} [delay=Delays.Medium] - Number of milliseconds to delay resolution of the Promise.
  * @returns {Promise<string>}
- * @email me@mail.com {url=https://www.exemple.com}
+ * @see https://www.exemple.com
  */
 function delayedHello(
   name: string,
