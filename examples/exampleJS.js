@@ -42,3 +42,14 @@ export {
   mongosanitize,
   jwt
 };
+
+debugger;
+
+(() => {
+  const objectLike = { propertyOne: 10, propertyTwo: "string" };
+  const { propertyOne } = objectLike;
+  const myArray = [5, 10, 15, 20, 25];
+  const [cinq, dix] = myArray;
+  global.console.log("Hello World");
+  return { propertyOne, cinq, dix };
+})();

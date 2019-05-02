@@ -35,6 +35,17 @@ function returnAllLists(userId: any, res: any) {
  * Send LIST
  */
 
+debugger;
+
+(() => {
+  const objectLike = { propertyOne: 10, propertyTwo: "string" };
+  const { propertyOne } = objectLike;
+  const myArray = [5, 10, 15, 20, 25];
+  const [cinq, dix] = myArray;
+  global.console.log("Hello World");
+  return { propertyOne, cinq, dix };
+})();
+
 @sealed
 class Greeter {
   greeting: string;
@@ -71,13 +82,16 @@ function sealed(constructor: Function) {
 }
 
 async function asyncFunction() {
+  const objectLike = { propertyOne: 10, propertyTwo: "string" };
+  const { propertyOne } = objectLike;
+
   const variable1 = 2 + 10;
   let message: string = "this is a string indeed";
   message = 'this is a "string" indeed';
   const variable3 = new Greeter(message);
 
   const variable2 = await variable1.toFixed(200 - 400);
-  return { variable2, variable3 };
+  return { variable2, variable3, propertyOne };
 }
 export type anyone = number | string;
 
@@ -153,7 +167,7 @@ export class ClassName extends ParentClass implements Interface {
       mice = "ichy";
       console.log("mice", mice);
       return {
-        values: [null, NaN, Infinity, this, true, false, undefined],
+        values: [450, null, NaN, Infinity, this, true, false, undefined],
         popo,
         souris: mice
       };
