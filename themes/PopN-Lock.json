@@ -475,6 +475,7 @@
       ],
       "settings": { "foreground": "#7D2d", "fontStyle": "" }
     },
+    // "#FC2C", // "#FB4E"
     {
       "scope": [
         "source.ts punctuation.definition.string.begin",
@@ -508,7 +509,7 @@
         "source.ts entity.name.function",
         "source.ts entity.other.inherited-class.ts"
       ],
-      "settings": { "foreground": "#FC2E", "fontStyle": "" }
+      "settings": { "foreground": "#FC5F", "fontStyle": "" }
     },
     {
       "scope": [
@@ -516,7 +517,7 @@
         "source.ts support.type.primitive",
         "source.ts meta.interface support.type.primitive"
       ],
-      "settings": { "foreground": "#FC2E", "fontStyle": "" }
+      "settings": { "foreground": "#FC5E", "fontStyle": "" }
     },
 
     {
