@@ -515,7 +515,9 @@
       "scope": [
         "source.ts meta.type.declaration support.type.primitive",
         "source.ts support.type.primitive",
-        "source.ts meta.interface support.type.primitive"
+        "source.ts meta.interface support.type.primitive",
+        "source.ts type.annotation",
+        "source.ts entity.name.type"
       ],
       "settings": { "foreground": "#FC5E", "fontStyle": "" }
     },
@@ -535,14 +537,26 @@
       ],
       "settings": { "foreground": "#E35d", "fontStyle": "bold" }
     },
+    /*
+
+entity.name.type.ts
+meta.type.annotation.ts
+meta.parameters.ts
+meta.method.declaration.ts
+meta.class.ts
+source.ts
+
+entity.name.type.class.ts
+meta.class.ts
+source.ts
+    */
     {
       "scope": [
         "source.ts entity.name.type.alias",
         "source.ts entity.name.type.class",
         "source.ts entity.name.type.enum",
         "source.ts entity.name.type.interface",
-        "source.ts entity.name.type.module",
-        "source.ts entity.name.type"
+        "source.ts entity.name.type.module"
       ],
       "settings": { "foreground": "#EDAb", "fontStyle": "bold" }
     },
