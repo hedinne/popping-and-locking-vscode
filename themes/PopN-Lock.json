@@ -539,16 +539,6 @@
     },
     /*
 
-entity.name.type.ts
-meta.type.annotation.ts
-meta.parameters.ts
-meta.method.declaration.ts
-meta.class.ts
-source.ts
-
-entity.name.type.class.ts
-meta.class.ts
-source.ts
     */
     {
       "scope": [
