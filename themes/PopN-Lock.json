@@ -506,12 +506,17 @@
         "source.ts support.function",
         "source.ts meta.definition.method",
         "source.ts entity.name.function",
-        "source.ts entity.other.inherited-class.ts",
+        "source.ts entity.other.inherited-class.ts"
+      ],
+      "settings": { "foreground": "#FC2E", "fontStyle": "" }
+    },
+    {
+      "scope": [
         "source.ts meta.type.declaration support.type.primitive",
         "source.ts support.type.primitive",
         "source.ts meta.interface support.type.primitive"
       ],
-      "settings": { "foreground": "#FC5F", "fontStyle": "" }
+      "settings": { "foreground": "#FC2E", "fontStyle": "" }
     },
 
     {
