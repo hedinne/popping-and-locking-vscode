@@ -358,8 +358,6 @@
     /*
     /* *** STATUS BAR ITEM *** */
     "statusBarItem.activeBackground": "#1C1C2CFF",
-    "statusBarItem.hostBackground": "#191729FF",
-    "statusBarItem.hostForeground": "#DCAf",
     "statusBarItem.hoverBackground": "#1C1C2CFF",
     "statusBarItem.prominentBackground": "#684F",
     "statusBarItem.prominentForeground": "#DCAf",
@@ -486,28 +484,68 @@
         "source.ts string.quoted.single punctuation.definition.string.begin",
         "source.ts string.quoted.single punctuation.definition.string.end"
       ],
-      "settings": { "foreground": "#EB1c", "fontStyle": "" }
+      "settings": { "foreground": "#FC5C", "fontStyle": "" }
+    },
+    // function like (BOLD)
+    {
+      "scope": [
+        "source.ts support.function.builtin",
+        "source.ts support.function.git-rebase",
+        "source.ts support.function.json",
+        "source.ts support.function.math",
+        "source.ts support.function.process",
+        "source.ts support.function.console"
+      ],
+      "settings": { "foreground": "#FC5F", "fontStyle": "bold italic" }
+    },
+    {
+      "scope": [
+        "source.ts meta.definition.variable entity.name.function",
+        "source.ts meta.definition.function.ts entity.name.function",
+        "source.ts support.function",
+        "source.ts support.function",
+        "source.ts meta.definition.method",
+        "source.ts entity.name.function",
+        "source.ts entity.other.inherited-class.ts",
+        "source.ts meta.type.declaration support.type.primitive",
+        "source.ts support.type.primitive",
+        "source.ts meta.interface support.type.primitive"
+      ],
+      "settings": { "foreground": "#FC5F", "fontStyle": "" }
     },
 
     {
       "scope": [
-        "source.ts entity.name.type.alias",
-        "source.ts meta.definition.variable entity.name.function",
-        "source.ts entity.name.type.interface",
-        "source.ts meta.definition.function.ts entity.name.function",
-        "source.ts support.function",
-        "source.ts meta.definition.function.ts entity.name.function",
-        "source.ts support.function",
-        "source.ts entity.name.type.class",
-        "source.ts meta.definition.method",
-        "source.ts entity.name.function",
-        "source.ts entity.other.inherited-class.ts",
-        "source.ts entity.name.type",
-        "source.ts meta.type.declaration support.type.primitive",
-        "source.ts meta.interface support.type.primitive",
-        "source.ts support.type.primitive"
+        "source.ts meta.interface variable.object.property",
+        "source.ts variable.other.enummember"
       ],
-      "settings": { "foreground": "#FB4f", "fontStyle": "" }
+      "settings": { "foreground": "#ADCd", "fontStyle": "" }
+    },
+    {
+      "scope": [
+        "source.ts storage.type.interface",
+        "source.ts storage.type.type",
+        "source.ts storage.type.enum"
+      ],
+      "settings": { "foreground": "#E35d", "fontStyle": "bold" }
+    },
+    {
+      "scope": [
+        "source.ts entity.name.type.alias",
+        "source.ts entity.name.type.class",
+        "source.ts entity.name.type.enum",
+        "source.ts entity.name.type.interface",
+        "source.ts entity.name.type.module",
+        "source.ts entity.name.type"
+      ],
+      "settings": { "foreground": "#EDAb", "fontStyle": "bold" }
+    },
+    {
+      "scope": ["source.ts keyword.other.debugger.ts"],
+      "settings": {
+        "foreground": "#FC2C",
+        "fontStyle": "bold underline"
+      }
     },
     // "ARROW FUNCTION STYLE", "#4CBb"
     // "FUNCTION KEYWORD STYLE"
@@ -528,7 +566,7 @@
         "source.ts storage.type.function",
         "source.ts storage.type.function.arrow"
       ],
-      "settings": { "foreground": "#5D4d" }
+      "settings": { "foreground": "#7C2e" }
     },
     // "CLASS KEYWORD DEFINITION"
     // PUBLIC, PRIVATE, EXTENDS, IMPLEMENTS, ETC..."
@@ -541,7 +579,7 @@
     {
       "name": "CLASS KEYWORD DEFINITION",
       "scope": ["source.ts storage.type.class"],
-      "settings": { "foreground": "#E81e", "fontStyle": "bold italic" }
+      "settings": { "foreground": "#FC2e", "fontStyle": "bold italic" }
     },
     {
       "name": "STORAGE TYPE => CONSTRUCTOR KEYWORD ETC ....",
@@ -642,21 +680,11 @@
       "scope": ["source.ts meta.block keyword.control.flow"],
       "settings": { "foreground": "#E35f", "fontStyle": "" }
     },
-    {
-      "scope": ["source.ts keyword.other.debugger.ts"],
-      "settings": {
-        "foreground": "#FC2",
-        "fontStyle": "bold underline"
-      } // ! F
-    },
 
     /*
         storage type
             */
-    {
-      "scope": ["source.ts storage.type.interface"],
-      "settings": { "foreground": "#E35d", "fontStyle": "bold" }
-    },
+
     {
       "scope": ["source.ts storage.type.internaldeclaration"],
       "settings": { "foreground": "#E35f", "fontStyle": "" }
@@ -670,7 +698,7 @@
       "settings": { "foreground": "#E35f", "fontStyle": "" }
     },
     {
-      "scope": ["source.ts storage.type.type"],
+      "scope": [],
       "settings": { "foreground": "#E35d", "fontStyle": "bold" }
     },
     {
@@ -684,7 +712,7 @@
       "settings": { "foreground": "#E35f", "fontStyle": "italic" }
     },
     {
-      "scope": ["source.ts storage.type.enum"],
+      "scope": [],
       "settings": { "foreground": "#E35d", "fontStyle": "bold" }
     },
     {
@@ -896,6 +924,7 @@
       "scope": ["source.ts variable.other.object"],
       "settings": { "foreground": "#EDAf", "fontStyle": "" }
     },
+
     {
       "scope": [
         "source.ts variable.arguments",
@@ -905,7 +934,6 @@
         "source.ts variable.name",
         "source.ts variable.other.constant.object",
         "source.ts variable.other.constant",
-        "source.ts variable.other.enummember",
         "source.ts variable.other.readwrite.alias",
         "source.ts meta.array-binding-pattern-variable variable.other.constant",
         "source.ts variable.other.readwrite",
@@ -917,13 +945,14 @@
       ],
       "settings": { "foreground": "#ADCd" }
     },
+
     /*
+
     VARIABLE PROPERTIES LIKE
 */
     {
       "scope": [
         "source.ts variable.other.object.property",
-        "source.ts meta.interface variable.object.property",
         "source.ts variable.object.property",
         "source.ts variable.other.constant.object.property",
         "source.ts variable.other.constant.property",
@@ -933,6 +962,8 @@
       ],
       "settings": { "foreground": "#4AEf" }
     },
+    //
+    //
     {
       "scope": [
         "source.ts punctuation.definition.binding-pattern.array",
@@ -960,7 +991,7 @@
         "source.ts support.constant.json",
         "source.ts support.constant.math",
         "source.ts support.type",
-        "source.ts support.type.builtin",
+
         "source.ts support.type.object.module",
         "source.ts support.variable",
         "source.ts support.variable.object.node",
@@ -969,6 +1000,11 @@
       ],
       "settings": { "foreground": "#EDAf", "fontStyle": "" }
     },
+    {
+      "scope": ["source.ts support.type.builtin"],
+      "settings": { "foreground": "#D65e", "fontStyle": "" }
+    },
+
     // properties like (BOLD)
     {
       "scope": [
@@ -984,18 +1020,7 @@
       ],
       "settings": { "foreground": "#4AEe", "fontStyle": "bold italic" }
     },
-    // function like (BOLD)
-    {
-      "scope": [
-        "source.ts support.function.builtin",
-        "source.ts support.function.git-rebase",
-        "source.ts support.function.json",
-        "source.ts support.function.math",
-        "source.ts support.function.process",
-        "source.ts support.function.console"
-      ],
-      "settings": { "foreground": "#FB4e", "fontStyle": "bold italic" }
-    },
+
     /*
         KEYWORD OPERATOR
             */
@@ -1115,8 +1140,6 @@
         "source.ts entity.name.static.function-call",
         "source.ts entity.name.tag.directive",
         "source.ts entity.name.tag",
-        "source.ts entity.name.type.enum",
-        "source.ts entity.name.type.module",
         "source.ts entity.name",
         "source.ts entity.other.attribute-name.css",
         "source.ts entity.other.attribute-name.directive",
@@ -1252,7 +1275,6 @@
       "scope": [
         "source.js entity.name.type.alias",
         "source.js meta.definition.variable entity.name.function",
-        "source.js entity.name.type.interface",
         "source.js meta.definition.function.js entity.name.function",
         "source.js support.function",
         "source.js meta.definition.function.js entity.name.function",
@@ -1721,7 +1743,6 @@
         "source.js support.constant.json",
         "source.js support.constant.math",
         "source.js support.type",
-        "source.js support.type.builtin",
         "source.js support.type.object.module",
         "source.js support.variable",
         "source.js support.variable.object.node",
@@ -1729,6 +1750,10 @@
         "source.js support.class.console"
       ],
       "settings": { "foreground": "#EDAf", "fontStyle": "" }
+    },
+    {
+      "scope": ["source.js support.type.builtin"],
+      "settings": { "foreground": "#D65e", "fontStyle": "" }
     },
     // properties like (BOLD)
     {
@@ -2483,7 +2508,6 @@ VARIABLE PROPERTIES LIKE
         "source.tsx support.constant.json",
         "source.tsx support.constant.math",
         "source.tsx support.type",
-        "source.tsx support.type.builtin",
         "source.tsx support.type.object.module",
         "source.tsx support.variable",
         "source.tsx support.variable.object.node",
@@ -2491,6 +2515,10 @@ VARIABLE PROPERTIES LIKE
         "source.tsx support.class.console"
       ],
       "settings": { "foreground": "#EDAf", "fontStyle": "" }
+    },
+    {
+      "scope": ["source.tsx support.type.builtin"],
+      "settings": { "foreground": "#D65e", "fontStyle": "" }
     },
     // properties like (BOLD)
     {
@@ -3244,7 +3272,6 @@ VARIABLE PROPERTIES LIKE
         "source.jsx support.constant.json",
         "source.jsx support.constant.math",
         "source.jsx support.type",
-        "source.jsx support.type.builtin",
         "source.jsx support.type.object.module",
         "source.jsx support.variable",
         "source.jsx support.variable.object.node",
@@ -3252,6 +3279,10 @@ VARIABLE PROPERTIES LIKE
         "source.jsx support.class.console"
       ],
       "settings": { "foreground": "#EDAf", "fontStyle": "" }
+    },
+    {
+      "scope": ["source.js.jsx support.type.builtin"],
+      "settings": { "foreground": "#D65e", "fontStyle": "" }
     },
     // properties like (BOLD)
     {
@@ -3953,7 +3984,7 @@ VARIABLE PROPERTIES LIKE
     {
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#f42c3eFF"
+        "foreground": "#B6Be"
       }
     },
     {

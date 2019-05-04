@@ -46,6 +46,7 @@ debugger;
   return { propertyOne, cinq, dix };
 })();
 
+export type defined = string | 450 | null | true | false | undefined;
 @sealed
 class Greeter {
   greeting: string;
@@ -65,16 +66,22 @@ export async function notMuch(ValueIn: string) {
 }
 
 class ParentClass {}
-interface Interface {
+interface IInterface {
   value: string;
 }
 
-interface argument {
+interface Arguments {
   value: string | number;
   gabriel: number;
 }
 
-type tada = number | boolean;
+type Tada = number | boolean;
+
+enum Delays {
+  Short = 500,
+  Medium = 2000,
+  Long = 5000
+}
 
 function sealed(constructor: Function) {
   Object.seal(constructor);
@@ -111,11 +118,7 @@ export const asyncAnonymArowFunction = async () => {
 /**
  * Some predefined delays (in milliseconds).
  */
-export enum Delays {
-  Short = 500,
-  Medium = 2000,
-  Long = 5000
-}
+
 /**
  * Returns a Promise<string> that resolves after given time.
  * @param {string} name - A name.
@@ -131,11 +134,11 @@ function delayedHello(
     setTimeout(() => resolve(`Hello, ${name}`), delay)
   );
 }
-export class ClassName extends ParentClass implements Interface {
+export class ClassName extends ParentClass implements IInterface {
   public value: string;
-  public values: tada;
+  public values: Tada;
 
-  public constructor(parametre: argument) {
+  public constructor(parametre: Arguments) {
     super();
     if (
       typeof parametre.value !== "number" ||
