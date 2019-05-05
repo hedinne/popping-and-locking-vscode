@@ -951,6 +951,7 @@
         "source.ts variable.other.regexp",
         "source.ts variable.other",
         "source.ts variable.parameter",
+        "source.ts meta.objectliteral meta.object.member variable.other.object",
         "source.ts variable"
       ],
       "settings": { "foreground": "#ADCd" }
@@ -959,6 +960,14 @@
     /*
 
     VARIABLE PROPERTIES LIKE
+
+meta.object.member.ts
+meta.objectliteral.ts
+meta.block.ts
+meta.arrow.ts
+meta.block.ts
+meta.function.ts
+source.ts
 */
     {
       "scope": [
@@ -968,6 +977,7 @@
         "source.ts variable.other.constant.property",
         "source.ts variable.other.property",
         "source.ts meta.var.expr meta.object-literal.key",
+        "source.ts meta.object.member meta.object-literal.key",
         "source.ts meta.object-binding-pattern-variable variable.other.constant"
       ],
       "settings": { "foreground": "#4AEf" }
