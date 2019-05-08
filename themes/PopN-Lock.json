@@ -937,22 +937,22 @@
 
     {
       "scope": [
-        "source variable.arguments",
-        "source variable.class",
-        "source variable.language.arguments",
-        "source variable.language",
-        "source variable.name",
-        "source variable.other.constant.object",
-        "source variable.other.constant",
-        "source variable.other.readwrite.alias",
-        "source meta.array-binding-pattern-variable variable.other.constant",
-        "source variable.other.readwrite",
-        "source variable.other.readwrite",
-        "source variable.other.regexp",
-        "source variable.other",
-        "source variable.parameter",
-        "source meta.objectliteral meta.object.member variable.other.object",
-        "source variable"
+        "source.ts variable.arguments",
+        "source.ts variable.class",
+        "source.ts variable.language.arguments",
+        "source.ts variable.language",
+        "source.ts variable.name",
+        "source.ts variable.other.constant.object",
+        "source.ts variable.other.constant",
+        "source.ts variable.other.readwrite.alias",
+        "source.ts meta.array-binding-pattern-variable variable.other.constant",
+        "source.ts variable.other.readwrite",
+        "source.ts variable.other.readwrite",
+        "source.ts variable.other.regexp",
+        "source.ts variable.other",
+        "source.ts variable.parameter",
+        "source.ts meta.objectliteral meta.object.member variable.other.object",
+        "source.ts variable"
       ],
       "settings": { "foreground": "#ADCd" }
     },
@@ -971,19 +971,18 @@ source.ts
 */
     {
       "scope": [
-        "source variable.other.object.property",
-        "source variable.object.property",
-        "source variable.other.constant.object.property",
-        "source variable.other.constant.property",
-        "source variable.other.property",
-        "source meta.var.expr meta.object-literal.key",
-        "source meta.object.member meta.object-literal.key",
-        "source meta.object-binding-pattern-variable variable.other.constant"
+        "source.ts meta.object-binding-pattern-variable variable.other.constant",
+        "source.ts meta.object.member meta.object-literal.key",
+        "source.ts meta.objectliteral meta.object.member",
+        "source.ts meta.var.expr meta.object-literal.key",
+        "source.ts variable.object.property",
+        "source.ts variable.other.constant.object.property",
+        "source.ts variable.other.constant.property",
+        "source.ts variable.other.object.property",
+        "source.ts variable.other.property"
       ],
       "settings": { "foreground": "#4AEf" }
     },
-    //
-    //
     {
       "scope": [
         "source.ts punctuation.definition.binding-pattern.array",
@@ -996,7 +995,7 @@ source.ts
         "source.ts meta.array-binding-pattern-variable variable.other.constant",
         "source.ts meta.object-binding-pattern-variable variable.other.constant"
       ],
-      "settings": { "fontStyle": "bold" }
+      "settings": { "fontStyle": "" }
     },
     /*
         SUPPORT
