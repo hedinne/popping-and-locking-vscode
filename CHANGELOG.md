@@ -50,3 +50,7 @@ Major change. Let me know if you liked old version better ;)
 ## 2.0.4
 
 * Docs updated.
+
+## 2.0.5
+
+* Add License.
