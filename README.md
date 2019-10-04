@@ -45,16 +45,13 @@ CSS, JS and more).
 
 ## Related customization
 
-### Colors for Bracket Pair Colorizer
+### Colors for Bracket Pair Colorizer 2
 
 ```json
-  "bracketPairColorizer.consecutivePairColors": [
-    "()",
-    "[]",
-    "{}",
-    ["#cc241d", "#b16286", "#458588", "#689d6a", "#98971a", "#d79921"],
-    "#f2e5bc"
-  ]
+{
+  "bracket-pair-colorizer-2.colors": ["#cc241d", "#b16286", "#458588", "#689d6a", "#98971a", "#d79921"],
+  "bracket-pair-colorizer-2.unmatchedScopeColor": "#f2e5bc"
+}
 ```
 
 ### Popping and Locking for Hyper

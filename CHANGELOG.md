@@ -54,3 +54,7 @@ Major change. Let me know if you liked old version better ;)
 ## 2.0.5
 
 * Add License.
+
+## 2.0.6
+
+* Bracket Pair Colorizer 2 added to Readme
