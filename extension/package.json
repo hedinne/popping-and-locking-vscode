@@ -1,0 +1,88 @@
+{
+  "name": "popping-and-locking-vscode",
+  "displayName": "Popping and Locking Theme",
+  "description": "Vivid and well balanced theme for VS Code.",
+  "version": "3.0.0",
+  "publisher": "hedinne",
+  "author": "Hedinn Eiriksson",
+  "license": "mit",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "galleryBanner": {
+    "color": "#21222d",
+    "theme": "dark"
+  },
+  "icon": "images/icon.png",
+  "tags": [
+    "js",
+    "jsx",
+    "osx",
+    "git",
+    "css",
+    "dark",
+    "blue",
+    "icon",
+    "scss",
+    "html",
+    "clean",
+    "green",
+    "macOS",
+    "vivid",
+    "theme",
+    "yellow",
+    "windows",
+    "orginal",
+    "orginal",
+    "balanced",
+    "saturated",
+    "beautiful",
+    "dark theme",
+    "color-theme",
+    "web development"
+  ],
+  "screenshots": [
+    {
+      "path": "images/js.png"
+    },
+    {
+      "path": "images/jsx.png"
+    },
+    {
+      "path": "images/scss.png"
+    },
+    {
+      "path": "images/html.png"
+    },
+    {
+      "path": "images/json.png"
+    }
+  ],
+  "homepage": "https://github.com/hedinne/popping-and-locking-vscode/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hedinne/popping-and-locking-vscode.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Popping and Locking Remastered",
+        "uiTheme": "vs-dark",
+        "path": "./themes/popping-and-locking-remastered-color-theme.json"
+      },
+      {
+        "label": "Popping and Locking",
+        "uiTheme": "vs-dark",
+        "path": "./themes/popping-and-locking.json"
+      }
+    ]
+  },
+  "__metadata": {
+    "id": "1edaf626-3d50-4223-abdb-0a09c33bb1e9",
+    "publisherDisplayName": "hedinne",
+    "publisherId": "65a088bc-3a5e-485e-83a2-87837645d68b"
+  }
+}
