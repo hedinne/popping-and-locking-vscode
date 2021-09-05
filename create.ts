@@ -128,6 +128,15 @@ const theme = {
     "terminal.ansiBrightWhite": c.white.bright,
     "terminal.foreground": c.warm.main,
     "terminal.background": c.background.main,
+
+    // Bracket
+    "editorBracketHighlight.foreground1": c.red.main,
+    "editorBracketHighlight.foreground2": c.magenta.main,
+    "editorBracketHighlight.foreground3": c.blue.main,
+    "editorBracketHighlight.foreground4": c.cyan.main,
+    "editorBracketHighlight.foreground5": c.green.main,
+    "editorBracketHighlight.foreground6": c.yellow.main,
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ffffff",
   },
   tokenColors: [
     {
