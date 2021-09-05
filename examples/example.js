@@ -1,10 +1,10 @@
-'use strict';
+"use strict";
 
-var utils = require('./utils');
-var bind = require('./helpers/bind');
-var Axios = require('./core/Axios');
-var mergeConfig = require('./core/mergeConfig');
-var defaults = require('./defaults');
+var utils = require("./utils");
+var bind = require("./helpers/bind");
+var Axios = require("./core/Axios");
+var mergeConfig = require("./core/mergeConfig");
+var defaults = require("./defaults");
 
 /**
  * Create an instance of Axios
@@ -25,6 +25,13 @@ function createInstance(defaultConfig) {
   return instance;
 }
 
+const num = 123;
+
+const obj = {
+  key: "value",
+  num,
+};
+
 // Create the default instance to be exported
 var axios = createInstance(defaults);
 
@@ -37,18 +44,18 @@ axios.create = function create(instanceConfig) {
 };
 
 // Expose Cancel & CancelToken
-axios.Cancel = require('./cancel/Cancel');
-axios.CancelToken = require('./cancel/CancelToken');
-axios.isCancel = require('./cancel/isCancel');
+axios.Cancel = require("./cancel/Cancel");
+axios.CancelToken = require("./cancel/CancelToken");
+axios.isCancel = require("./cancel/isCancel");
 
 // Expose all/spread
 axios.all = function all(promises) {
   return Promise.all(promises);
 };
-axios.spread = require('./helpers/spread');
+axios.spread = require("./helpers/spread");
 
 // Expose isAxiosError
-axios.isAxiosError = require('./helpers/isAxiosError');
+axios.isAxiosError = require("./helpers/isAxiosError");
 
 module.exports = axios;
 

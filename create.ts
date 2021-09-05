@@ -1,77 +1,121 @@
 import fs from "fs";
 import Color from "tinycolor2";
 
-const background = Color("#21222d");
-const warm = Color("#f2e5bc");
+const background = "#21222d";
+const warm = "#f2e5bc";
 
-const red = Color("#cc241d");
-const magenta = Color("#b16286");
-const blue = Color("#458588");
-const cyan = Color("#689d6a");
-const green = Color("#98971a");
-const yellow = new Color("#d79921");
+const red = "#cc241d";
+const redBright = "#f42c3e";
+const magenta = "#b16286";
+const magentaBright = "#d3869b";
 
-const black = new Color("#000000");
-const blackLight = new Color("#1f1d1d");
-const white = new Color("#f2e5bc");
+const blue = "#458588";
+const blueBright = "#99c6ca";
+const cyan = "#689d6a";
+const cyanBright = "#7ec16e";
+const green = "#98971a";
+const greenBright = "#b8bb26";
+const yellow = "#d79921";
+const yellowBright = "#fabd2f";
+
+const black = "#000000";
+const blackBright = "#1f1d1d";
+const white = "#f2e5bc";
 
 var c = {
   warm: {
-    main: warm.toHexString(),
+    main: new Color(warm).desaturate(10).toHexString(),
+    bright: new Color(warm).lighten(5).toHexString(),
   },
-  cool: {},
+  cool: {
+    comment: new Color(background)
+      .lighten(35)
+      .saturate(15)
+      .spin(-10)
+      .toHexString(),
+  },
   background: {
-    main: background.toHexString(),
+    main: new Color(background).darken(1).toHexString(),
+    bright: new Color(background).lighten(5).toHexString(),
+    dark: new Color(background).darken(4).toHexString(),
+    darker: new Color(background).saturate(20).darken(8).toHexString(),
+    saturated: new Color(background).lighten(10).saturate(5).toHexString(),
   },
   black: {
-    main: black.toHexString(),
-    bright: blackLight.toHexString(),
+    main: new Color(black).toHexString(),
+    bright: new Color(blackBright).toHexString(),
   },
   red: {
-    main: red.toHexString(),
-    bright: "#f42c3e",
+    main: new Color(red).toHexString(),
+    bright: new Color(redBright).toHexString(),
   },
   yellow: {
-    main: yellow.toHexString(),
-    bright: "#fabd2f",
+    main: new Color(yellow).toHexString(),
+    bright: new Color(yellowBright).toHexString(),
   },
   blue: {
-    main: blue.toHexString(),
-    bright: "#99c6ca",
+    main: new Color(blue).toHexString(),
+    bright: new Color(blueBright).toHexString(),
   },
   magenta: {
-    main: magenta.toHexString(),
-    bright: "#d3869b",
+    main: new Color(magenta).toHexString(),
+    bright: new Color(magentaBright).toHexString(),
   },
   green: {
-    main: green.toHexString(),
-    bigint: "#b8bb26",
+    main: new Color(green).toHexString(),
+    bright: new Color(greenBright).toHexString(),
   },
   cyan: {
-    main: cyan.toHexString(),
-    bright: "#7ec16e",
+    main: new Color(cyan).toHexString(),
+    bright: new Color(cyanBright).toHexString(),
   },
   white: {
-    main: white.toHexString(),
-    bright: white.lighten(0.5).toHexString(),
+    main: new Color(white).toHexString(),
+    bright: new Color(white).lighten(0.5).toHexString(),
   },
 };
 
 const theme = {
   name: "Popping and Locking Remastered",
   type: "dark",
+  semanticHighlighting: true,
+  semanticTokenColors: {},
   colors: {
+    // Editor
     "editor.background": c.background.main,
     "editor.foreground": c.warm.main,
-    "activityBarBadge.background": c.yellow.main,
-    "sideBarTitle.foreground": "#bbbbbb",
 
+    // Icon bar
+    "activityBarBadge.background": c.yellow.main,
+    "activityBarBadge.foreground": c.background.dark,
+    "activityBar.background": c.background.dark,
+    "activityBar.foreground": c.yellow.bright,
+    "activityBar.dropBorder": c.green.main,
+
+    // Files tree
+    "sideBarTitle.foreground": c.warm.main,
+    "sideBar.background": c.background.dark,
+    "sideBar.foreground": c.warm.bright,
+
+    "sideBarSectionHeader.background": c.background.dark,
+
+    "list.activeSelectionBackground": c.background.main,
+    "list.inactiveSelectionBackground": c.background.saturated,
+    "list.hoverBackground": c.background.darker,
+    // "list.hoverForeground": c.background.dark,
+    "list.focusBackground": c.background.bright,
+    "gitDecoration.modifiedResourceForeground": c.yellow.bright,
+    "gitDecoration.untrackedResourceForeground": c.cyan.bright,
+    "gitDecoration.ignoredResourceForeground": c.cool.comment,
+    "gitDecoration.conflictingResourceForeground": c.red.bright,
+
+    // Terminal
     "terminal.ansiBlack": c.black.main,
     "terminal.ansiBrightBlack": c.black.bright,
     "terminal.ansiRed": c.red.main,
     "terminal.ansiBrightRed": c.red.bright,
     "terminal.ansiGreen": c.green.main,
-    "terminal.ansiBrightGreen": c.green.bigint,
+    "terminal.ansiBrightGreen": c.green.bright,
     "terminal.ansiYellow": c.yellow.main,
     "terminal.ansiBrightYellow": c.yellow.bright,
     "terminal.ansiBlue": c.blue.main,
@@ -91,35 +135,35 @@ const theme = {
       scope: ["comment", "punctuation.definition.comment"],
       settings: {
         fontStyle: "italic",
-        foreground: "#546E7A",
+        foreground: c.cool.comment,
       },
     },
     {
       name: "Variables",
       scope: ["variable", "string constant.other.placeholder"],
       settings: {
-        foreground: "#EEFFFF",
+        foreground: c.blue.bright,
       },
     },
     {
       name: "Colors",
       scope: ["constant.other.color"],
       settings: {
-        foreground: "#ffffff",
+        foreground: "#999999",
       },
     },
     {
       name: "Invalid",
       scope: ["invalid", "invalid.illegal"],
       settings: {
-        foreground: "#FF5370",
+        foreground: "#999999",
       },
     },
     {
       name: "Keyword, Storage",
       scope: ["keyword", "storage.type", "storage.modifier"],
       settings: {
-        foreground: "#C792EA",
+        foreground: c.blue.main,
       },
     },
     {
@@ -139,14 +183,14 @@ const theme = {
         "keyword.other.substitution",
       ],
       settings: {
-        foreground: "#89DDFF",
+        foreground: "#999999",
       },
     },
     {
       name: "Tag",
       scope: ["entity.name.tag", "meta.tag.sgml", "markup.deleted.git_gutter"],
       settings: {
-        foreground: "#f07178",
+        foreground: "#999999",
       },
     },
     {
@@ -159,21 +203,21 @@ const theme = {
         "keyword.other.special-method",
       ],
       settings: {
-        foreground: "#82AAFF",
+        foreground: c.yellow.bright,
       },
     },
     {
       name: "Block Level Variables",
       scope: ["meta.block variable.other"],
       settings: {
-        foreground: "#f07178",
+        foreground: c.blue.bright,
       },
     },
     {
       name: "Other Variable, String Link",
       scope: ["support.other.variable", "string.other.link"],
       settings: {
-        foreground: "#f07178",
+        foreground: "#999999",
       },
     },
     {
@@ -189,7 +233,7 @@ const theme = {
         "keyword.other",
       ],
       settings: {
-        foreground: "#F78C6C",
+        foreground: "#999999",
       },
     },
     {
@@ -204,7 +248,7 @@ const theme = {
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
       ],
       settings: {
-        foreground: "#C3E88D",
+        foreground: "#999999",
       },
     },
     {
@@ -220,14 +264,14 @@ const theme = {
         "support.type.sys-types",
       ],
       settings: {
-        foreground: "#FFCB6B",
+        foreground: "#999999",
       },
     },
     {
       name: "Entity Types",
       scope: ["support.type"],
       settings: {
-        foreground: "#B2CCD6",
+        foreground: "#999999",
       },
     },
     {
@@ -241,7 +285,7 @@ const theme = {
         "source.postcss support.type.property-name",
       ],
       settings: {
-        foreground: "#B2CCD6",
+        foreground: "#999999",
       },
     },
     {
@@ -252,7 +296,7 @@ const theme = {
         "variable.other.class.js",
       ],
       settings: {
-        foreground: "#FF5370",
+        foreground: "#999999",
       },
     },
     {
@@ -260,7 +304,7 @@ const theme = {
       scope: ["variable.language"],
       settings: {
         fontStyle: "italic",
-        foreground: "#FF5370",
+        foreground: "#999999",
       },
     },
     {
@@ -268,7 +312,7 @@ const theme = {
       scope: ["entity.name.method.js"],
       settings: {
         fontStyle: "italic",
-        foreground: "#82AAFF",
+        foreground: "#999999",
       },
     },
     {
@@ -278,14 +322,14 @@ const theme = {
         "variable.function.constructor",
       ],
       settings: {
-        foreground: "#82AAFF",
+        foreground: "#999999",
       },
     },
     {
       name: "Attributes",
       scope: ["entity.other.attribute-name"],
       settings: {
-        foreground: "#C792EA",
+        foreground: "#999999",
       },
     },
     {
@@ -296,56 +340,56 @@ const theme = {
       ],
       settings: {
         fontStyle: "italic",
-        foreground: "#FFCB6B",
+        foreground: "#999999",
       },
     },
     {
       name: "CSS Classes",
       scope: ["entity.other.attribute-name.class"],
       settings: {
-        foreground: "#FFCB6B",
+        foreground: "#999999",
       },
     },
     {
       name: "CSS ID's",
       scope: ["source.sass keyword.control"],
       settings: {
-        foreground: "#82AAFF",
+        foreground: "#999999",
       },
     },
     {
       name: "Inserted",
       scope: ["markup.inserted"],
       settings: {
-        foreground: "#C3E88D",
+        foreground: "#999999",
       },
     },
     {
       name: "Deleted",
       scope: ["markup.deleted"],
       settings: {
-        foreground: "#FF5370",
+        foreground: "#999999",
       },
     },
     {
       name: "Changed",
       scope: ["markup.changed"],
       settings: {
-        foreground: "#C792EA",
+        foreground: "#999999",
       },
     },
     {
       name: "Regular Expressions",
       scope: ["string.regexp"],
       settings: {
-        foreground: "#89DDFF",
+        foreground: "#999999",
       },
     },
     {
       name: "Escape Characters",
       scope: ["constant.character.escape"],
       settings: {
-        foreground: "#89DDFF",
+        foreground: "#999999",
       },
     },
     {
@@ -363,7 +407,7 @@ const theme = {
       ],
       settings: {
         fontStyle: "italic",
-        foreground: "#82AAFF",
+        foreground: "#999999",
       },
     },
     {
@@ -373,7 +417,7 @@ const theme = {
       ],
       settings: {
         fontStyle: "italic",
-        foreground: "#FF5370",
+        foreground: "#999999",
       },
     },
     {
@@ -382,7 +426,7 @@ const theme = {
         "source.json meta.structure.dictionary.json support.type.property-name.json",
       ],
       settings: {
-        foreground: "#C792EA",
+        foreground: "#999999",
       },
     },
     {
@@ -391,7 +435,7 @@ const theme = {
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       ],
       settings: {
-        foreground: "#FFCB6B",
+        foreground: "#999999",
       },
     },
     {
@@ -400,7 +444,7 @@ const theme = {
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       ],
       settings: {
-        foreground: "#F78C6C",
+        foreground: "#999999",
       },
     },
     {
@@ -409,7 +453,7 @@ const theme = {
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       ],
       settings: {
-        foreground: "#FF5370",
+        foreground: "#999999",
       },
     },
     {
@@ -418,7 +462,7 @@ const theme = {
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       ],
       settings: {
-        foreground: "#C17E70",
+        foreground: "#999999",
       },
     },
     {
@@ -427,7 +471,7 @@ const theme = {
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       ],
       settings: {
-        foreground: "#82AAFF",
+        foreground: "#999999",
       },
     },
     {
@@ -436,7 +480,7 @@ const theme = {
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       ],
       settings: {
-        foreground: "#f07178",
+        foreground: "#999999",
       },
     },
     {
@@ -445,7 +489,7 @@ const theme = {
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       ],
       settings: {
-        foreground: "#C792EA",
+        foreground: "#999999",
       },
     },
     {
@@ -454,7 +498,7 @@ const theme = {
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
       ],
       settings: {
-        foreground: "#C3E88D",
+        foreground: "#999999",
       },
     },
     {
@@ -464,14 +508,14 @@ const theme = {
         "punctuation.definition.list_item.markdown",
       ],
       settings: {
-        foreground: "#EEFFFF",
+        foreground: "#999999",
       },
     },
     {
       name: "Markdown - Markup Raw Inline",
       scope: ["text.html.markdown markup.inline.raw.markdown"],
       settings: {
-        foreground: "#C792EA",
+        foreground: "#999999",
       },
     },
     {
@@ -480,7 +524,7 @@ const theme = {
         "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown",
       ],
       settings: {
-        foreground: "#65737E",
+        foreground: "#999999",
       },
     },
     {
@@ -491,7 +535,7 @@ const theme = {
         "markup.heading.markdown punctuation.definition.heading.markdown",
       ],
       settings: {
-        foreground: "#C3E88D",
+        foreground: "#999999",
       },
     },
     {
@@ -499,7 +543,7 @@ const theme = {
       scope: ["markup.italic"],
       settings: {
         fontStyle: "italic",
-        foreground: "#f07178",
+        foreground: "#999999",
       },
     },
     {
@@ -507,7 +551,7 @@ const theme = {
       scope: ["markup.bold", "markup.bold string"],
       settings: {
         fontStyle: "bold",
-        foreground: "#f07178",
+        foreground: "#999999",
       },
     },
     {
@@ -522,7 +566,7 @@ const theme = {
       ],
       settings: {
         fontStyle: "bold",
-        foreground: "#f07178",
+        foreground: "#999999",
       },
     },
     {
@@ -530,14 +574,14 @@ const theme = {
       scope: ["markup.underline"],
       settings: {
         fontStyle: "underline",
-        foreground: "#F78C6C",
+        foreground: "#999999",
       },
     },
     {
       name: "Markdown - Blockquote",
       scope: ["markup.quote punctuation.definition.blockquote.markdown"],
       settings: {
-        foreground: "#65737E",
+        foreground: "#999999",
       },
     },
     {
@@ -551,28 +595,28 @@ const theme = {
       name: "Markdown - Link",
       scope: ["string.other.link.title.markdown"],
       settings: {
-        foreground: "#82AAFF",
+        foreground: "#999999",
       },
     },
     {
       name: "Markdown - Link Description",
       scope: ["string.other.link.description.title.markdown"],
       settings: {
-        foreground: "#C792EA",
+        foreground: "#999999",
       },
     },
     {
       name: "Markdown - Link Anchor",
       scope: ["constant.other.reference.link.markdown"],
       settings: {
-        foreground: "#FFCB6B",
+        foreground: "#999999",
       },
     },
     {
       name: "Markup - Raw Block",
       scope: ["markup.raw.block"],
       settings: {
-        foreground: "#C792EA",
+        foreground: "#999999",
       },
     },
     {
@@ -597,14 +641,14 @@ const theme = {
         "punctuation.section.class.end",
       ],
       settings: {
-        foreground: "#EEFFFF",
+        foreground: "#999999",
       },
     },
     {
       name: "Markdown - Fenced Language",
       scope: ["variable.language.fenced.markdown"],
       settings: {
-        foreground: "#65737E",
+        foreground: "#999999",
       },
     },
     {
@@ -612,14 +656,14 @@ const theme = {
       scope: ["meta.separator"],
       settings: {
         fontStyle: "bold",
-        foreground: "#65737E",
+        foreground: "#999999",
       },
     },
     {
       name: "Markup - Table",
       scope: ["markup.table"],
       settings: {
-        foreground: "#EEFFFF",
+        foreground: "#999999",
       },
     },
   ],
