@@ -94,7 +94,15 @@
     "terminal.ansiWhite": "#a89984",
     "terminal.ansiBrightWhite": "#ebdbb2",
     "terminal.foreground": "#ebdbb2",
-    "terminal.background": "#181921"
+    "terminal.background": "#181921",
+
+    "editorBracketHighlight.foreground1": "#cc241d",
+    "editorBracketHighlight.foreground2": "#b16286",
+    "editorBracketHighlight.foreground3": "#458588",
+    "editorBracketHighlight.foreground4": "#689d6a",
+    "editorBracketHighlight.foreground5": "#98971a",
+    "editorBracketHighlight.foreground6": "#d79921",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ffffff"
   },
   "tokenColors": [
     {
