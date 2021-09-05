@@ -70,7 +70,7 @@
       {
         "label": "Popping and Locking",
         "uiTheme": "vs-dark",
-        "path": "./themes/popping-and-locking.json"
+        "path": "./themes/popping-and-locking-color-theme.json"
       }
     ]
   },

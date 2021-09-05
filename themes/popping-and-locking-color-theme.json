@@ -46,7 +46,7 @@
     "editor.selectionHighlightBackground": "#FFFFBE55",
 
     "editor.wordHighlightStrongBackground": "#FFFFBE55",
-    "editor.wordHighlightBackground": "#ffffff22",
+    "editor.wordHighlightBackground": "#00000022",
 
     "editorCursor.foreground": "#f42c3e",
 
