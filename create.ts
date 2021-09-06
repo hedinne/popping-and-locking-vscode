@@ -87,12 +87,9 @@ const theme = {
     focusBorder: c.background.brighter,
     foreground: c.warm.main,
     "icon.foreground": c.yellow.bright,
-    // widget.shadow: Unset
-    //"selection.background": TODO
-    //"descriptionForeground": TODO
-    //"errorForeground": TODO
-
-    // "window.activeBorder": Unset,
+    "widget.shadow": c.background.darker,
+    //"selection.background": TODO // For example commit msg textarea
+    errorForeground: c.red.main,
 
     // Editor
     "editor.background": c.background.main,
@@ -125,6 +122,34 @@ const theme = {
     "gitDecoration.untrackedResourceForeground": c.cyan.bright,
     "gitDecoration.ignoredResourceForeground": c.cool.comment,
     "gitDecoration.conflictingResourceForeground": c.red.bright,
+
+    // Blocks inside Welcome screen, release notes and more,
+    "textBlockQuote.background": c.background.bright,
+    "textBlockQuote.border": c.cyan.main,
+    "textLink.foreground": c.blue.bright,
+    "textLink.activeForeground": c.cool.comment,
+    "textPreformat.foreground": c.yellow.bright,
+    "textSeparator.foreground": c.red.bright,
+
+    // Icon buttons
+    "toolbar.hoverBackground": c.background.brighter,
+
+    // Form
+    "button.background": c.yellow.main,
+    "button.foreground": c.background.darker,
+    "button.border": "#555555",
+    "button.hoverBackground": c.cyan.main,
+    "button.secondaryForeground": c.background.darker,
+    "button.secondaryBackground": c.cyan.bright,
+    "button.secondaryHoverBackground": c.cyan.main,
+    "checkbox.background": c.background.brighter,
+    "checkbox.foreground": c.yellow.bright,
+    "checkbox.border": c.background.brighter,
+
+    "dropdown.background": c.background.dark,
+    "dropdown.listBackground": c.background.darker,
+    "dropdown.border:": c.warm.bright,
+    "dropdown.foreground": c.warm.main,
 
     // Terminal
     "terminal.ansiBlack": c.black.main,
