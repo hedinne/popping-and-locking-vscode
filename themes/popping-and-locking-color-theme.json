@@ -41,12 +41,12 @@
     "editor.lineHighlightBackground": "#272836",
     "editorWidget.background": "#272836",
 
-    "editor.selectionBackground": "#ffffff22",
+    "editor.selectionBackground": "#2d83bd91",
     "editor.inactiveSelectionBackground": "#ffffff22",
     "editor.selectionHighlightBackground": "#FFFFBE55",
 
-    "editor.wordHighlightStrongBackground": "#FFFFBE55",
-    "editor.wordHighlightBackground": "#00000022",
+    "editor.wordHighlightStrongBackground": "#090e3577",
+    "editor.wordHighlightBackground": "#00000033",
 
     "editorCursor.foreground": "#f42c3e",
 
@@ -65,12 +65,6 @@
     "dropdown.background": "#1C1D26",
 
     "extensionButton.prominentBackground": "#599442",
-
-    "notification.background": "#313242",
-    "notification.buttonBackground": "#458588",
-    "notification.infoBackground": "#458588",
-    "notification.warningBackground": "#d79921",
-    "notification.errorBackground": "#cc241d",
 
     "gitDecoration.modifiedResourceForeground": "#fabd2f",
     "gitDecoration.untrackedResourceForeground": "#7ec16e",

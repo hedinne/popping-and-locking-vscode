@@ -62,3 +62,8 @@ Major change. Let me know if you liked old version better ;)
 ## 2.0.8
 
 - Add bracket colors.
+
+## 2.0.9
+
+- Differentiate better between selected texts.
+- Improve README. Thx, @jsejcksn
