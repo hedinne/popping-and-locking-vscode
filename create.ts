@@ -37,6 +37,7 @@ var c = {
   background: {
     main: new Color(background).darken(1).toHexString(),
     bright: new Color(background).lighten(5).toHexString(),
+    brighter: new Color(background).lighten(15).toHexString(),
     dark: new Color(background).darken(4).toHexString(),
     darker: new Color(background).saturate(20).darken(8).toHexString(),
     saturated: new Color(background).lighten(10).saturate(5).toHexString(),
@@ -48,6 +49,7 @@ var c = {
   red: {
     main: new Color(red).toHexString(),
     bright: new Color(redBright).toHexString(),
+    desaturated: new Color(red).desaturate(40).brighten(10).toHexString(),
   },
   yellow: {
     main: new Color(yellow).toHexString(),
@@ -81,6 +83,17 @@ const theme = {
   semanticHighlighting: true,
   semanticTokenColors: {},
   colors: {
+    // Base
+    focusBorder: c.background.brighter,
+    foreground: c.warm.main,
+    "icon.foreground": c.yellow.bright,
+    // widget.shadow: Unset
+    //"selection.background": TODO
+    //"descriptionForeground": TODO
+    //"errorForeground": TODO
+
+    // "window.activeBorder": Unset,
+
     // Editor
     "editor.background": c.background.main,
     "editor.foreground": c.warm.main,
@@ -96,15 +109,19 @@ const theme = {
     "sideBarTitle.foreground": c.warm.main,
     "sideBar.background": c.background.dark,
     "sideBar.foreground": c.warm.bright,
-
     "sideBarSectionHeader.background": c.background.dark,
-
     "list.activeSelectionBackground": c.background.main,
     "list.inactiveSelectionBackground": c.background.saturated,
     "list.hoverBackground": c.background.darker,
-    // "list.hoverForeground": c.background.dark,
     "list.focusBackground": c.background.bright,
-    "gitDecoration.modifiedResourceForeground": c.yellow.bright,
+    "list.dropBackground": c.background.saturated,
+    "list.errorForeground": c.red.desaturated,
+    "list.warningForeground": c.warm.main,
+    "listFilterWidget.background": c.red.bright,
+    "listFilterWidget.outline": c.red.bright,
+    "tree.indentGuidesStroke": c.background.bright,
+
+    "gitDecoration.modifiedResourceForeground": c.blue.bright,
     "gitDecoration.untrackedResourceForeground": c.cyan.bright,
     "gitDecoration.ignoredResourceForeground": c.cool.comment,
     "gitDecoration.conflictingResourceForeground": c.red.bright,
@@ -136,7 +153,7 @@ const theme = {
     "editorBracketHighlight.foreground4": c.cyan.main,
     "editorBracketHighlight.foreground5": c.green.main,
     "editorBracketHighlight.foreground6": c.yellow.main,
-    "editorBracketHighlight.unexpectedBracket.foreground": "#ffffff",
+    "editorBracketHighlight.unexpectedBracket.foreground": c.warm.main,
   },
   tokenColors: [
     {
@@ -175,6 +192,7 @@ const theme = {
         foreground: c.blue.main,
       },
     },
+
     {
       name: "Operator, Misc",
       scope: [

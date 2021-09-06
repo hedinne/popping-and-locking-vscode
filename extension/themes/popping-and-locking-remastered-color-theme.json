@@ -4,6 +4,9 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {},
   "colors": {
+    "focusBorder": "#414359",
+    "foreground": "#eee3c0",
+    "icon.foreground": "#fabd2f",
     "editor.background": "#1f202a",
     "editor.foreground": "#eee3c0",
     "activityBarBadge.background": "#d79921",
@@ -19,7 +22,13 @@
     "list.inactiveSelectionBackground": "#33364e",
     "list.hoverBackground": "#0c0d19",
     "list.focusBackground": "#2c2d3c",
-    "gitDecoration.modifiedResourceForeground": "#fabd2f",
+    "list.dropBackground": "#33364e",
+    "list.errorForeground": "#b66865",
+    "list.warningForeground": "#eee3c0",
+    "listFilterWidget.background": "#f42c3e",
+    "listFilterWidget.outline": "#f42c3e",
+    "tree.indentGuidesStroke": "#2c2d3c",
+    "gitDecoration.modifiedResourceForeground": "#99c6ca",
     "gitDecoration.untrackedResourceForeground": "#7ec16e",
     "gitDecoration.ignoredResourceForeground": "#5a6da7",
     "gitDecoration.conflictingResourceForeground": "#f42c3e",
@@ -47,7 +56,7 @@
     "editorBracketHighlight.foreground4": "#689d6a",
     "editorBracketHighlight.foreground5": "#98971a",
     "editorBracketHighlight.foreground6": "#d79921",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#ffffff"
+    "editorBracketHighlight.unexpectedBracket.foreground": "#eee3c0"
   },
   "tokenColors": [
     {
