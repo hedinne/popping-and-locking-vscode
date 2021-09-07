@@ -26,6 +26,7 @@ var c = {
   warm: {
     main: new Color(warm).desaturate(10).toHexString(),
     bright: new Color(warm).lighten(5).toHexString(),
+    desaturated: new Color(warm).lighten(5).desaturate(10).toHexString(),
   },
   cool: {
     comment: new Color(background)
@@ -33,6 +34,8 @@ var c = {
       .saturate(15)
       .spin(-10)
       .toHexString(),
+    main: new Color(background).lighten(50).desaturate(10).toHexString(),
+    dark: new Color(background).lighten(30).toHexString(),
   },
   background: {
     main: new Color(background).darken(1).toHexString(),
@@ -75,6 +78,9 @@ var c = {
     main: new Color(white).toHexString(),
     bright: new Color(white).lighten(0.5).toHexString(),
   },
+  mod: {
+    transparent: new Color("#00000000").toHex8String(),
+  },
 };
 
 const theme = {
@@ -107,8 +113,8 @@ const theme = {
     "sideBar.background": c.background.dark,
     "sideBar.foreground": c.warm.bright,
     "sideBarSectionHeader.background": c.background.dark,
-    "list.activeSelectionBackground": c.background.main,
-    "list.inactiveSelectionBackground": c.background.saturated,
+    "list.activeSelectionBackground": c.background.saturated,
+    "list.inactiveSelectionBackground": c.background.main,
     "list.hoverBackground": c.background.darker,
     "list.focusBackground": c.background.bright,
     "list.dropBackground": c.background.saturated,
@@ -134,22 +140,42 @@ const theme = {
     // Icon buttons
     "toolbar.hoverBackground": c.background.brighter,
 
+    // Tabs
+    "editorGroup.border": c.red.bright,
+    "editorGroup.dropBackground": c.background.saturated,
+    "editorGroupHeader.tabsBackground": c.background.dark,
+    "editorGroupHeader.noTabsBackground": c.background.dark,
+    "editorGroupHeader.tabsBorder": c.background.brighter,
+    "editorGroupHeader.border": c.background.brighter,
+    "tab.activeBackground": c.background.bright,
+    "tab.activeForeground": c.cyan.bright,
+    "tab.border": c.background.bright,
+    "tab.activeBorderTop": c.cyan.bright,
+    "tab.inactiveBackground": c.background.main,
+    "tab.inactiveForeground": c.cool.main,
+    "tab.hoverForeground": c.warm.desaturated,
+
     // Form
     "button.background": c.yellow.main,
     "button.foreground": c.background.darker,
-    "button.border": "#555555",
-    "button.hoverBackground": c.cyan.main,
+    "button.hoverBackground": c.yellow.bright,
     "button.secondaryForeground": c.background.darker,
     "button.secondaryBackground": c.cyan.bright,
     "button.secondaryHoverBackground": c.cyan.main,
     "checkbox.background": c.background.brighter,
     "checkbox.foreground": c.yellow.bright,
     "checkbox.border": c.background.brighter,
-
     "dropdown.background": c.background.dark,
     "dropdown.listBackground": c.background.darker,
     "dropdown.border:": c.warm.bright,
     "dropdown.foreground": c.warm.main,
+    "input.background": c.background.darker,
+    "input.border": c.background.saturated,
+    "input.foreground": c.warm.main,
+    "input.placeholderForeground": c.cool.dark,
+    "inputOption.activeBackground": c.mod.transparent,
+    "inputOption.activeBorder": c.mod.transparent,
+    "inputOption.activeForeground": c.yellow.main,
 
     // Terminal
     "terminal.ansiBlack": c.black.main,
@@ -179,6 +205,9 @@ const theme = {
     "editorBracketHighlight.foreground5": c.green.main,
     "editorBracketHighlight.foreground6": c.yellow.main,
     "editorBracketHighlight.unexpectedBracket.foreground": c.warm.main,
+
+    // Random
+    "progressBar.background": c.yellow.main,
   },
   tokenColors: [
     {
