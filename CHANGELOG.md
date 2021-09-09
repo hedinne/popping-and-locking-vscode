@@ -63,7 +63,11 @@ Major change. Let me know if you liked old version better ;)
 
 - Add bracket colors.
 
-## 2.0.9
+## 2.0.10
 
 - Differentiate better between selected texts.
 - Improve README. Thx, @jsejcksn
+
+## 2.0.11
+
+-Tweak selected test background
